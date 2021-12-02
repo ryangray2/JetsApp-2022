@@ -1126,6 +1126,8 @@ function playersPressed() {
   document.getElementById("draftPoolCont").style.display = "block";
   document.getElementById("pickHistoryHeader").style.display = "none";
   document.getElementById("pickHistoryCont").style.display = "none";
+  document.getElementById("yourpickHistoryHeader").style.display = "none";
+  document.getElementById("yourpickHistoryCont").style.display = "none";
   generateDraftPool("fifty");
 }
 
@@ -1134,7 +1136,72 @@ function pickHistoryPressed() {
   document.getElementById("draftPoolCont").style.display = "none";
   document.getElementById("pickHistoryHeader").style.display = "flex";
   document.getElementById("pickHistoryCont").style.display = "block";
+  document.getElementById("yourpickHistoryHeader").style.display = "none";
+  document.getElementById("yourpickHistoryCont").style.display = "none";
   generatePickHistory();
+}
+
+function yourpickHistoryPressed() {
+  document.getElementById("draftPoolHeader").style.display = "none";
+  document.getElementById("draftPoolCont").style.display = "none";
+  document.getElementById("yourpickHistoryHeader").style.display = "flex";
+    document.getElementById("pickHistoryHeader").style.display = "none";
+    document.getElementById("pickHistoryCont").style.display = "none";
+  document.getElementById("yourpickHistoryCont").style.display = "block";
+  generateYourPickHistory();
+}
+
+function generateYourPickHistory() {
+  var root = document.getElementById("yourpickHistoryCont");
+  while (root.firstChild) {
+    root.removeChild(root.firstChild);
+  }
+  for (let i = (jetsDrafted.length - 1); i >= 0; i--) {
+    var row = document.createElement("div");
+    row.classList.add("row");
+    row.style.borderBottom = "1px solid #282520";
+
+    var teamCol = document.createElement("div");
+    teamCol.classList.add("col-md-1", "col-2");
+
+    var teamP = document.createElement("img");
+    teamP.classList.add("phLogo");
+    teamP.setAttribute("src", nyj.logo);
+    teamCol.appendChild(teamP);
+    row.appendChild(teamCol);
+
+
+    var pickCol = document.createElement("div");
+    pickCol.classList.add("col-md-1", "col-2");
+
+    var pickP = document.createElement("p");
+    pickP.classList.add("phPick");
+    pickNum = jetsDrafted[i].pickNum;
+    pickP.innerHTML = pickNum;
+    pickCol.appendChild(pickP);
+    row.appendChild(pickCol);
+
+    var nameCol = document.createElement("div");
+    nameCol.classList.add("col-md-4", "col-6");
+
+    var nameP = document.createElement("p");
+    nameP.classList.add("phName", "myauto");
+    nameP.innerHTML = jetsDrafted[i].name;
+    nameCol.appendChild(nameP);
+    row.appendChild(nameCol);
+
+    var schoolCol = document.createElement("div");
+    schoolCol.classList.add("col-md-4", "col-0", "d-none", "d-md-block");
+
+    var schoolP = document.createElement("p");
+    schoolP.classList.add("phSchool");
+    schoolP.innerHTML = jetsDrafted[i].school;
+    schoolCol.appendChild(schoolP);
+    row.appendChild(schoolCol);
+
+    // }
+    root.appendChild(row);
+  }
 }
 
 function generatePickHistory() {
@@ -1190,6 +1257,7 @@ function generatePickHistory() {
 }
 
 function generateDraftPool(kind) {
+  console.log(jetsDrafted);
   var amount = 50;
   var tempArray = [];
   if (draftPlayers.length < 50) {
@@ -1961,6 +2029,7 @@ function draftPlayer(guy) {
   }
   // console.log(" Jets: " + guy.name);
   activeRoster.push(guy);
+  guy.pickNum = draftSummary.length + 1;
   jetsDrafted.push(guy);
   draftSummary.push([nyj, guy]);
     window.scrollTo(0, 0);
@@ -2021,16 +2090,46 @@ function generateBroadFA(kind) {
         }
         amount = tempArray.length;
       }
-      else if (kind === "OL") {
+      // else if (kind === "OL") {
+      //    var count = 0;
+      //    while (count < amount) {
+      //      if (broadFA[count].pos === "IOL" || broadFA[count].pos === "OT") {
+      //        tempArray.push(broadFA[count]);
+      //      }
+      //      count++;
+      //    }
+      //    amount = tempArray.length;
+      //  }
+      else if (kind === "T") {
          var count = 0;
          while (count < amount) {
-           if (broadFA[count].pos === "IOL" || broadFA[count].pos === "OT") {
+           if (broadFA[count].pos === "IOL" || broadFA[count].pos === "T") {
              tempArray.push(broadFA[count]);
            }
            count++;
          }
          amount = tempArray.length;
        }
+       else if (kind === "G") {
+          var count = 0;
+          while (count < amount) {
+            if (broadFA[count].pos === "IOL" || broadFA[count].pos === "G") {
+              tempArray.push(broadFA[count]);
+            }
+            count++;
+          }
+          amount = tempArray.length;
+        }
+        else if (kind === "C") {
+           var count = 0;
+           while (count < amount) {
+             if (broadFA[count].pos === "IOL" || broadFA[count].pos === "C") {
+               tempArray.push(broadFA[count]);
+             }
+             count++;
+           }
+           amount = tempArray.length;
+         }
        else if (kind === "IDL") {
           var count = 0;
           while (count < amount) {

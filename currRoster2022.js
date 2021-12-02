@@ -414,8 +414,8 @@ var MarcusMaye = {
   weight: '207',
   salary: 0,
   img: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2980110.png',
-  cYears: 4,
-  cTotal: 53.1
+  cYears: 3,
+  cTotal: 30
 };
 var JamisonCrowder = {
   name: 'Jamison Crowder',
@@ -426,7 +426,7 @@ var JamisonCrowder = {
   salary: 0,
   img: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2576716.png&w=350&h=254',
   cYears: 1,
-  cTotal: 9.5
+  cTotal: 5.5
 };
 var LaurentDuvernayTardif = {
   name: 'Laurent Duvernay-Tardif ',
@@ -437,7 +437,7 @@ var LaurentDuvernayTardif = {
   salary: 0,
   img: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/16958.png&w=350&h=254',
   cYears: 1,
-  cTotal: 8.4
+  cTotal: 6
 };
 
 var JarradDavis = {
@@ -446,7 +446,7 @@ var JarradDavis = {
   age: '26',
   type: 'UFA',
   cYears: 1,
-  cTotal: 5.5,
+  cTotal: 2,
   img: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3054951.png&w=350&h=254',
   salary: 0,
 };
@@ -573,7 +573,7 @@ var MikeWhite = {
   weight: '218',
   img: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3051381.png&w=350&h=254',
   cYears: 1,
-  cTotal: .9,
+  cTotal: 2.2,
 };
 var JeffSmith = {
   name: 'Jeff Smith',
@@ -587,13 +587,13 @@ var JeffSmith = {
   cTotal: .78,
 };
 var DelshaunPhillips = {
-  name: 'Del\'Shaun Phillips',
+  name: 'Del\'Shawn Phillips',
   pos: 'LB',
   age: '24',
     salary: 0,
   img: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4240528.png&w=350&h=254',
   cYears: 1,
-  cTotal: .78,
+  cTotal: 2,
 };
 var IsaiahWilliams = {
   name: 'Isaiah Williams',
@@ -632,8 +632,8 @@ var FolorunsoFatukasi = {
     salary: 0,
   weight: '318',
   img: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3045172.png&w=350&h=254',
-  cYears: 1,
-  cTotal: .65,
+  cYears: 3,
+  cTotal: 27,
 };
 var BraxtonBerrios = {
   name: 'Braxton Berrios',
@@ -644,7 +644,7 @@ var BraxtonBerrios = {
   weight: '190',
   img: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3123075.png&w=350&h=254',
   cYears: 1,
-  cTotal: .64,
+  cTotal: 1.5,
 };
 var KylePhillips = {
   name: "Kyle Phillips",

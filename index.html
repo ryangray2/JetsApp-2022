@@ -45,6 +45,11 @@
     </div>
     <div class="row text-center">
       <div class="col-sm-12">
+        <p id="ryangray">Full 2022 version coming this offseason. For now, enjoy this midseason preview.</p>
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="col-sm-12">
         <p id="ryangray">BY: RYAN GRAY ( <i class="fa fa-twitter" style="color:white" aria-hidden="true"></i>RYAN2GRAY )</p>
       </div>
     </div>
@@ -252,7 +257,7 @@
       <hr>
       <div class="row text-center" id="navbar" style="margin-bottom: 10px">
         <div class="col-6">
-          <button onclick="rosterNav()" class="bttn-minimal bttn-sm bttn-success butt">Roster</button>
+          <button onclick="rosterNav()" class="bttn-minimal bttn-sm bttn-success butt">Clear Space</button>
         </div>
         <div class="col-6">
           <button onclick="faNav()" class="bttn-minimal bttn-sm bttn-success butt">Free Agents</button>
@@ -282,7 +287,10 @@
           <a class="dropdown-item" onclick="generateBroadFA('FB')">FB</a>
           <a class="dropdown-item" onclick="generateBroadFA('WR')">WR</a>
           <a class="dropdown-item" onclick="generateBroadFA('TE')">TE</a>
-          <a class="dropdown-item" onclick="generateBroadFA('OL')">OL</a>
+          <!-- <a class="dropdown-item" onclick="generateBroadFA('OL')">OL</a> -->
+          <a class="dropdown-item" onclick="generateBroadFA('T')">T</a>
+          <a class="dropdown-item" onclick="generateBroadFA('G')">G</a>
+          <a class="dropdown-item" onclick="generateBroadFA('C')">C</a>
           <a class="dropdown-item" onclick="generateBroadFA('IDL')">IDL</a>
           <a class="dropdown-item" onclick="generateBroadFA('EDGE')">EDGE</a>
           <a class="dropdown-item" onclick="generateBroadFA('LB')">LB</a>
@@ -386,8 +394,11 @@
       <div class="col-3 col-md-2">
         <button class="bttn-minimal bttn-sm bttn-success butt" onclick="playersPressed()">PLAYERS</button>
       </div>
-      <div class="col-6 col-md-8">
+      <div class="col-3 col-md-4">
         <button class="bttn-minimal bttn-sm bttn-success butt" onclick="pickHistoryPressed()">PICK HISTORY</button>
+      </div>
+      <div class="col-3 col-md-4">
+        <button class="bttn-minimal bttn-sm bttn-success butt" onclick="yourpickHistoryPressed()">JETS PICKS</button>
       </div>
     </div>
     <!-- <div class="row text-center">
@@ -439,6 +450,25 @@
       </div>
     </div>
     <div class="container" id="pickHistoryCont">
+
+    </div>
+    <div class="container">
+      <div class="row" id="yourpickHistoryHeader">
+        <div class="col-2 col-md-1 myauto">
+          <p class="align-middle myauto">TEAM</p>
+        </div>
+        <div class="col-2 col-md-1 myauto">
+          <p class="align-middle myauto">PICK</p>
+        </div>
+        <div class="col-6 col-md-4 myauto">
+          <p class="align-middle myauto">NAME</p>
+        </div>
+        <div class="d-none d-md-block col-md-4 myauto">
+          <p class="align-middle myauto">SCHOOL</p>
+        </div>
+      </div>
+    </div>
+    <div class="container" id="yourpickHistoryCont">
 
     </div>
   </div>

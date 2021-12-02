@@ -82,6 +82,12 @@ h5 {
   display: none;
 }
 
+#yourpickHistoryHeader {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  display: none;
+}
+
 #trans4 {
   background-image: url("curtisBG.jpg");
   z-index: 302;
@@ -383,6 +389,13 @@ color: black;
 }
 
 #pickHistoryCont {
+  display: none;
+  height: 70vh;
+  overflow: scroll;
+  background-color: #3c3935;
+}
+
+#yourpickHistoryCont {
   display: none;
   height: 70vh;
   overflow: scroll;
