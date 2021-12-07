@@ -316,7 +316,7 @@ var wftOffer = {
 var dalOffer = {
   team: dal,
   receiveText: ["2022 Round 1", "2022 Round 2"],
-  giveText: ["QuinnenWilliams"],
+  giveText: ["Quinnen Williams"],
   receiveIndex: [returnPickIndex(1, false, dal), returnPickIndex(2, false, dal)],
   giveIndex: [],
   receivePlayer: [],
@@ -326,7 +326,7 @@ var dalOffer = {
 var tbOffer = {
   team: tb,
   receiveText: ["2022 Round 1", "2022 Round 2"],
-  giveText: ["QuinnenWilliams"],
+  giveText: ["Quinnen Williams"],
   receiveIndex: [returnPickIndex(1, false, tb), returnPickIndex(2, false, tb)],
   giveIndex: [],
   receivePlayer: [],
