@@ -63,7 +63,7 @@ var QuinnenWilliams = {
 };
 var ConnorMcGovern = {
   name: 'Connor McGovern',
-  pos: 'IOL',
+  pos: 'C',
   age: '28',
   height: '6-4',
   weight: '306',
@@ -118,7 +118,7 @@ var MekhiBecton = {
 };
 var AlijahVeraTucker = {
 name: 'Alijah Vera-Tucker',
-pos: 'IOL',
+pos: 'G',
 age: '22',
 img: 'https://apiv2.thedraftnetwork.com/api/files/the-draft-network/afb9c355e3fd4419bb2821815cac256d_Vera-tucker.JPG',
 school: 'USC',
@@ -131,7 +131,7 @@ capPenalty: 12996841,
 };
 var GregVanRoten = {
   name: 'Greg Van Roten',
-  pos: 'IOL',
+  pos: 'G',
   age: '31',
   height: '6-3',
   weight: '308',
@@ -234,7 +234,7 @@ var LaMicalPerine = {
 };
 var CameronClark = {
   name: 'Cameron Clark',
-  pos: 'IOL',
+  pos: 'G',
   age: '25',
   height: '6-4',
   weight: '308',
@@ -472,7 +472,7 @@ var MorganMoses = {
 };
 var DanFeeney = {
   name: 'Dan Feeney',
-  pos: 'IOL',
+  pos: 'G',
   age: '27',
   type: 'UFA',
   cYears: 1,
@@ -597,7 +597,7 @@ var DelshaunPhillips = {
 };
 var IsaiahWilliams = {
   name: 'Isaiah Williams',
-  pos: 'iol',
+  pos: 'G',
   age: '28',
   cYears: 1,
     salary: 0,

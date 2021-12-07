@@ -445,6 +445,18 @@ function finishTrade(type) {
     if (twoTradeArr[twoNav].givePlayer.includes(QuinnenWilliams)) {
       deadCap += 5419431;
     }
+    if (twoTradeArr[twoNav].givePlayer.includes(CoreyDavis)) {
+      deadCap += 1333334;
+    }
+    if (twoTradeArr[twoNav].givePlayer.includes(GeorgeFant)) {
+      deadCap += 1000000;
+    }
+    if (twoTradeArr[twoNav].givePlayer.includes(MekhiBecton)) {
+      deadCap += 5487654;
+    }
+    if (twoTradeArr[twoNav].givePlayer.includes(DenzelMims)) {
+      deadCap += 755892;
+    }
     skipTrade();
     // document.getElementById("tradePrompt").style.display = "block";
     // document.getElementById("twoTrade").style.display = "none";

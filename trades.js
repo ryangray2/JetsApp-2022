@@ -333,4 +333,134 @@ var tbOffer = {
   givePlayer: [QuinnenWilliams]
 }
 
-twoTradeArr = [noOffer, seaOffer1, seaOffer2, denOffer1, denOffer2, cleOffer, sfOffer, wftOffer, dalOffer, tbOffer]
+var jaxOffer = {
+  team: jax,
+  receiveText: ["2022 Round 4"],
+  giveText: ["Corey Davis"],
+  receiveIndex: [returnPickIndex(4, false, jax)],
+  giveIndex: [],
+  receivePlayer: [],
+  givePlayer: [CoreyDavis]
+}
+
+var pitOffer = {
+  team: pit,
+  receiveText: ["2023 Round 3"],
+  giveText: ["Corey Davis"],
+  receiveIndex: [],
+  giveIndex: [],
+  receivePlayer: [],
+  givePlayer: [CoreyDavis]
+}
+
+var pitOffer2 = {
+  team: pit,
+  receiveText: ["2022 Round 1"],
+  giveText: ["Corey Davis", "2022 Round 2", "2022 Round 3"],
+  receiveIndex: [returnPickIndex(1, false, pit)],
+  giveIndex: [returnPickIndex(2, false, nyj), returnPickIndex(3, false, nyj)],
+  receivePlayer: [],
+  givePlayer: [CoreyDavis]
+}
+
+var nygOffer = {
+  team: nyg,
+  receiveText: ["2022 Round 3"],
+  giveText: ["George Fant"],
+  receiveIndex: [returnPickIndex(3, false, nyg)],
+  giveIndex: [],
+  receivePlayer: [],
+  givePlayer: [GeorgeFant]
+}
+
+var pitOffer3 = {
+  team: pit,
+  receiveText: ["2022 Round 3", "2022 Round 5"],
+  giveText: ["George Fant"],
+  receiveIndex: [returnPickIndex(3, false, pit), returnPickIndex(5, false, pit)],
+  giveIndex: [],
+  receivePlayer: [],
+  givePlayer: [GeorgeFant]
+}
+
+var indOffer = {
+  team: ind,
+  receiveText: ["2022 Round 3", "2022 Round 4"],
+  giveText: ["George Fant"],
+  receiveIndex: [returnPickIndex(3, false, ind), returnPickIndex(4, false, ind)],
+  giveIndex: [],
+  receivePlayer: [],
+  givePlayer: [GeorgeFant]
+}
+
+var lvOffer = {
+  team: lv,
+  receiveText: ["2022 Round 2", "2022 Round 5"],
+  giveText: ["George Fant", "2022 Round 3"],
+  receiveIndex: [returnPickIndex(2, false, lv), returnPickIndex(5, false, lv)],
+  giveIndex: [returnPickIndex(3, false, nyj)],
+  receivePlayer: [],
+  givePlayer: [GeorgeFant]
+}
+
+var nygOffer2 = {
+  team: nyg,
+  receiveText: ["2022 Round 1"],
+  giveText: ["Mekhi Becton", "2022 Round 2 (CAR)"],
+  receiveIndex: [returnPickIndex(1, false, nyg)],
+  giveIndex: [returnPickIndex(2, true, nyj)],
+  receivePlayer: [],
+  givePlayer: [MekhiBecton]
+}
+
+var pitOffer4 = {
+  team: pit,
+  receiveText: ["2022 Round 1"],
+  giveText: ["Mekhi Becton"],
+  receiveIndex: [returnPickIndex(1, false, pit)],
+  giveIndex: [],
+  receivePlayer: [],
+  givePlayer: [MekhiBecton]
+}
+
+var lvOffer2 = {
+  team: lv,
+  receiveText: ["2022 Round 1"],
+  giveText: ["Mekhi Becton"],
+  receiveIndex: [returnPickIndex(1, false, lv)],
+  giveIndex: [],
+  receivePlayer: [],
+  givePlayer: [MekhiBecton]
+}
+
+var jaxOffer2 = {
+  team: jax,
+  receiveText: ["2022 Round 6"],
+  giveText: ["Denzel Mims"],
+  receiveIndex: [returnPickIndex(6, false, jax)],
+  giveIndex: [],
+  receivePlayer: [],
+  givePlayer: [DenzelMims]
+}
+
+var azOffer = {
+  team: az,
+  receiveText: ["2022 Round 6", "2022 Round 7"],
+  giveText: ["Denzel Mims"],
+  receiveIndex: [returnPickIndex(6, false, az), returnPickIndex(7, false, az)],
+  giveIndex: [],
+  receivePlayer: [],
+  givePlayer: [DenzelMims]
+}
+
+var detOffer = {
+  team: det,
+  receiveText: ["2022 Round 3"],
+  giveText: ["Denzel Mims", "2022 Round 4 (CAR)"],
+  receiveIndex: [returnPickIndex(3, false, det)],
+  giveIndex: [returnPickIndex(4, true, nyj)],
+  receivePlayer: [],
+  givePlayer: [DenzelMims]
+}
+
+twoTradeArr = [noOffer, seaOffer1, seaOffer2, denOffer1, denOffer2, cleOffer, sfOffer, wftOffer, dalOffer, tbOffer, jaxOffer, pitOffer, pitOffer2, nygOffer, pitOffer3, indOffer, lvOffer, nygOffer2, pitOffer4, lvOffer2, jaxOffer2, azOffer, detOffer]
