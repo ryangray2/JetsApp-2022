@@ -3,7 +3,7 @@ var az = {
   name: "Cardinals",
   logo: "https://static.www.nfl.com/image/private/f_auto/league/u9fltoslqdsyao8cpm0k",
   draftResults: [],
-  needs: ["CB", "OG", "OT", "C", "DT"],
+  needs: ["CB", "IOL", "OT", "C", "IDL"],
   picks: []
 };
 
@@ -21,7 +21,7 @@ var car = {
   name: "Panthers",
   logo: "https://static.www.nfl.com/image/private/f_auto/league/ervfzgrqdpnc7lh5gqwq",
   draftResults: [],
-  needs: ["QB", "OT", "OG", "S", "C"],
+  needs: ["QB", "OT", "IOL", "S", "C"],
   picks: []
 };
 
@@ -30,7 +30,7 @@ var chi = {
   name: "Bears",
   logo: "https://static.www.nfl.com/image/private/f_auto/league/ra0poq2ivwyahbaq86d2",
   draftResults: [],
-  needs: ["OT", "WR", "C", "CB", "DT"],
+  needs: ["OT", "WR", "C", "CB", "IDL"],
   picks: []
 };
 
@@ -39,7 +39,7 @@ var dal = {
   name: "Cowboys",
   logo: "https://static.www.nfl.com/image/private/f_auto/league/ieid8hoygzdlmzo0tnf6",
   draftResults: [],
-  needs: ["DT", "EDGE", "LB", "S", "TE"],
+  needs: ["IDL", "EDGE", "LB", "S", "TE"],
   picks: []
 };
 
@@ -48,7 +48,7 @@ var det = {
   name: "Lions",
   logo: "https://res.cloudinary.com/nflleague/image/private/f_auto/league/ocvxwnapdvwevupe4tpr",
   draftResults: [],
-  needs: ["WR", "CB", "OG", "LB", "DT"],
+  needs: ["WR", "CB", "IOL", "LB", "IDL"],
   picks: []
 };
 
@@ -57,7 +57,7 @@ var gb = {
   name: "Packers",
   logo: "https://res.cloudinary.com/nflleague/image/private/f_auto/league/gppfvr7n8gljgjaqux2x",
   draftResults: [],
-  needs: ["OT", "WR", "TE", "DT", "EDGE"],
+  needs: ["OT", "WR", "TE", "IDL", "EDGE"],
   picks: []
 };
 
@@ -66,7 +66,7 @@ var lar = {
   name: "Rams",
   logo: "https://static.www.nfl.com/image/private/f_auto/league/ayvwcmluj2ohkdlbiegi",
   draftResults: [],
-  needs: ["OT", "TE", "LB", "EDGE", "OG"],
+  needs: ["OT", "TE", "LB", "EDGE", "IOL"],
   picks: []
 };
 
@@ -75,7 +75,7 @@ var min = {
   name: "Vikings",
   logo: "https://res.cloudinary.com/nflleague/image/private/f_auto/league/teguylrnqqmfcwxvcmmz",
   draftResults: [],
-  needs: ["EDGE", "OG", "CB", "LB", "WR"],
+  needs: ["EDGE", "IOL", "CB", "LB", "WR"],
   picks: []
 };
 
@@ -93,7 +93,7 @@ var nyg = {
   name: "Giants",
   logo: "https://res.cloudinary.com/nflleague/image/private/f_auto/league/t6mhdmgizi6qhndh8b9p",
   draftResults: [],
-  needs: ["LB", "EDGE", "OG", "C", "TE"],
+  needs: ["LB", "EDGE", "IOL", "C", "TE"],
   picks: []
 };
 
@@ -111,7 +111,7 @@ var sf = {
   name: "49ers",
   logo: "https://res.cloudinary.com/nflleague/image/private/f_auto/league/dxibuyxbk0b9ua5ih9hn",
   draftResults: [],
-  needs: ["CB", "S", "OG", "C", "WR"],
+  needs: ["CB", "S", "IOL", "C", "WR"],
   picks: []
 };
 
@@ -120,7 +120,7 @@ var sea = {
   name: "Seahawks",
   logo: "https://res.cloudinary.com/nflleague/image/private/f_auto/league/gcytzwpjdzbpwnwxincg",
   draftResults: [],
-  needs: ["OT", "CB", "OG", "EDGE", "LB"],
+  needs: ["OT", "CB", "IOL", "EDGE", "LB"],
   picks: []
 };
 
@@ -129,7 +129,7 @@ var tb = {
   name: "Buccaneers",
   logo: "https://static.www.nfl.com/image/private/f_auto/league/v8uqiualryypwqgvwcih",
   draftResults: [],
-  needs: ["RB", "DT", "WR", "CB", "TE"],
+  needs: ["RB", "IDL", "WR", "CB", "TE"],
   picks: []
 };
 
@@ -147,7 +147,7 @@ var bal = {
   name: "Ravens",
   logo: "https://res.cloudinary.com/nflleague/image/private/f_auto/league/ucsdijmddsqcj1i9tddd",
   draftResults: [],
-  needs: ["OT", "OT", "LB", "EDGE", "DT"],
+  needs: ["OT", "OT", "LB", "EDGE", "IDL"],
   picks: []
 };
 
@@ -156,7 +156,7 @@ var buf = {
   name: "Bills",
   logo: "https://res.cloudinary.com/nflleague/image/private/f_auto/league/giphcy6ie9mxbnldntsf",
   draftResults: [],
-  needs: ["CB", "OG", "LB", "DT", "WR"],
+  needs: ["CB", "IOL", "LB", "IDL", "WR"],
   picks: []
 };
 
@@ -165,7 +165,7 @@ var cin = {
   name: "Bengals",
   logo: "https://res.cloudinary.com/nflleague/image/private/f_auto/league/okxpteoliyayufypqalq",
   draftResults: [],
-  needs: ["CB", "C", "OG", "OT", "LB"],
+  needs: ["CB", "C", "IOL", "OT", "LB"],
   picks: []
 };
 
@@ -183,7 +183,7 @@ var den = {
   name: "Broncos",
   logo: "https://res.cloudinary.com/nflleague/image/private/f_auto/league/t0p7m5cjdjy18rnzzqbx",
   draftResults: [],
-  needs: ["QB", "LB", "EDGE", "OG", "OT"],
+  needs: ["QB", "LB", "EDGE", "IOL", "OT"],
   picks: []
 };
 
@@ -192,7 +192,7 @@ var hou = {
   name: "Texans",
   logo: "https://static.www.nfl.com/image/private/f_auto/league/bpx88i8nw4nnabuq0oob",
   draftResults: [],
-  needs: ["QB", "TE", "OG", "CB", "S"],
+  needs: ["QB", "TE", "IOL", "CB", "S"],
   picks: []
 };
 
@@ -210,7 +210,7 @@ var jax = {
   name: "Jaguars",
   logo: "https://res.cloudinary.com/nflleague/image/private/f_auto/league/qycbib6ivrm9dqaexryk",
   draftResults: [],
-  needs: ["OT", "C", "LB", "DT", "TE"],
+  needs: ["OT", "C", "LB", "IDL", "TE"],
   picks: []
 };
 
@@ -228,7 +228,7 @@ var lv = {
   name: "Raiders",
   logo: "https://static.www.nfl.com/image/private/f_auto/league/gzcojbzcyjgubgyb6xf2",
   draftResults: [],
-  needs: ["WR", "OG", "C", "LB", "DT"],
+  needs: ["WR", "IOL", "C", "LB", "IDL"],
   picks: []
 };
 
@@ -237,7 +237,7 @@ var lac = {
   name: "Chargers",
   logo: "https://static.www.nfl.com/image/private/f_auto/league/dhfidtn8jrumakbogeu4",
   draftResults: [],
-  needs: ["DT", "OT", "WR", "EDGE", "TE"],
+  needs: ["IDL", "OT", "WR", "EDGE", "TE"],
   picks: []
 };
 
@@ -246,7 +246,7 @@ var mia = {
   name: "Dolphins",
   logo: "https://res.cloudinary.com/nflleague/image/private/f_auto/league/lits6p8ycthy9to70bnt",
   draftResults: [],
-  needs: ["OT", "OG", "C", "LB", "RB"],
+  needs: ["OT", "IOL", "C", "LB", "RB"],
   picks: []
 };
 
@@ -255,7 +255,7 @@ var ne = {
   name: "Patriots",
   logo: "https://res.cloudinary.com/nflleague/image/private/f_auto/league/moyfxx3dq5pio4aiftnc",
   draftResults: [],
-  needs: ["CB", "WR", "LB", "S", "DT"],
+  needs: ["CB", "WR", "LB", "S", "IDL"],
   picks: []
 };
 
@@ -273,7 +273,7 @@ var pit = {
   name: "Steelers",
   logo: "https://res.cloudinary.com/nflleague/image/private/f_auto/league/xujg9t3t4u5nmjgr54wx",
   draftResults: [],
-  needs: ["QB", "OT", "OG", "CB", "DT"],
+  needs: ["QB", "OT", "IOL", "CB", "IDL"],
   picks: []
 };
 

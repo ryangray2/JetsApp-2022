@@ -1,204 +1,336 @@
-// var indOffer1 = {
-//   team: ind,
-//   receiveText: ["2021 2nd Round (#53)"],
-//   giveText: ["Sam Darnold", "2021 5th Round"],
-//   receiveIndex: [[1, 20]],
-//   giveIndex: [[4, 1]],
-//   receivePlayer: [],
-//   givePlayer: [SamDarnold]
-// }
+// var CHIpick2021_2 = {
+//   name: '2021 Round 2 (CHI)',
+//   tradeValue: 40,
+//   included: false,
+//   thisYear: true,
+//   index: [1, 19],
+//   order: 15
+// };
 //
-// var indOffer2 = {
-//   team: ind,
-//   receiveText: ["2021 3rd Round (#85)", "2021 4th Round (#127)"],
-//   giveText: ["Sam Darnold"],
-//   receiveIndex: [[2, 19], [3, 19]],
-//   giveIndex: [],
-//   receivePlayer: [],
-//   givePlayer: [SamDarnold]
-// }
-
-var CHIpick2021_2 = {
-  name: '2021 Round 2 (CHI)',
-  tradeValue: 40,
-  included: false,
-  thisYear: true,
-  index: [1, 19],
-  order: 15
-};
-
-
-
-var chiOffer1 = {
-  team: chi,
-  receiveText: ["2021 Round 2 (#52)"],
-  giveText: ["Sam Darnold", "2021 5th Round (#147)"],
-  receiveIndex: [[1, 19]],
-  giveIndex: [[4, 1]],
-  receivePlayer: [],
-  givePlayer: [SamDarnold],
-  newWatsonAssets: [CHIpick2021_2]
-}
-
-// var chiOffer2 = {
+//
+//
+// var chiOffer1 = {
 //   team: chi,
-//   receiveText: ["2021 Round 3 (#84)", "2021 Round 4 (#148)"],
+//   receiveText: ["2021 Round 2 (#52)"],
 //   giveText: ["Sam Darnold", "2021 5th Round (#147)"],
 //   receiveIndex: [[1, 19]],
 //   giveIndex: [[4, 1]],
 //   receivePlayer: [],
-//   givePlayer: [SamDarnold]
+//   givePlayer: [SamDarnold],
+//   newWatsonAssets: [CHIpick2021_2]
 // }
+//
+// // var chiOffer2 = {
+// //   team: chi,
+// //   receiveText: ["2021 Round 3 (#84)", "2021 Round 4 (#148)"],
+// //   giveText: ["Sam Darnold", "2021 5th Round (#147)"],
+// //   receiveIndex: [[1, 19]],
+// //   giveIndex: [[4, 1]],
+// //   receivePlayer: [],
+// //   givePlayer: [SamDarnold]
+// // }
+//
+//
+// var PITpick2021_2 = {
+//   name: '2021 Round 2 (PIT)',
+//   tradeValue: 40,
+//   included: false,
+//   thisYear: true,
+//   index: [1, 23],
+//   order: 15
+// };
+//
+//
+// var pitOffer1 = {
+//   team: pit,
+//   receiveText: ["2021 Round 2 (#56)"],
+//   giveText: ["Sam Darnold", "2021 6th Round (#201)"],
+//   receiveIndex: [[1, 23]],
+//   giveIndex: [[5, 14]],
+//   receivePlayer: [],
+//   givePlayer: [SamDarnold],
+//   newWatsonAssets: [PITpick2021_2]
+// }
+//
+// var PITpick2021_3 = {
+//   name: '2021 Round 3 (PIT)',
+//   tradeValue: 20,
+//   included: false,
+//   thisYear: true,
+//   index: [2, 22],
+//   order: 15
+// };
+// var PITpick2021_4 = {
+//   name: '2021 Round 4 (PIT)',
+//   tradeValue: 0,
+//   included: false,
+//   thisYear: true,
+//   index: [3, 23],
+//   order: 15
+// };
+// var PITpick2021_6 = {
+//   name: '2021 Round 6 (PIT)',
+//   tradeValue: 0,
+//   included: false,
+//   thisYear: true,
+//   index: [5, 22],
+//   order: 15
+// };
+//
+// var pitOffer2 = {
+//   team: pit,
+//   receiveText: ["2021 Round 3 (#87)", "2021 Round 4 (#129)", "2021 Round 6 (#209)"],
+//   giveText: ["Sam Darnold", "2021 6th Round (#201)"],
+//   receiveIndex: [[2, 22], [3, 23], [5, 22]],
+//   giveIndex: [[5, 14]],
+//   receivePlayer: [],
+//   givePlayer: [SamDarnold],
+//   newWatsonAssets: [PITpick2021_3, PITpick2021_4, PITpick2021_6]
+// }
+//
+// var NOpick2021_2 = {
+//   name: '2021 Round 2 (NO)',
+//   tradeValue: 40,
+//   included: false,
+//   thisYear: true,
+//   index: [1, 27],
+//   order: 15
+// };
+//
+// var noOffer = {
+//   team: no,
+//   receiveText: ["2021 Round 2 (#60)"],
+//   giveText: ["Sam Darnold"],
+//   receiveIndex: [[1, 27]],
+//   giveIndex: [],
+//   receivePlayer: [],
+//   givePlayer: [SamDarnold],
+//   newWatsonAssets: [NOpick2021_2]
+// }
+//
+//
+// var SFpick2021_2 = {
+//   name: '2021 Round 2 (SF)',
+//   tradeValue: 40,
+//   included: false,
+//   thisYear: true,
+//   index: [1, 11],
+//   order: 15
+// };
+//
+// var sfOffer = {
+//   team: sf,
+//   receiveText: ["2021 Round 2 (#44)"],
+//   giveText: ["Sam Darnold", "2021 Round 4 (#107)"],
+//   receiveIndex: [[1, 11]],
+//   giveIndex: [[3, 1]],
+//   receivePlayer: [],
+//   givePlayer: [SamDarnold],
+//   newWatsonAssets: [SFpick2021_2]
+// }
+//
+// darnoldTradeArr = [chiOffer1, pitOffer1, pitOffer2, noOffer, sfOffer];
+//
+// var atlOffer = {
+//   team: atl,
+//   receiveText: ["2021 Round 1 (#4)", "2021 Round 2 (#36)", "2021 Round 4 (#109)"],
+//   giveText: ["2021 Round 1 (#2)"],
+//   receiveIndex: [[0, 3], [1, 3], [3, 3]],
+//   giveIndex: [[0, 1]],
+//   receivePlayer: [],
+//   givePlayer: []
+// }
+//
+// var detOffer = {
+//   team: det,
+//   receiveText: ["2021 Round 1 (#7)", "2021 Round 2 (#39)", "2021 Round 3 (#71)", "2021 Round 4 (#112)", "2022 Round 3"],
+//   giveText: ["2021 Round 1 (#2)"],
+//   receiveIndex: [[0, 6], [1, 6], [2, 6], [3, 6]],
+//   giveIndex: [[0, 1]],
+//   receivePlayer: [],
+//   givePlayer: []
+// }
+//
+// var carOffer = {
+//   team: car,
+//   receiveText: ["2021 Round 1 (#8)", "2021 Round 2 (#40)", "2021 Round 3 (#72)", "2021 Round 4 (#113)", "2022 Round 2"],
+//   giveText: ["2021 Round 1 (#2)"],
+//   receiveIndex: [[0, 7], [1, 7], [2, 7], [3, 7]],
+//   giveIndex: [[0, 1]],
+//   receivePlayer: [],
+//   givePlayer: []
+// }
+//
+// var denOffer = {
+//   team: den,
+//   receiveText: ["2021 Round 1 (#9)", "2021 Round 2 (#41)", "2021 Round 3 (#73)", "2021 Round 4 (#114)", "2022 Round 2", "2022 Round 6"],
+//   giveText: ["2021 Round 1 (#2)"],
+//   receiveIndex: [[0, 8], [1, 8], [2, 8], [3, 8]],
+//   giveIndex: [[0, 1]],
+//   receivePlayer: [],
+//   givePlayer: []
+// }
+//
+// var wasOffer = {
+//   team: was,
+//   receiveText: ["2021 Round 1 (#19)", "2021 Round 2 (#51)", "2021 Round 3 (#76)", "2021 Round 3 (#82)", "2021 Round 4 (#124)", "2022 Round 1"],
+//   giveText: ["2021 Round 1 (#2)"],
+//   receiveIndex: [[0, 18], [1, 18], [2, 17], [2, 11], [3, 18]],
+//   giveIndex: [[0, 1]],
+//   receivePlayer: [],
+//   givePlayer: []
+// }
+//
+// twoTradeArr = [atlOffer, carOffer, denOffer, wasOffer]
 
-
-var PITpick2021_2 = {
-  name: '2021 Round 2 (PIT)',
-  tradeValue: 40,
-  included: false,
-  thisYear: true,
-  index: [1, 23],
-  order: 15
-};
-
-
-var pitOffer1 = {
-  team: pit,
-  receiveText: ["2021 Round 2 (#56)"],
-  giveText: ["Sam Darnold", "2021 6th Round (#201)"],
-  receiveIndex: [[1, 23]],
-  giveIndex: [[5, 14]],
-  receivePlayer: [],
-  givePlayer: [SamDarnold],
-  newWatsonAssets: [PITpick2021_2]
+function returnPickIndex(round, second, team) {
+  var passed = false;
+  for (let i = 0; i < draftOrder[round - 1].length; i++) {
+    if (draftOrder[round - 1][i] === team) {
+      if ((second === false && passed === false) || (second === true && passed === true)) {
+        return [(round - 1), i];
+      } else {
+        passed = true;
+        continue;
+      }
+    }
+  }
 }
 
-var PITpick2021_3 = {
-  name: '2021 Round 3 (PIT)',
-  tradeValue: 20,
-  included: false,
-  thisYear: true,
-  index: [2, 22],
-  order: 15
-};
-var PITpick2021_4 = {
-  name: '2021 Round 4 (PIT)',
-  tradeValue: 0,
-  included: false,
-  thisYear: true,
-  index: [3, 23],
-  order: 15
-};
-var PITpick2021_6 = {
-  name: '2021 Round 6 (PIT)',
-  tradeValue: 0,
-  included: false,
-  thisYear: true,
-  index: [5, 22],
-  order: 15
+console.log(returnPickIndex(1, false, nyj));
+console.log(returnPickIndex(1, true, nyj));
+
+var RussellWilson = {
+    name: "Russell Wilson",
+    pos: 'QB',
+    age: '33',
+    height: '5-11',
+    weight: '215',
+    salary: 37000000,
+    img: '',
+    capPenalty: 26000000
 };
 
-var pitOffer2 = {
-  team: pit,
-  receiveText: ["2021 Round 3 (#87)", "2021 Round 4 (#129)", "2021 Round 6 (#209)"],
-  giveText: ["Sam Darnold", "2021 6th Round (#201)"],
-  receiveIndex: [[2, 22], [3, 23], [5, 22]],
-  giveIndex: [[5, 14]],
-  receivePlayer: [],
-  givePlayer: [SamDarnold],
-  newWatsonAssets: [PITpick2021_3, PITpick2021_4, PITpick2021_6]
-}
+var BakerMayfield = {
+    name: "Baker Mayfield",
+    pos: 'QB',
+    age: '26',
+    height: '6-1',
+    weight: '200',
+    salary: 18858000,
+    img: '',
+    capPenalty: 18858000
+};
 
-var NOpick2021_2 = {
-  name: '2021 Round 2 (NO)',
-  tradeValue: 40,
-  included: false,
-  thisYear: true,
-  index: [1, 27],
-  order: 15
+var TreyLance = {
+    name: "Trey Lance",
+    pos: 'QB',
+    age: '21',
+    height: '6-1',
+    weight: '200',
+    salary: 7751199,
+    img: '',
+    capPenalty: 27904316
 };
 
 var noOffer = {
   team: no,
-  receiveText: ["2021 Round 2 (#60)"],
-  giveText: ["Sam Darnold"],
-  receiveIndex: [[1, 27]],
+  receiveText: ["2022 Round 1"],
+  giveText: ["Zach Wilson"],
+  receiveIndex: [returnPickIndex(1, false, no)],
   giveIndex: [],
   receivePlayer: [],
-  givePlayer: [SamDarnold],
-  newWatsonAssets: [NOpick2021_2]
+  givePlayer: [ZachWilson]
 }
 
+var seaOffer1 = {
+  team: sea,
+  receiveText: ["Russell Wilson"],
+  giveText: ["Zach Wilson", "2022 Round 1", "2022 Round 1 (SEA)", "2022 Round 2"],
+  receiveIndex: [],
+  giveIndex: [returnPickIndex(1, false, nyj), returnPickIndex(1, true, nyj), returnPickIndex(2, false, nyj)],
+  receivePlayer: [RussellWilson],
+  givePlayer: [ZachWilson]
+}
 
-var SFpick2021_2 = {
-  name: '2021 Round 2 (SF)',
-  tradeValue: 40,
-  included: false,
-  thisYear: true,
-  index: [1, 11],
-  order: 15
-};
+var seaOffer2 = {
+  team: sea,
+  receiveText: ["Russell Wilson"],
+  giveText: ["Zach Wilson", "2022 Round 1", "2022 Round 2", "2022 Round 4", "2023 Round 1", "2024 Round 1"],
+  receiveIndex: [],
+  giveIndex: [returnPickIndex(1, false, nyj), returnPickIndex(2, false, nyj), returnPickIndex(4, false, nyj)],
+  receivePlayer: [RussellWilson],
+  givePlayer: [ZachWilson]
+}
+
+var denOffer1 = {
+  team: den,
+  receiveText: ["2022 Round 1"],
+  giveText: ["Zach Wilson"],
+  receiveIndex: [returnPickIndex(1, false, den)],
+  giveIndex: [],
+  receivePlayer: [],
+  givePlayer: [ZachWilson]
+}
+
+var denOffer2 = {
+  team: den,
+  receiveText: ["2022 Round 2", "2022 Round 2 (LAR)"],
+  giveText: ["Zach Wilson"],
+  receiveIndex: [returnPickIndex(2, false, den), returnPickIndex(1, true, den)],
+  giveIndex: [],
+  receivePlayer: [],
+  givePlayer: [ZachWilson]
+}
+
+var cleOffer = {
+  team: cle,
+  receiveText: ["Baker Mayfield", "2022 Round 3"],
+  giveText: ["Zach Wilson"],
+  receiveIndex: [returnPickIndex(3, false, cle)],
+  giveIndex: [],
+  receivePlayer: [BakerMayfield],
+  givePlayer: [ZachWilson]
+}
 
 var sfOffer = {
   team: sf,
-  receiveText: ["2021 Round 2 (#44)"],
-  giveText: ["Sam Darnold", "2021 Round 4 (#107)"],
-  receiveIndex: [[1, 11]],
-  giveIndex: [[3, 1]],
-  receivePlayer: [],
-  givePlayer: [SamDarnold],
-  newWatsonAssets: [SFpick2021_2]
+  receiveText: ["Trey Lance", "2022 Round 3"],
+  giveText: ["Zach Wilson"],
+  receiveIndex: [returnPickIndex(3, false, sf)],
+  giveIndex: [],
+  receivePlayer: [TreyLance],
+  givePlayer: [ZachWilson]
 }
 
-darnoldTradeArr = [chiOffer1, pitOffer1, pitOffer2, noOffer, sfOffer];
-
-var atlOffer = {
-  team: atl,
-  receiveText: ["2021 Round 1 (#4)", "2021 Round 2 (#36)", "2021 Round 4 (#109)"],
-  giveText: ["2021 Round 1 (#2)"],
-  receiveIndex: [[0, 3], [1, 3], [3, 3]],
-  giveIndex: [[0, 1]],
-  receivePlayer: [],
-  givePlayer: []
-}
-
-var detOffer = {
-  team: det,
-  receiveText: ["2021 Round 1 (#7)", "2021 Round 2 (#39)", "2021 Round 3 (#71)", "2021 Round 4 (#112)", "2022 Round 3"],
-  giveText: ["2021 Round 1 (#2)"],
-  receiveIndex: [[0, 6], [1, 6], [2, 6], [3, 6]],
-  giveIndex: [[0, 1]],
-  receivePlayer: [],
-  givePlayer: []
-}
-
-var carOffer = {
-  team: car,
-  receiveText: ["2021 Round 1 (#8)", "2021 Round 2 (#40)", "2021 Round 3 (#72)", "2021 Round 4 (#113)", "2022 Round 2"],
-  giveText: ["2021 Round 1 (#2)"],
-  receiveIndex: [[0, 7], [1, 7], [2, 7], [3, 7]],
-  giveIndex: [[0, 1]],
-  receivePlayer: [],
-  givePlayer: []
-}
-
-var denOffer = {
-  team: den,
-  receiveText: ["2021 Round 1 (#9)", "2021 Round 2 (#41)", "2021 Round 3 (#73)", "2021 Round 4 (#114)", "2022 Round 2", "2022 Round 6"],
-  giveText: ["2021 Round 1 (#2)"],
-  receiveIndex: [[0, 8], [1, 8], [2, 8], [3, 8]],
-  giveIndex: [[0, 1]],
-  receivePlayer: [],
-  givePlayer: []
-}
-
-var wasOffer = {
+var wftOffer = {
   team: was,
-  receiveText: ["2021 Round 1 (#19)", "2021 Round 2 (#51)", "2021 Round 3 (#76)", "2021 Round 3 (#82)", "2021 Round 4 (#124)", "2022 Round 1"],
-  giveText: ["2021 Round 1 (#2)"],
-  receiveIndex: [[0, 18], [1, 18], [2, 17], [2, 11], [3, 18]],
-  giveIndex: [[0, 1]],
+  receiveText: ["2022 Round 1"],
+  giveText: ["Zach Wilson"],
+  receiveIndex: [returnPickIndex(1, false, was)],
+  giveIndex: [],
   receivePlayer: [],
-  givePlayer: []
+  givePlayer: [ZachWilson]
 }
 
-twoTradeArr = [atlOffer, carOffer, denOffer, wasOffer]
+var dalOffer = {
+  team: dal,
+  receiveText: ["2022 Round 1", "2022 Round 2"],
+  giveText: ["QuinnenWilliams"],
+  receiveIndex: [returnPickIndex(1, false, dal), returnPickIndex(2, false, dal)],
+  giveIndex: [],
+  receivePlayer: [],
+  givePlayer: [QuinnenWilliams]
+}
+
+var tbOffer = {
+  team: tb,
+  receiveText: ["2022 Round 1", "2022 Round 2"],
+  giveText: ["QuinnenWilliams"],
+  receiveIndex: [returnPickIndex(1, false, tb), returnPickIndex(2, false, tb)],
+  giveIndex: [],
+  receivePlayer: [],
+  givePlayer: [QuinnenWilliams]
+}
+
+twoTradeArr = [noOffer, seaOffer1, seaOffer2, denOffer1, denOffer2, cleOffer, sfOffer, wftOffer, dalOffer, tbOffer]

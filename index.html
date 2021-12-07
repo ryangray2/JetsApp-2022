@@ -139,7 +139,7 @@
       </div>
     </div>
   </div>
-  <div id="watsonTradeAssets">
+  <!-- <div id="watsonTradeAssets">
     <div class="container">
       <div class="assetNav">
         <div class="row">
@@ -201,12 +201,12 @@
       <div class="container" id="darnoldOffers">
       </div>
     </div>
-  </div>
+  </div> -->
   <div id="twoTradeOffers">
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <h1 style="font-family: Big Shoulders Inline Display">Pick the offer you like.</h1>
+          <h1 style="font-family: Big Shoulders Inline Display">Do you want to start with a trade?</h1>
         </div>
       </div>
       <div class="row text-center">
@@ -214,14 +214,14 @@
           <button onclick="acceptTwoOffer()" class="bttn-slant bttn-md bttn-success butt">ACCEPT</button>
         </div>
         <div class="col-12">
-          <button onclick="twoBack()" class="bttn-slant bttn-md bttn-danger butt">BACK</button>
+          <button onclick="skipTrade()" class="bttn-slant bttn-md bttn-danger butt">SKIP</button>
         </div>
       </div>
       <div class="container" id="twoOffers">
       </div>
     </div>
   </div>
-  <div  id="watsonResult">
+  <!-- <div  id="watsonResult">
     <div class="container">
       <div class="row text-center">
         <div class="col-12">
@@ -237,7 +237,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
   <div id="trans3" class="transition slide-in-left" >
   </div>
   <div  id="faCont" class="slide-in-left2">
@@ -496,7 +496,7 @@
         <div class="col-12">
           <p id="sCap">CAP SPACE: </p>
         </div>
-        <div class="col-6 col-lg-3">
+        <div class="col-6 col-lg-3" id="draftedSection">
           <div class="row">
             <div class="col-12">
               <p class="sumAddDrop" id="dHead">Drafted</p>
@@ -505,7 +505,7 @@
           <div id="drafted" >
           </div>
         </div>
-        <div class="col-6 col-lg-3">
+        <div class="col-6 col-lg-3" id="signedSection">
           <div class="row">
             <div class="col-12">
               <p class="sumAddDrop" id="sHead">Signed</p>
@@ -514,7 +514,7 @@
           <div id="signed" >
           </div>
         </div>
-        <div class="col-6 col-lg-3">
+        <div class="col-6 col-lg-3" id="cutSection">
           <div class="row">
             <div class="col-12">
               <p class="sumAddDrop" id="cutHead">Cut</p>
@@ -523,7 +523,7 @@
           <div id="cutList" >
           </div>
         </div>
-        <div class="col-6 col-lg-3">
+        <div class="col-6 col-lg-3" id="tradedForSection">
           <div class="row">
             <div class="col-12">
               <p class="sumAddDrop" id="tfHead">Traded For</p>
@@ -532,7 +532,7 @@
           <div id="tradedFor" >
           </div>
         </div>
-        <div class="col-6 col-lg-3">
+        <div class="col-6 col-lg-3" id="tradedAwaySection">
           <div class="row">
             <div class="col-12">
               <p class="sumAddDrop" id="taHead">Traded Away</p>

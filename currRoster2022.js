@@ -40,7 +40,7 @@ var JohnFranklinMyers = {
 };
 var GeorgeFant = {
   name: 'George Fant',
-  pos: 'OT',
+  pos: 'T',
   age: '29',
   height: '6-5',
   weight: '322',
@@ -56,7 +56,7 @@ var QuinnenWilliams = {
   weight: '303',
   salary: 10550254,
   img: '',
-  capPenalty: 1000000,
+  capPenalty: 10350254,
   tradeValue: 160,
   included: false,
   order: 3
@@ -105,7 +105,7 @@ interest: 40,
 };
 var MekhiBecton = {
   name: 'Mekhi Becton',
-  pos: 'OT',
+  pos: 'T',
   age: '21',
   height: '6-7',
   weight: '364',
@@ -194,7 +194,7 @@ var AshtynDavis = {
 };
 var ChumaEdoga = {
   name: 'Chuma Edoga',
-  pos: 'OT',
+  pos: 'T',
   age: '24',
   height: '6-3',
   weight: '308',
@@ -384,7 +384,7 @@ var IsaiahDunn = {
   capPenalty: 16667
 };
 var PatrickFerguson = {
-  name: 'PatrickFerguson',
+  name: 'Patrick Ferguson',
   pos: 'OL',
   age: '22',
   height: '6-4',
@@ -493,7 +493,7 @@ var JoeFlacco = {
 };
 var LamarcusJoyner = {
   name: 'Lamarcus Joyner',
-  pos: 'FS',
+  pos: 'S',
   age: '31',
   type: 'UFA',
   cYears: 1,
@@ -513,7 +513,7 @@ var TylerKroft = {
 };
 var ConorMcDermott = {
   name: 'Conor McDermott',
-  pos: 'OT',
+  pos: 'T',
   age: '29',
   height: '6-8',
   weight: '305',
@@ -597,7 +597,7 @@ var DelshaunPhillips = {
 };
 var IsaiahWilliams = {
   name: 'Isaiah Williams',
-  pos: 'G',
+  pos: 'iol',
   age: '28',
   cYears: 1,
     salary: 0,
@@ -657,10 +657,21 @@ var KylePhillips = {
   cYears: 1,
   cTotal: .58,
 };
+var ElijahRiley = {
+  name: "Elijah Riley",
+  pos: 'S',
+  age: '23',
+  height: '6-0',
+    salary: 0,
+  weight: '205',
+  img: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4036924.png&w=350&h=254',
+  cYears: 2,
+  cTotal: 4
+};
 
 var deadCap = 1471730;
 var rollover = 6687683;
 // var salaryCap = 211686546;
-var salaryCap = 214887683;
+var salaryCap = 212393741;
 
-var currRosterArr = [ CJMosley, CarlLawson, CoreyDavis, JohnFranklinMyers, GeorgeFant, QuinnenWilliams, ConnorMcGovern, ShaqLawson, ZachWilson, SheldonRankins, MekhiBecton, AlijahVeraTucker, GregVanRoten, RyanGriffin, JustinHardee, ElijahMoore, DenzelMims, AshtynDavis, ChumaEdoga, TrevonWesco, ThomasHennessy, LaMicalPerine, CameronClark, BlakeCashman, MichaelCarter, BryceHall, TyJohnson, QuincyWilliams, BradenMann, JamienSherwood, MichaelCarter, BryceHuff, JasonPinnock, HamsahNasirildeen, BrandinEchols, JonathanMarshall, IsaiahDunn, PatrickFerguson, ZaneLewis, MarcusMaye, JamisonCrowder, LaurentDuvernayTardif, JarradDavis, KeelanCole, MorganMoses, DanFeeney, JoeFlacco, LamarcusJoyner, TylerKroft, ConorMcDermott, VinnyCurry, TevinColeman, SharrodNeasman, NathanShepherd, MikeWhite, JeffSmith, DelshaunPhillips, IsaiahWilliams, JavelinGuidry, TimWard, FolorunsoFatukasi, BraxtonBerrios, KylePhillips];
+var currRosterArr = [CJMosley, CarlLawson, CoreyDavis, JohnFranklinMyers, GeorgeFant, QuinnenWilliams, ConnorMcGovern, ShaqLawson, ZachWilson, SheldonRankins, MekhiBecton, AlijahVeraTucker, GregVanRoten, RyanGriffin, JustinHardee, ElijahMoore, DenzelMims, AshtynDavis, ChumaEdoga, TrevonWesco, ThomasHennessy, LaMicalPerine, CameronClark, BlakeCashman, MichaelCarter, BryceHall, TyJohnson, QuincyWilliams, BradenMann, JamienSherwood, MichaelCarter, BryceHuff, JasonPinnock, HamsahNasirildeen, BrandinEchols, JonathanMarshall, IsaiahDunn, PatrickFerguson, ZaneLewis, MarcusMaye, JamisonCrowder, LaurentDuvernayTardif, JarradDavis, KeelanCole, MorganMoses, DanFeeney, JoeFlacco, LamarcusJoyner, TylerKroft, ConorMcDermott, VinnyCurry, TevinColeman, SharrodNeasman, NathanShepherd, MikeWhite, JeffSmith, DelshaunPhillips, IsaiahWilliams, JavelinGuidry, TimWard, FolorunsoFatukasi, BraxtonBerrios, KylePhillips, ElijahRiley];

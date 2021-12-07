@@ -124,10 +124,10 @@ function instPressed() {
   document.getElementById("instCont").style.display = "none";
     document.getElementById("trans2").style.display = "block";
       document.getElementById("trans1").style.display = "none";
-  document.getElementById("tradePrompt").style.display = "block";
+    yesTwo();
   generateRoster();
   generateTeamFA();
-  skipTrade();
+  // skipTrade();
 }
 
 function yesWatson() {
@@ -352,7 +352,7 @@ function twoLeft() {
 }
 
 function skipTrade() {
-  document.getElementById("watsonResult").style.display = "none";
+  // document.getElementById("watsonResult").style.display = "none";
     document.getElementById("trans3").style.display = "block";
   document.getElementById("faCont").style.display = "block";
   // document.getElementById("tradePrompt").style.display = "none";
@@ -432,11 +432,25 @@ function finishTrade(type) {
     for (var i = 0; i < twoTradeArr[twoNav].giveText.length; i++) {
       tradedAway.push(twoTradeArr[twoNav].giveText[i]);
     }
-    document.getElementById("tradePrompt").style.display = "block";
-    document.getElementById("twoTrade").style.display = "none";
-    document.getElementById("watsonTrade").style.display = "none";
-    document.getElementById("wilsonTrade").style.display = "none";
-    document.getElementById("twoTradeOffers").style.display = "none";
+    for (var i = 0; i < twoTradeArr[twoNav].givePlayer.length; i++) {
+      const index2 =  activeRoster.indexOf(twoTradeArr[twoNav].givePlayer[i]);
+      activeRoster.splice(index2, 1);
+    }
+    for (var i = 0; i < twoTradeArr[twoNav].receivePlayer.length; i++) {
+      activeRoster.push(twoTradeArr[twoNav].receivePlayer[i]);
+    }
+    if (twoTradeArr[twoNav].givePlayer.includes(ZachWilson)) {
+      deadCap += 17193099;
+    }
+    if (twoTradeArr[twoNav].givePlayer.includes(QuinnenWilliams)) {
+      deadCap += 5419431;
+    }
+    skipTrade();
+    // document.getElementById("tradePrompt").style.display = "block";
+    // document.getElementById("twoTrade").style.display = "none";
+    // document.getElementById("watsonTrade").style.display = "none";
+    // document.getElementById("wilsonTrade").style.display = "none";
+    // document.getElementById("twoTradeOffers").style.display = "none";
   }
 }
 
@@ -1476,6 +1490,7 @@ function doneFA() {
   document.getElementById("trans4").style.display = "block";
     document.getElementById("draftStartScreen").style.display = "block";
     document.body.style.backgroundColor = "#27251f";
+    console.log(draftOrder);
 }
 
 function draftPressed() {
@@ -1772,6 +1787,9 @@ function generateSummary() {
     }
   } else {
     document.getElementById("cutHead").style.display = "none";
+    var root3 = document.getElementById("cutSection");
+    root3.classList.remove("col-6", "col-lg-3");
+    root3.classList.add("col-0");
   }
   var root = document.getElementById("tradedFor");
   while (root.firstChild) {
@@ -1793,6 +1811,9 @@ function generateSummary() {
     }
   } else {
     document.getElementById("tfHead").style.display = "none";
+    var root3 = document.getElementById("tradedForSection");
+    root3.classList.remove("col-6", "col-lg-3");
+    root3.classList.add("col-0");
   }
   var root2 = document.getElementById("tradedAway");
   while (root2.firstChild) {
@@ -1814,6 +1835,9 @@ function generateSummary() {
     }
   } else {
     document.getElementById("taHead").style.display = "none";
+    var root3 = document.getElementById("tradedAwaySection");
+    root3.classList.remove("col-6", "col-lg-3");
+    root3.classList.add("col-0");
   }
   var root3 = document.getElementById("signed");
   while (root3.firstChild) {
@@ -1835,6 +1859,9 @@ function generateSummary() {
     }
   } else{
     document.getElementById("sHead").style.display = "none";
+    var root3 = document.getElementById("signedSection");
+    root3.classList.remove("col-6", "col-lg-3");
+    root3.classList.add("col-0");
   }
   var root4 = document.getElementById("drafted");
   while (root4.firstChild) {
@@ -1880,7 +1907,7 @@ function showDraft() {
        if (i == showAmount - 1) {
           document.getElementById("showDraft").style.display = "none";
        } else {
-         console.log(draftSummary);
+         // console.log(draftSummary);
          document.getElementById("showLogo").setAttribute("src", draftSummary[i][0].logo);
          document.getElementById("showPick").innerHTML = draftSummary[i][1].pos + " - " + draftSummary[i][1].name;
        }
@@ -1986,14 +2013,8 @@ function getPick(team) {
       // console.log(index2);
       // var pick = draftPlayers[index2];
     }
-    else if (draftSummary.length < 3 && draftPlayers.includes(ZachWilson)) {
-      var pick = ZachWilson;
-    }
     else {
-      if (draftSummary.length < 3) {
-        possiblePicks = [qb];
-      }
-      else if (draftSummary.length < 15 && team.needs.includes("QB")) {
+      if (draftSummary.length < 15 && team.needs.includes("QB")) {
         possiblePicks.push(qb);
         possiblePicks.push(qb);
         possiblePicks.push(qb);
