@@ -335,7 +335,30 @@ function generateTwoOffers(num) {
   }
   row.appendChild(col1);
   row.appendChild(col2);
+
+  var row2 = document.createElement("div");
+  row2.classList.add("row", "text-center");
+  row2.style.borderTop = "1px solid black";
+
+  var col12 = document.createElement("div");
+  col12.classList.add("col-12");
+
+  var p = document.createElement("p");
+  p.fontSize = "20px !important";
+
+  if (getCapRamis() < 0) {
+    p.innerHTML = "Cap Space Change: " + addCommas(getCapRamis());
+    p.style.color ="#ffa2a2";
+  } else {
+    p.innerHTML = "Cap Space Change: +" + addCommas(getCapRamis());
+  }
+
+
+  col12.appendChild(p);
+  row2.appendChild(col12);
+
   root.appendChild(row);
+  root.appendChild(row2);
 
 
 
@@ -344,6 +367,7 @@ function generateTwoOffers(num) {
 function twoRight() {
   twoNav++;
   generateTwoOffers(twoNav);
+  console.log(getCapRamis());
 }
 
 function twoLeft() {
@@ -464,6 +488,36 @@ function finishTrade(type) {
     // document.getElementById("wilsonTrade").style.display = "none";
     // document.getElementById("twoTradeOffers").style.display = "none";
   }
+}
+
+function getCapRamis() {
+  var tempCapRoom = getCapRoom();
+  var tempUpdateCapRoom = getCapRoom();
+  for (var i = 0; i < twoTradeArr[twoNav].receivePlayer.length; i++) {
+    tempUpdateCapRoom -= twoTradeArr[twoNav].receivePlayer[i].salary;
+  }
+  for (var i = 0; i < twoTradeArr[twoNav].givePlayer.length; i++) {
+    tempUpdateCapRoom += twoTradeArr[twoNav].givePlayer[i].salary;
+  }
+  if (twoTradeArr[twoNav].givePlayer.includes(ZachWilson)) {
+    tempUpdateCapRoom -= 17193099;
+  }
+  if (twoTradeArr[twoNav].givePlayer.includes(QuinnenWilliams)) {
+    tempUpdateCapRoom -= 5419431;
+  }
+  if (twoTradeArr[twoNav].givePlayer.includes(CoreyDavis)) {
+    tempUpdateCapRoom -= 1333334;
+  }
+  if (twoTradeArr[twoNav].givePlayer.includes(GeorgeFant)) {
+    tempUpdateCapRoom -= 1000000;
+  }
+  if (twoTradeArr[twoNav].givePlayer.includes(MekhiBecton)) {
+    tempUpdateCapRoom -= 5487654;
+  }
+  if (twoTradeArr[twoNav].givePlayer.includes(DenzelMims)) {
+    tempUpdateCapRoom -= 755892;
+  }
+  return tempUpdateCapRoom - tempCapRoom;
 }
 
 function acceptTwoOffer() {
@@ -1308,6 +1362,16 @@ function generateDraftPool(kind) {
       }
       amount = tempArray.length;
     }
+    else if (kind === "FB") {
+       var count = 0;
+       while (tempArray.length < amount && draftPlayers[count + 1] != null) {
+         if (draftPlayers[count].pos === "FB") {
+           tempArray.push(draftPlayers[count]);
+         }
+         count++;
+       }
+       amount = tempArray.length;
+     }
     else if (kind === "WR") {
        var count = 0;
        while (tempArray.length < amount && draftPlayers[count + 1] != null) {
@@ -1328,26 +1392,46 @@ function generateDraftPool(kind) {
         }
         amount = tempArray.length;
       }
-      else if (kind === "OL") {
+      else if (kind === "OT") {
          var count = 0;
          while (tempArray.length < amount && draftPlayers[count + 1] != null) {
-           if (draftPlayers[count].pos === "IOL" || draftPlayers[count].pos === "OT") {
+           if (draftPlayers[count].pos === "OT") {
              tempArray.push(draftPlayers[count]);
            }
            count++;
          }
          amount = tempArray.length;
        }
-       else if (kind === "DL") {
+       else if (kind === "IOL") {
           var count = 0;
           while (tempArray.length < amount && draftPlayers[count + 1] != null) {
-            if (draftPlayers[count].pos === "EDGE" || draftPlayers[count].pos === "IDL") {
+            if (draftPlayers[count].pos === "IOL") {
               tempArray.push(draftPlayers[count]);
             }
             count++;
           }
           amount = tempArray.length;
         }
+       else if (kind === "IDL") {
+          var count = 0;
+          while (tempArray.length < amount && draftPlayers[count + 1] != null) {
+            if (draftPlayers[count].pos === "IDL") {
+              tempArray.push(draftPlayers[count]);
+            }
+            count++;
+          }
+          amount = tempArray.length;
+        }
+        else if (kind === "EDGE") {
+           var count = 0;
+           while (tempArray.length < amount && draftPlayers[count + 1] != null) {
+             if (draftPlayers[count].pos === "EDGE") {
+               tempArray.push(draftPlayers[count]);
+             }
+             count++;
+           }
+           amount = tempArray.length;
+         }
         else if (kind === "LB") {
            var count = 0;
            while (tempArray.length < amount && draftPlayers[count + 1] != null) {
@@ -1494,6 +1578,7 @@ function addCommas(num) {
 }
 
 function doneFA() {
+  document.getElementById("twoTradeOffers").style.display = "none";
   document.getElementById("faCont").style.display = "none";
   document.getElementById("green").style.display = "block";
       document.getElementById("trans2").style.display = "none";
@@ -2133,36 +2218,26 @@ function generateBroadFA(kind) {
       //    }
       //    amount = tempArray.length;
       //  }
-      else if (kind === "T") {
+      else if (kind === "OT") {
          var count = 0;
          while (count < amount) {
-           if (broadFA[count].pos === "IOL" || broadFA[count].pos === "T") {
+           if (broadFA[count].pos === "OT") {
              tempArray.push(broadFA[count]);
            }
            count++;
          }
          amount = tempArray.length;
        }
-       else if (kind === "G") {
+       else if (kind === "IOL") {
           var count = 0;
           while (count < amount) {
-            if (broadFA[count].pos === "IOL" || broadFA[count].pos === "G") {
+            if (broadFA[count].pos === "IOL") {
               tempArray.push(broadFA[count]);
             }
             count++;
           }
           amount = tempArray.length;
         }
-        else if (kind === "C") {
-           var count = 0;
-           while (count < amount) {
-             if (broadFA[count].pos === "IOL" || broadFA[count].pos === "C") {
-               tempArray.push(broadFA[count]);
-             }
-             count++;
-           }
-           amount = tempArray.length;
-         }
        else if (kind === "IDL") {
           var count = 0;
           while (count < amount) {
@@ -2222,7 +2297,17 @@ function generateBroadFA(kind) {
                 count++;
               }
               amount = tempArray.length;
-            }else {
+            }
+            else if (kind === "P") {
+               var count = 0;
+               while (count < amount) {
+                 if (broadFA[count].pos === "P") {
+                   tempArray.push(broadFA[count]);
+                 }
+                 count++;
+               }
+               amount = tempArray.length;
+             }else {
     tempArray = broadFA;
   }
 

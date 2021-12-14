@@ -10,7 +10,7 @@ img: ''
 };
 var BrandonScherff = {
 name: 'Brandon Scherff',
-pos: 'G',
+pos: 'IOL',
 age: '29.8',
 type: 'UFA',
 cYears: 5,
@@ -90,7 +90,7 @@ img: ''
 };
 var CamRobinson = {
 name: 'Cam Robinson',
-pos: 'T',
+pos: 'OT',
 age: '26.1',
 type: 'UFA',
 cYears: 4,
@@ -110,7 +110,7 @@ img: ''
 };
 var TerronArmstead = {
 name: 'Terron Armstead',
-pos: 'T',
+pos: 'OT',
 age: '30.3',
 type: 'UFA',
 cYears: 4,
@@ -170,7 +170,7 @@ img: ''
 };
 var DuaneBrown = {
 name: 'Duane Brown',
-pos: 'T',
+pos: 'OT',
 age: '36.2',
 type: 'UFA',
 cYears: 1,
@@ -240,7 +240,7 @@ img: ''
 };
 var RyanJensen = {
 name: 'Ryan Jensen',
-pos: 'C',
+pos: 'IOL',
 age: '30.4',
 type: 'UFA',
 cYears: 2,
@@ -280,7 +280,7 @@ img: ''
 };
 var MattParadis = {
 name: 'Matt Paradis',
-pos: 'C',
+pos: 'IOL',
 age: '32.1',
 type: 'UFA',
 cYears: 2,
@@ -310,7 +310,7 @@ img: ''
 };
 var TrentonBrown = {
 name: 'Trenton Brown',
-pos: 'T',
+pos: 'OT',
 age: '28.6',
 type: 'UFA',
 cYears: 2,
@@ -320,7 +320,7 @@ img: ''
 };
 var JasonKelce = {
 name: 'Jason Kelce',
-pos: 'C',
+pos: 'IOL',
 age: '34.0',
 type: 'UFA',
 cYears: 1,
@@ -390,7 +390,7 @@ img: ''
 };
 var LaurentDuvernayTardif = {
 name: 'Laurent Duvernay-Tardif',
-pos: 'G',
+pos: 'IOL',
 age: '30.8',
 type: 'UFA',
 cYears: 0,
@@ -400,7 +400,7 @@ img: ''
 };
 var EricFisher = {
 name: 'Eric Fisher',
-pos: 'T',
+pos: 'OT',
 age: '30.8',
 type: 'UFA',
 cYears: 2,
@@ -510,7 +510,7 @@ img: ''
 };
 var RileyReiff = {
 name: 'Riley Reiff',
-pos: 'T',
+pos: 'OT',
 age: '32.9',
 type: 'UFA',
 cYears: 1,
@@ -520,7 +520,7 @@ img: ''
 };
 var ChrisHubbard = {
 name: 'Chris Hubbard',
-pos: 'T',
+pos: 'OT',
 age: '30.6',
 type: 'UFA',
 cYears: 2,
@@ -530,7 +530,7 @@ img: ''
 };
 var BenJones = {
 name: 'Ben Jones',
-pos: 'C',
+pos: 'IOL',
 age: '32.3',
 type: 'UFA',
 cYears: 1,
@@ -560,7 +560,7 @@ img: ''
 };
 var AlexLewis = {
 name: 'Alex Lewis',
-pos: 'G',
+pos: 'IOL',
 age: '29.6',
 type: 'UFA',
 cYears: 1,
@@ -650,7 +650,7 @@ img: ''
 };
 var LakenTomlinson = {
 name: 'Laken Tomlinson',
-pos: 'G',
+pos: 'IOL',
 age: '29.8',
 type: 'UFA',
 cYears: 3,
@@ -730,7 +730,7 @@ img: ''
 };
 var MarkGlowinski = {
 name: 'Mark Glowinski',
-pos: 'G',
+pos: 'IOL',
 age: '29.5',
 type: 'UFA',
 cYears: 3,
@@ -750,7 +750,7 @@ img: ''
 };
 var AJCann = {
 name: 'A.J. Cann',
-pos: 'G',
+pos: 'IOL',
 age: '30.1',
 type: 'UFA',
 cYears: 0,
@@ -860,7 +860,7 @@ img: ''
 };
 var BrandonShell = {
 name: 'Brandon Shell',
-pos: 'T',
+pos: 'OT',
 age: '29.8',
 type: 'UFA',
 cYears: 0,
@@ -920,7 +920,7 @@ img: ''
 };
 var GermainIfedi = {
 name: 'Germain Ifedi',
-pos: 'T',
+pos: 'OT',
 age: '27.4',
 type: 'UFA',
 cYears: 0,
@@ -950,7 +950,7 @@ img: ''
 };
 var CharlesLeno = {
 name: 'Charles Leno',
-pos: 'T',
+pos: 'OT',
 age: '30.1',
 type: 'UFA',
 cYears: 1,
@@ -1020,7 +1020,7 @@ img: ''
 };
 var MorganMoses = {
 name: 'Morgan Moses',
-pos: 'T',
+pos: 'OT',
 age: '30.7',
 type: 'UFA',
 cYears: 0,
@@ -1040,7 +1040,7 @@ img: ''
 };
 var DanFeeney = {
 name: 'Dan Feeney',
-pos: 'G',
+pos: 'IOL',
 age: '27.4',
 type: 'UFA',
 cYears: 0,
@@ -1150,7 +1150,7 @@ img: ''
 };
 var MattGono = {
 name: 'Matt Gono',
-pos: 'T',
+pos: 'OT',
 age: '25.5',
 type: 'UFA',
 cYears: 0,
@@ -1220,7 +1220,7 @@ img: ''
 };
 var MikeRemmers = {
 name: 'Mike Remmers',
-pos: 'T',
+pos: 'OT',
 age: '32.6',
 type: 'UFA',
 cYears: 0,
@@ -1270,7 +1270,7 @@ img: ''
 };
 var JustinBritt = {
 name: 'Justin Britt',
-pos: 'C',
+pos: 'IOL',
 age: '30.4',
 type: 'UFA',
 cYears: 0,
@@ -1350,7 +1350,7 @@ img: ''
 };
 var TraiTurner = {
 name: 'Trai Turner',
-pos: 'G',
+pos: 'IOL',
 age: '28.4',
 type: 'UFA',
 cYears: 1,
@@ -1370,7 +1370,7 @@ img: ''
 };
 var TedKarras = {
 name: 'Ted Karras',
-pos: 'C',
+pos: 'IOL',
 age: '28.7',
 type: 'UFA',
 cYears: 0,
@@ -1410,7 +1410,7 @@ img: ''
 };
 var EthanPocic = {
 name: 'Ethan Pocic',
-pos: 'G',
+pos: 'IOL',
 age: '26.2',
 type: 'UFA',
 cYears: 0,
@@ -1450,7 +1450,7 @@ img: ''
 };
 var BillyPrice = {
 name: 'Billy Price',
-pos: 'G',
+pos: 'IOL',
 age: '27.1',
 type: 'UFA',
 cYears: 0,
@@ -1590,7 +1590,7 @@ img: ''
 };
 var SamTevi = {
 name: 'Sam Tevi',
-pos: 'T',
+pos: 'OT',
 age: '27.0',
 type: 'UFA',
 cYears: 0,
@@ -1690,7 +1690,7 @@ img: ''
 };
 var BobbyMassie = {
 name: 'Bobby Massie',
-pos: 'T',
+pos: 'OT',
 age: '32.2',
 type: 'UFA',
 cYears: 0,
@@ -1800,7 +1800,7 @@ img: ''
 };
 var RashodHill = {
 name: 'Rashod Hill',
-pos: 'G',
+pos: 'IOL',
 age: '29.8',
 type: 'UFA',
 cYears: 0,
@@ -1850,7 +1850,7 @@ img: ''
 };
 var IkeBoettger = {
 name: 'Ike Boettger',
-pos: 'G',
+pos: 'IOL',
 age: '27.1',
 type: 'UFA',
 cYears: 0,
@@ -1930,7 +1930,7 @@ img: ''
 };
 var RichieIncognito = {
 name: 'Richie Incognito',
-pos: 'G',
+pos: 'IOL',
 age: '38.3',
 type: 'UFA',
 cYears: 0,
@@ -2020,7 +2020,7 @@ img: ''
 };
 var TylerShatley = {
 name: 'Tyler Shatley',
-pos: 'C',
+pos: 'IOL',
 age: '30.5',
 type: 'UFA',
 cYears: 0,
@@ -2070,7 +2070,7 @@ img: ''
 };
 var CorneliusLucas = {
 name: 'Cornelius Lucas',
-pos: 'T',
+pos: 'OT',
 age: '30.3',
 type: 'UFA',
 cYears: 0,
@@ -2080,7 +2080,7 @@ img: ''
 };
 var AustinCorbett = {
 name: 'Austin Corbett',
-pos: 'G',
+pos: 'IOL',
 age: '26.2',
 type: 'UFA',
 cYears: 4,
@@ -2090,7 +2090,7 @@ img: ''
 };
 var WillHernandez = {
 name: 'Will Hernandez',
-pos: 'G',
+pos: 'IOL',
 age: '26.2',
 type: 'UFA',
 cYears: 0,
@@ -2190,7 +2190,7 @@ img: ''
 };
 var TyNsekhe = {
 name: 'Ty Nsekhe',
-pos: 'T',
+pos: 'OT',
 age: '36.0',
 type: 'UFA',
 cYears: 0,
@@ -2270,7 +2270,7 @@ img: ''
 };
 var JasonPeters = {
 name: 'Jason Peters',
-pos: 'T',
+pos: 'OT',
 age: '39.8',
 type: 'UFA',
 cYears: 0,
@@ -2293,8 +2293,8 @@ name: 'Pat O\'Donnell',
 pos: 'P',
 age: '30.8',
 type: 'UFA',
-cYears: 0,
-cTotal: 0,
+cYears: 1,
+cTotal: 1.75,
 interest: 40,
 img: ''
 };
@@ -2310,7 +2310,7 @@ img: ''
 };
 var JamesDaniels = {
 name: 'James Daniels',
-pos: 'G',
+pos: 'IOL',
 age: '24.2',
 type: 'UFA',
 cYears: 0,
@@ -2360,7 +2360,7 @@ img: ''
 };
 var TrentonScott = {
 name: 'Trenton Scott',
-pos: 'G',
+pos: 'IOL',
 age: '27.8',
 type: 'UFA',
 cYears: 0,
@@ -2373,8 +2373,8 @@ name: 'Kevin Huber',
 pos: 'P',
 age: '36.3',
 type: 'UFA',
-cYears: 0,
-cTotal: 0,
+cYears: 1,
+cTotal: 1.63,
 interest: 40,
 img: ''
 };
@@ -2420,7 +2420,7 @@ img: ''
 };
 var OdayAboushi = {
 name: 'Oday Aboushi',
-pos: 'T',
+pos: 'OT',
 age: '30.4',
 type: 'UFA',
 cYears: 0,
@@ -2510,7 +2510,7 @@ img: ''
 };
 var KyleLong = {
 name: 'Kyle Long',
-pos: 'G',
+pos: 'IOL',
 age: '32.9',
 type: 'UFA',
 cYears: 0,
@@ -2573,8 +2573,8 @@ name: 'Andy Lee',
 pos: 'P',
 age: '39.2',
 type: 'UFA',
-cYears: 0,
-cTotal: 0,
+cYears: 1,
+cTotal: 1.5,
 interest: 40,
 img: ''
 };
@@ -2600,7 +2600,7 @@ img: ''
 };
 var LucasPatrick = {
 name: 'Lucas Patrick',
-pos: 'G',
+pos: 'IOL',
 age: '28.2',
 type: 'UFA',
 cYears: 0,
@@ -2643,8 +2643,8 @@ name: 'Michael Palardy',
 pos: 'P',
 age: '29.3',
 type: 'UFA',
-cYears: 0,
-cTotal: 0,
+cYears: 1,
+cTotal: 1.4,
 interest: 40,
 img: ''
 };
@@ -2660,7 +2660,7 @@ img: ''
 };
 var ConnorWilliams = {
 name: 'Connor Williams',
-pos: 'G',
+pos: 'IOL',
 age: '24.5',
 type: 'UFA',
 cYears: 4,
@@ -2680,7 +2680,7 @@ img: ''
 };
 var ConorMcDermott = {
 name: 'Conor McDermott',
-pos: 'T',
+pos: 'OT',
 age: '29.1',
 type: 'UFA',
 cYears: 0,
@@ -2700,7 +2700,7 @@ img: ''
 };
 var DennisKelly = {
 name: 'Dennis Kelly',
-pos: 'T',
+pos: 'OT',
 age: '31.8',
 type: 'UFA',
 cYears: 0,
@@ -2750,7 +2750,7 @@ img: ''
 };
 var NickMartin = {
 name: 'Nick Martin',
-pos: 'C',
+pos: 'IOL',
 age: '28.2',
 type: 'UFA',
 cYears: 0,
@@ -2780,7 +2780,7 @@ img: ''
 };
 var AaronStinnie = {
 name: 'Aaron Stinnie',
-pos: 'G',
+pos: 'IOL',
 age: '27.8',
 type: 'UFA',
 cYears: 0,
@@ -3120,7 +3120,7 @@ img: ''
 };
 var JoshWells = {
 name: 'Josh Wells',
-pos: 'T',
+pos: 'OT',
 age: '30.8',
 type: 'UFA',
 cYears: 0,
@@ -3140,7 +3140,7 @@ img: ''
 };
 var JulienDavenport = {
 name: 'Julie\'n Davenport',
-pos: 'T',
+pos: 'OT',
 age: '26.8',
 type: 'UFA',
 cYears: 0,
@@ -3190,7 +3190,7 @@ img: ''
 };
 var JoshAndrews = {
 name: 'Josh Andrews',
-pos: 'C',
+pos: 'IOL',
 age: '30.4',
 type: 'UFA',
 cYears: 0,
@@ -3220,7 +3220,7 @@ img: ''
 };
 var ChrisReed = {
 name: 'Chris Reed',
-pos: 'G',
+pos: 'IOL',
 age: '29.3',
 type: 'UFA',
 cYears: 0,
@@ -3330,7 +3330,7 @@ img: ''
 };
 var ElijahWilkinson = {
 name: 'Elijah Wilkinson',
-pos: 'G',
+pos: 'IOL',
 age: '26.8',
 type: 'UFA',
 cYears: 0,
@@ -3370,7 +3370,7 @@ img: ''
 };
 var MaxGarcia = {
 name: 'Max Garcia',
-pos: 'G',
+pos: 'IOL',
 age: '30.0',
 type: 'UFA',
 cYears: 0,
@@ -3400,7 +3400,7 @@ img: ''
 };
 var JohnMiller = {
 name: 'John Miller',
-pos: 'G',
+pos: 'IOL',
 age: '28.2',
 type: 'UFA',
 cYears: 0,
@@ -3430,7 +3430,7 @@ img: ''
 };
 var QuintonSpain = {
 name: 'Quinton Spain',
-pos: 'G',
+pos: 'IOL',
 age: '30.2',
 type: 'UFA',
 cYears: 0,
@@ -3583,8 +3583,8 @@ name: 'Elijhaa Penny',
 pos: 'FB',
 age: '28.2',
 type: 'UFA',
-cYears: 0,
-cTotal: 0,
+cYears: 2,
+cTotal: 2.2,
 interest: 40,
 img: ''
 };
@@ -3630,7 +3630,7 @@ img: ''
 };
 var CameronFleming = {
 name: 'Cameron Fleming',
-pos: 'T',
+pos: 'OT',
 age: '29.2',
 type: 'UFA',
 cYears: 0,
@@ -3750,7 +3750,7 @@ img: ''
 };
 var TomCompton = {
 name: 'Tom Compton',
-pos: 'G',
+pos: 'IOL',
 age: '32.5',
 type: 'UFA',
 cYears: 0,
@@ -3780,7 +3780,7 @@ img: ''
 };
 var MichaelSchofield = {
 name: 'Michael Schofield',
-pos: 'G',
+pos: 'IOL',
 age: '31.0',
 type: 'UFA',
 cYears: 0,
@@ -3920,7 +3920,7 @@ img: ''
 };
 var SenioKelemete = {
 name: 'Senio Kelemete',
-pos: 'G',
+pos: 'IOL',
 age: '31.5',
 type: 'UFA',
 cYears: 0,
@@ -4030,7 +4030,7 @@ img: ''
 };
 var TylerLarsen = {
 name: 'Tyler Larsen',
-pos: 'C',
+pos: 'IOL',
 age: '30.3',
 type: 'UFA',
 cYears: 0,
@@ -4070,7 +4070,7 @@ img: ''
 };
 var BrandonParker = {
 name: 'Brandon Parker',
-pos: 'T',
+pos: 'OT',
 age: '26.1',
 type: 'UFA',
 cYears: 0,
@@ -4170,7 +4170,7 @@ img: ''
 };
 var AustinBlythe = {
 name: 'Austin Blythe',
-pos: 'G',
+pos: 'IOL',
 age: '29.4',
 type: 'UFA',
 cYears: 0,
@@ -4190,7 +4190,7 @@ img: ''
 };
 var JermaineEluemunor = {
 name: 'Jermaine Eluemunor',
-pos: 'G',
+pos: 'IOL',
 age: '26.9',
 type: 'UFA',
 cYears: 0,
@@ -4280,7 +4280,7 @@ img: ''
 };
 var BJFinney = {
 name: 'B.J. Finney',
-pos: 'C',
+pos: 'IOL',
 age: '30.0',
 type: 'UFA',
 cYears: 0,
@@ -4403,8 +4403,8 @@ name: 'Michael Burton',
 pos: 'FB',
 age: '29.8',
 type: 'UFA',
-cYears: 0,
-cTotal: 0,
+cYears: 1,
+cTotal: 1,
 interest: 40,
 img: ''
 };
@@ -4430,7 +4430,7 @@ img: ''
 };
 var JasonSpriggs = {
 name: 'Jason Spriggs',
-pos: 'T',
+pos: 'OT',
 age: '27.5',
 type: 'UFA',
 cYears: 0,
@@ -4550,7 +4550,7 @@ img: ''
 };
 var AustinReiter = {
 name: 'Austin Reiter',
-pos: 'C',
+pos: 'IOL',
 age: '29.9',
 type: 'UFA',
 cYears: 0,
@@ -4570,7 +4570,7 @@ img: ''
 };
 var GregMancz = {
 name: 'Greg Mancz',
-pos: 'C',
+pos: 'IOL',
 age: '29.6',
 type: 'UFA',
 cYears: 0,
@@ -4630,7 +4630,7 @@ img: ''
 };
 var BrettJones = {
 name: 'Brett Jones',
-pos: 'C',
+pos: 'IOL',
 age: '30.2',
 type: 'UFA',
 cYears: 0,
@@ -4720,7 +4720,7 @@ img: ''
 };
 var GeronChristian = {
 name: 'Geron Christian',
-pos: 'T',
+pos: 'OT',
 age: '25.2',
 type: 'UFA',
 cYears: 0,
@@ -4750,7 +4750,7 @@ img: ''
 };
 var EvanBrown = {
 name: 'Evan Brown',
-pos: 'C',
+pos: 'IOL',
 age: '25.2',
 type: 'UFA',
 cYears: 0,
@@ -4850,7 +4850,7 @@ img: ''
 };
 var KyleFuller = {
 name: 'Kyle Fuller',
-pos: 'C',
+pos: 'IOL',
 age: '27.7',
 type: 'UFA',
 cYears: 1,
@@ -4890,7 +4890,7 @@ img: ''
 };
 var AndrewWylie = {
 name: 'Andrew Wylie',
-pos: 'T',
+pos: 'OT',
 age: '27.2',
 type: 'UFA',
 cYears: 0,
@@ -4913,8 +4913,8 @@ name: 'Jason Cabinda',
 pos: 'FB',
 age: '25.7',
 type: 'UFA',
-cYears: 0,
-cTotal: 0,
+cYears: 1,
+cTotal: .92,
 interest: 40,
 img: ''
 };
@@ -4940,7 +4940,7 @@ img: ''
 };
 var WillHolden = {
 name: 'Will Holden',
-pos: 'G',
+pos: 'IOL',
 age: '28.2',
 type: 'UFA',
 cYears: 0,
@@ -5030,7 +5030,7 @@ img: ''
 };
 var KoreyCunningham = {
 name: 'Korey Cunningham',
-pos: 'T',
+pos: 'OT',
 age: '26.5',
 type: 'UFA',
 cYears: 0,
@@ -5120,7 +5120,7 @@ img: ''
 };
 var OrlandoBrownJr = {
 name: 'Orlando Brown Jr.',
-pos: 'T',
+pos: 'OT',
 age: '25.5',
 type: 'UFA',
 cYears: 4,
@@ -5140,7 +5140,7 @@ img: ''
 };
 var JosephNoteboom = {
 name: 'Joseph Noteboom',
-pos: 'T',
+pos: 'OT',
 age: '26.4',
 type: 'UFA',
 cYears: 0,
@@ -5170,7 +5170,7 @@ img: ''
 };
 var ChuksOkorafor = {
 name: 'Chuks Okorafor',
-pos: 'T',
+pos: 'OT',
 age: '24.2',
 type: 'UFA',
 cYears: 0,
@@ -5320,7 +5320,7 @@ img: ''
 };
 var AlexBars = {
 name: 'Alex Bars',
-pos: 'G',
+pos: 'IOL',
 age: '26.2',
 type: 'RFA',
 cYears: 0,
@@ -5400,7 +5400,7 @@ img: ''
 };
 var DanielBrunskill = {
 name: 'Daniel Brunskill',
-pos: 'T',
+pos: 'OT',
 age: '27.8',
 type: 'RFA',
 cYears: 0,
@@ -5430,7 +5430,7 @@ img: ''
 };
 var ColemanShelton = {
 name: 'Coleman Shelton',
-pos: 'C',
+pos: 'IOL',
 age: '26.2',
 type: 'RFA',
 cYears: 0,
@@ -5440,7 +5440,7 @@ img: ''
 };
 var JordanSimmons = {
 name: 'Jordan Simmons',
-pos: 'G',
+pos: 'IOL',
 age: '27.3',
 type: 'RFA',
 cYears: 0,
@@ -5590,7 +5590,7 @@ img: ''
 };
 var AlexCappa = {
 name: 'Alex Cappa',
-pos: 'T',
+pos: 'OT',
 age: '26.8',
 type: 'UFA',
 cYears: 0,
@@ -5670,7 +5670,7 @@ img: ''
 };
 var MasonCole = {
 name: 'Mason Cole',
-pos: 'C',
+pos: 'IOL',
 age: '25.6',
 type: 'UFA',
 cYears: 0,
@@ -5700,7 +5700,7 @@ img: ''
 };
 var JakeBrendel = {
 name: 'Jake Brendel',
-pos: 'C',
+pos: 'IOL',
 age: '29.2',
 type: 'RFA',
 cYears: 0,
@@ -5760,7 +5760,7 @@ img: ''
 };
 var BrianAllen = {
 name: 'Brian Allen',
-pos: 'C',
+pos: 'IOL',
 age: '28.1',
 type: 'UFA',
 cYears: 1,
@@ -5900,7 +5900,7 @@ img: ''
 };
 var TrystanColonCastillo = {
 name: 'Trystan Colon-Castillo',
-pos: 'C',
+pos: 'IOL',
 age: '23.7',
 type: 'ERFA',
 cYears: 0,
@@ -5960,7 +5960,7 @@ img: ''
 };
 var JCHassenauer = {
 name: 'J.C. Hassenauer',
-pos: 'C',
+pos: 'IOL',
 age: '27.2',
 type: 'ERFA',
 cYears: 0,
@@ -5970,7 +5970,7 @@ img: ''
 };
 var MattNelson = {
 name: 'Matt Nelson',
-pos: 'T',
+pos: 'OT',
 age: '25.9',
 type: 'ERFA',
 cYears: 0,
@@ -6030,7 +6030,7 @@ img: ''
 };
 var HjalteFroholdt = {
 name: 'Hjalte Froholdt',
-pos: 'G',
+pos: 'IOL',
 age: '25.2',
 type: 'ERFA',
 cYears: 0,
@@ -6040,7 +6040,7 @@ img: ''
 };
 var IsaiahWilliams = {
 name: 'Isaiah Williams',
-pos: 'G',
+pos: 'IOL',
 age: '28.5',
 type: 'ERFA',
 cYears: 0,
@@ -6090,7 +6090,7 @@ img: ''
 };
 var NajeeToran = {
 name: 'Najee Toran',
-pos: 'T',
+pos: 'OT',
 age: '26.0',
 type: 'ERFA',
 cYears: 0,
@@ -6170,7 +6170,7 @@ img: ''
 };
 var WillRichardson = {
 name: 'Will Richardson',
-pos: 'T',
+pos: 'OT',
 age: '25.8',
 type: 'UFA',
 cYears: 0,
@@ -6230,7 +6230,7 @@ img: ''
 };
 var DavidQuessenberry = {
 name: 'David Quessenberry',
-pos: 'G',
+pos: 'IOL',
 age: '31.2',
 type: 'UFA',
 cYears: 0,
@@ -6250,7 +6250,7 @@ img: ''
 };
 var StormNorton = {
 name: 'Storm Norton',
-pos: 'G',
+pos: 'IOL',
 age: '27.5',
 type: 'RFA',
 cYears: 0,
@@ -6260,7 +6260,7 @@ img: ''
 };
 var IosuaOpeta = {
 name: 'Iosua Opeta',
-pos: 'G',
+pos: 'IOL',
 age: '25.2',
 type: 'ERFA',
 cYears: 0,
@@ -6310,7 +6310,7 @@ img: ''
 };
 var BlakeBrandel = {
 name: 'Blake Brandel',
-pos: 'T',
+pos: 'OT',
 age: '24.8',
 type: 'ERFA',
 cYears: 0,
@@ -6370,7 +6370,7 @@ img: ''
 };
 var SamMustipher = {
 name: 'Sam Mustipher',
-pos: 'C',
+pos: 'IOL',
 age: '25.2',
 type: 'ERFA',
 cYears: 0,
@@ -6410,7 +6410,7 @@ img: ''
 };
 var LachaviousSimmons = {
 name: 'Lachavious Simmons',
-pos: 'T',
+pos: 'OT',
 age: '25.2',
 type: 'ERFA',
 cYears: 0,
@@ -6640,7 +6640,7 @@ img: ''
 };
 var KyleMurphy = {
 name: 'Kyle Murphy',
-pos: 'G',
+pos: 'IOL',
 age: '23.5',
 type: 'ERFA',
 cYears: 0,
@@ -6720,7 +6720,7 @@ img: ''
 };
 var TyrellCrosby = {
 name: 'Tyrell Crosby',
-pos: 'T',
+pos: 'OT',
 age: '26.2',
 type: 'UFA',
 cYears: 0,
@@ -6740,7 +6740,7 @@ img: ''
 };
 var ScottQuessenberry = {
 name: 'Scott Quessenberry',
-pos: 'C',
+pos: 'IOL',
 age: '26.7',
 type: 'UFA',
 cYears: 0,
@@ -6790,7 +6790,7 @@ img: ''
 };
 var JamarcoJones = {
 name: 'Jamarco Jones',
-pos: 'T',
+pos: 'OT',
 age: '25.4',
 type: 'UFA',
 cYears: 0,
@@ -6830,7 +6830,7 @@ img: ''
 };
 var MichaelDunn = {
 name: 'Michael Dunn',
-pos: 'T',
+pos: 'OT',
 age: '27.2',
 type: 'ERFA',
 cYears: 0,
@@ -6840,7 +6840,7 @@ img: ''
 };
 var BlakeHance = {
 name: 'Blake Hance',
-pos: 'T',
+pos: 'OT',
 age: '25.8',
 type: 'ERFA',
 cYears: 0,
@@ -6970,7 +6970,7 @@ img: ''
 };
 var DakodaShepley = {
 name: 'Dakoda Shepley',
-pos: 'G',
+pos: 'IOL',
 age: '26.8',
 type: 'ERFA',
 cYears: 0,
@@ -7020,7 +7020,7 @@ img: ''
 };
 var JackAnderson = {
 name: 'Jack Anderson',
-pos: 'G',
+pos: 'IOL',
 age: '23.1',
 type: 'ERFA',
 cYears: 0,
@@ -7130,7 +7130,7 @@ img: ''
 };
 var PrinceTegaWanogho = {
 name: 'Prince Tega Wanogho',
-pos: 'T',
+pos: 'OT',
 age: '24.0',
 type: 'ERFA',
 cYears: 0,
@@ -7160,7 +7160,7 @@ img: ''
 };
 var JimmyMorrissey = {
 name: 'Jimmy Morrissey',
-pos: 'C',
+pos: 'IOL',
 age: '23.4',
 type: 'ERFA',
 cYears: 0,
@@ -7180,7 +7180,7 @@ img: ''
 };
 var DonellStanley = {
 name: 'Donell Stanley',
-pos: 'C',
+pos: 'IOL',
 age: '26.3',
 type: 'ERFA',
 cYears: 0,
@@ -7220,7 +7220,7 @@ img: ''
 };
 var CodyConway = {
 name: 'Cody Conway',
-pos: 'T',
+pos: 'OT',
 age: '25.3',
 type: 'ERFA',
 cYears: 0,
@@ -7300,7 +7300,7 @@ img: ''
 };
 var KamaalSeymour = {
 name: 'Kamaal Seymour',
-pos: 'G',
+pos: 'IOL',
 age: '25.5',
 type: 'ERFA',
 cYears: 0,
@@ -7380,7 +7380,7 @@ img: ''
 };
 var MattPryor = {
 name: 'Matt Pryor',
-pos: 'T',
+pos: 'OT',
 age: '26.9',
 type: 'UFA',
 cYears: 0,
@@ -7390,7 +7390,7 @@ img: ''
 };
 var BradleyBozeman = {
 name: 'Bradley Bozeman',
-pos: 'C',
+pos: 'IOL',
 age: '26.9',
 type: 'UFA',
 cYears: 3,
@@ -7450,7 +7450,7 @@ img: ''
 };
 var ColbyGossett = {
 name: 'Colby Gossett',
-pos: 'G',
+pos: 'IOL',
 age: '26.4',
 type: 'RFA',
 cYears: 0,
@@ -7600,7 +7600,7 @@ img: ''
 };
 var FredJohnson = {
 name: 'Fred Johnson',
-pos: 'G',
+pos: 'IOL',
 age: '24.4',
 type: 'RFA',
 cYears: 0,
@@ -7610,7 +7610,7 @@ img: ''
 };
 var NateHerbig = {
 name: 'Nate Herbig',
-pos: 'G',
+pos: 'IOL',
 age: '23.3',
 type: 'RFA',
 cYears: 0,
@@ -7680,7 +7680,7 @@ img: ''
 };
 var PatrickMekari = {
 name: 'Patrick Mekari',
-pos: 'G',
+pos: 'IOL',
 age: '24.2',
 type: 'RFA',
 cYears: 0,
@@ -7690,7 +7690,7 @@ img: ''
 };
 var EthanGreenidge = {
 name: 'Ethan Greenidge',
-pos: 'T',
+pos: 'OT',
 age: '24.2',
 type: 'RFA',
 cYears: 0,
@@ -7750,7 +7750,7 @@ img: ''
 };
 var BrandonKnight = {
 name: 'Brandon Knight',
-pos: 'G',
+pos: 'IOL',
 age: '24.6',
 type: 'RFA',
 cYears: 0,
@@ -7800,7 +7800,7 @@ img: ''
 };
 var RyanBates = {
 name: 'Ryan Bates',
-pos: 'G',
+pos: 'IOL',
 age: '24.8',
 type: 'RFA',
 cYears: 0,
@@ -7880,7 +7880,7 @@ img: ''
 };
 var CalvinAnderson = {
 name: 'Calvin Anderson',
-pos: 'T',
+pos: 'OT',
 age: '25.6',
 type: 'RFA',
 cYears: 0,
@@ -7900,7 +7900,7 @@ img: ''
 };
 var YoshNijman = {
 name: 'Yosh Nijman',
-pos: 'T',
+pos: 'OT',
 age: '25.8',
 type: 'RFA',
 cYears: 0,
@@ -7950,7 +7950,7 @@ img: ''
 };
 var MitchHyatt = {
 name: 'Mitch Hyatt',
-pos: 'T',
+pos: 'OT',
 age: '24.8',
 type: 'ERFA',
 cYears: 0,
@@ -7960,7 +7960,7 @@ img: ''
 };
 var MattKaskey = {
 name: 'Matt Kaskey',
-pos: 'T',
+pos: 'OT',
 age: '24.7',
 type: 'ERFA',
 cYears: 0,
@@ -7980,7 +7980,7 @@ img: ''
 };
 var JakeEldrenkamp = {
 name: 'Jake Eldrenkamp',
-pos: 'G',
+pos: 'IOL',
 age: '27.7',
 type: 'UFA',
 cYears: 0,
@@ -7990,7 +7990,7 @@ img: ''
 };
 var AdamRedmond = {
 name: 'Adam Redmond',
-pos: 'C',
+pos: 'IOL',
 age: '28.5',
 type: 'UFA',
 cYears: 0,
@@ -8040,7 +8040,7 @@ img: ''
 };
 var AveryGennesy = {
 name: 'Avery Gennesy',
-pos: 'G',
+pos: 'IOL',
 age: '27.8',
 type: 'UFA',
 cYears: 0,
@@ -8060,7 +8060,7 @@ img: ''
 };
 var MitchellSchwartz = {
 name: 'Mitchell Schwartz',
-pos: 'T',
+pos: 'OT',
 age: '32.4',
 type: 'UFA',
 cYears: 0,
@@ -8099,4 +8099,4 @@ interest: 40,
 img: ''
 };
 
-let allFA = [VonMiller, BrandonScherff, AllenRobinson, ChandlerJones, ChrisGodwin, DanteFowlerJr, DavanteAdams, BenRoethlisberger, TyrannMathieu, CamRobinson, BrandonGraham, TerronArmstead, StephonGilmore, CalaisCampbell, JasonPierrePaul, AkiemHicks, DevinMcCourty, DuaneBrown, JoeHaden, JerryHughes, WillFuller, MarcusWilliams, MarcusMaye, BrandonWilliams, RyanJensen, MarioAddison, RyanFitzpatrick, AndyDalton, MattParadis, KyleFuller, JamisonCrowder, TrentonBrown, JasonKelce, NdamukongSuh, DontaHightower, AnthonyBarr, LinvalJoseph, ChrisHarris, ZachErtz, LaurentDuvernayTardif, EricFisher, MelvinGordon, PatrickPeterson, NickFoles, TYHilton, JimmyGraham, JadeveonClowney, RobGronkowski, JuJuSmithSchuster, EmmanuelOgbah, VernonButler, RileyReiff, ChrisHubbard, BenJones, LarryOgunjobi, QuandreDiggs, AlexLewis, BryceCallahan, CJUzomah, CamNewton, EmmanuelSanders, EricEbron, GeraldEverett, AJGreen, HaasonReddick, LakenTomlinson, JarradDavis, WilliamGholston, KeelanCole, JarranReed, TyrodTaylor, JasonVerrett, JameisWinston, MarkGlowinski, JayonBrown, AJCann, SammyWatkins, JacobyBrissett, KareemJackson, DavidJohnson, MaliekCollins, NickWilliams, KevinKing, MikeWilliams, XavierRhodes, DariousWilliams, BrandonShell, JaredCook, NicholasMorrow, TeddyBridgewater, RodneyMcLeod, TakkaristMcKinley, GermainIfedi, DaQuanJones, JustonBurris, CharlesLeno, KeanuNeal, AnthonyHarris, AhkelloWitherspoon, MelvinIngram, MalikJackson, PatrickRicard, MorganMoses, SheldonRichardson, DanFeeney, JohnathanHankins, MarcusMariota, DJJones, MaxxWilliams, JalenRichard, JimmySmith, JoeFlacco, KJWright, DanielCarlson, DennisGardeck, MattGono, CharvariusWard, JCJackson, MoAlieCox, ZachPascal, AJJohnson, RobertTonyanJr, MikeRemmers, LeonardFournette, QuintonJefferson, SolomonThomas, DerekBarnett, JustinBritt, AntonioBrown, StevenNelson, AlbertWilson, AdrianPhillips, DesmondKing, CordarrellePatterson, AustinJohnson, TraiTurner, AnthonyFirkser, TedKarras, LaMarcusJoyner, BashaudBreeland, ChristianKirksey, EthanPocic, AnthonyWalkerJr, LeeSmith, LeightonVanderEsch, BillyPrice, AlQuadinMuhammad, RaheemMostert, RashaanEvans, OJHoward, HaydenHurst, EricWilson, RashaadPenny, EvanEngram, TerrellEdmunds, MatthewSlater, JabrillPeppers, JonBostic, TavenBryan, SamTevi, CaseyHayward, MitchellTrubisky, ZayJones, JihadWard, IsaacRochell, KamuGrugierHill, AlWoods, GeoffSwaim, TimBoyle, BobbyMassie, RyanKerrigan, StephenWeatherly, MikeHughes, JamesWhite, DanielSorensen, SonyMichel, DavidNjoku, RashardHiggins, KWaunWilliams, JalenReevesMaybin, RashodHill, JakeemGrant, PJWilliams, JustinColeman, CedrickWilson, IkeBoettger, ByronPringle, EzekielTurner, CamSims, GeorgeOdum, AJMoore, ChandonSullivan, JoshTupou, RichieIncognito, TravisCarrie, JustinHouston, JeffWilson, BlaineGabbert, MarlonMack, TreHerndon, DamienWilson, TylerKroft, TylerShatley, VernonHargreaves, DeVondreCampbell, DeSeanJackson, ElandonRoberts, CorneliusLucas, AustinCorbett, WillHernandez, BrandonBolden, BrandonKing, TashaunGipson, DannyAmendola, RonaldJonesII, JamesConner, BrentUrban, CharlesHarris, MalcolmBrown, TyNsekhe, AlexAnzalone, CarlosWatkins, XavierWoods, NickVigil, TerrenceBrooks, LeviWallace, TaiwanJones, JasonPeters, SidneyJones, PatODonnell, JoshReynolds, JamesDaniels, NevilleHewitt, HaroldLandry, ChrisBoard, MikeGesicki, TrentonScott, KevinHuber, JDMcKissic, ChadHenne, DarrylRoberts, LevineToilolo, OdayAboushi, DarrelWilliams, RossDwelley, ShamarStephen, BenNiemann, BrandonAllen, RyanSmith, KylerFackrell, ChrisConley, KyleLong, EfeObada, VincentTaylor, DeMarcusWalker, JoshNorman, RexBurkhead, AndyLee, DeonBush, RicardoAllen, LucasPatrick, BobbyMcCain, ChristianKirk, UchennaNwosu, MichaelPalardy, MikeGlennon, ConnorWilliams, ErikHarris, ConorMcDermott, RichardSherman, DennisKelly, KemokoTuray, VinnyCurry, NevinLawson, MJStewart, NickMartin, MauriceCanady, OdellBeckhamJr, AaronStinnie, TylerLancaster, TaeDavis, GeraldMcCoy, JessieBatesIII, ClarkHarris, JonWeeks, AJMcCarron, GiovaniBernard, GenoSmith, JasonMcCourty, SteveMcLendon, DuronHarmon, MarquiseGoodwin, ColtMcCoy, ChristianJones, NateEbner, JJJansen, MalcolmSmith, MorganCox, KevinMinter, JohnJenkins, JustinEllis, ChrisBanjo, DonteJackson, MarcellHarris, EliApple, MichaelFord, AdamHumphries, JesseJames, IsaiahOliver, MohamedSanu, KwonAlexander, DemarcusRobinson, JoshWells, JordanEvans, JulienDavenport, MackensieAlexander, CharlesWashington, DamontaeKazee, DannyShelton, JoshAndrews, JayronKearse, LJFort, ChrisReed, DamiereByrd, DedeWestbrook, NoahBrown, DwayneWashington, StevenMeans, ReggieRagland, PatrickScales, DukeRiley, BlakeBell, MilesKillebrew, ElijahWilkinson, AdamGotsis, DarrellDaniels, MackHollins, MaxGarcia, CoreyPeters, JaquiskiTartt, JohnMiller, FabianMoreau, IsaiahMcKenzie, QuintonSpain, KalifRaymond, TyMontgomery, BrennanScarlett, DeAndreHoustonCarson, MarcusJohnson, AlexArmah, JamesWashington, DamienWilliams, TavonWilson, NickDzubnar, DJChark, TremonSmith, TevinColeman, FrankieLuvu, ElijhaaPenny, HardyNickersonJr, NickFolk, MattGay, ZaneGonzalez, YounghoeKoo, DanielCarlson, NickFolk, DustinHopkins, RandyBullock, JoeySlye];
+let allFA = [VonMiller, BrandonScherff, AllenRobinson, ChandlerJones, ChrisGodwin, DanteFowlerJr, DavanteAdams, BenRoethlisberger, TyrannMathieu, CamRobinson, BrandonGraham, TerronArmstead, StephonGilmore, CalaisCampbell, JasonPierrePaul, AkiemHicks, DevinMcCourty, DuaneBrown, JoeHaden, JerryHughes, WillFuller, MarcusWilliams, MarcusMaye, BrandonWilliams, RyanJensen, MarioAddison, RyanFitzpatrick, AndyDalton, MattParadis, KyleFuller, JamisonCrowder, TrentonBrown, JasonKelce, NdamukongSuh, DontaHightower, AnthonyBarr, LinvalJoseph, ChrisHarris, ZachErtz, LaurentDuvernayTardif, EricFisher, MelvinGordon, PatrickPeterson, NickFoles, TYHilton, JimmyGraham, JadeveonClowney, RobGronkowski, JuJuSmithSchuster, EmmanuelOgbah, VernonButler, RileyReiff, ChrisHubbard, BenJones, LarryOgunjobi, QuandreDiggs, AlexLewis, BryceCallahan, CJUzomah, CamNewton, EmmanuelSanders, EricEbron, GeraldEverett, AJGreen, HaasonReddick, LakenTomlinson, JarradDavis, WilliamGholston, KeelanCole, JarranReed, TyrodTaylor, JasonVerrett, JameisWinston, MarkGlowinski, JayonBrown, AJCann, SammyWatkins, JacobyBrissett, KareemJackson, DavidJohnson, MaliekCollins, NickWilliams, KevinKing, MikeWilliams, XavierRhodes, DariousWilliams, BrandonShell, JaredCook, NicholasMorrow, TeddyBridgewater, RodneyMcLeod, TakkaristMcKinley, GermainIfedi, DaQuanJones, JustonBurris, CharlesLeno, KeanuNeal, AnthonyHarris, AhkelloWitherspoon, MelvinIngram, MalikJackson, PatrickRicard, MorganMoses, SheldonRichardson, DanFeeney, JohnathanHankins, MarcusMariota, DJJones, MaxxWilliams, JalenRichard, JimmySmith, JoeFlacco, KJWright, DanielCarlson, DennisGardeck, MattGono, CharvariusWard, JCJackson, MoAlieCox, ZachPascal, AJJohnson, RobertTonyanJr, MikeRemmers, LeonardFournette, QuintonJefferson, SolomonThomas, DerekBarnett, JustinBritt, AntonioBrown, StevenNelson, AlbertWilson, AdrianPhillips, DesmondKing, CordarrellePatterson, AustinJohnson, TraiTurner, AnthonyFirkser, TedKarras, LaMarcusJoyner, BashaudBreeland, ChristianKirksey, EthanPocic, AnthonyWalkerJr, LeeSmith, LeightonVanderEsch, BillyPrice, AlQuadinMuhammad, RaheemMostert, RashaanEvans, OJHoward, HaydenHurst, EricWilson, RashaadPenny, EvanEngram, TerrellEdmunds, MatthewSlater, JabrillPeppers, JonBostic, TavenBryan, SamTevi, CaseyHayward, MitchellTrubisky, ZayJones, JihadWard, IsaacRochell, KamuGrugierHill, AlWoods, GeoffSwaim, TimBoyle, BobbyMassie, RyanKerrigan, StephenWeatherly, MikeHughes, JamesWhite, DanielSorensen, SonyMichel, DavidNjoku, RashardHiggins, KWaunWilliams, JalenReevesMaybin, RashodHill, JakeemGrant, PJWilliams, JustinColeman, CedrickWilson, IkeBoettger, ByronPringle, EzekielTurner, CamSims, GeorgeOdum, AJMoore, ChandonSullivan, JoshTupou, RichieIncognito, TravisCarrie, JustinHouston, JeffWilson, BlaineGabbert, MarlonMack, TreHerndon, DamienWilson, TylerKroft, TylerShatley, VernonHargreaves, DeVondreCampbell, DeSeanJackson, ElandonRoberts, CorneliusLucas, AustinCorbett, WillHernandez, BrandonBolden, BrandonKing, TashaunGipson, DannyAmendola, RonaldJonesII, JamesConner, BrentUrban, CharlesHarris, MalcolmBrown, TyNsekhe, AlexAnzalone, CarlosWatkins, XavierWoods, NickVigil, TerrenceBrooks, LeviWallace, TaiwanJones, JasonPeters, SidneyJones, PatODonnell, JoshReynolds, JamesDaniels, NevilleHewitt, HaroldLandry, ChrisBoard, MikeGesicki, TrentonScott, KevinHuber, JDMcKissic, ChadHenne, DarrylRoberts, LevineToilolo, OdayAboushi, DarrelWilliams, RossDwelley, ShamarStephen, BenNiemann, BrandonAllen, RyanSmith, KylerFackrell, ChrisConley, KyleLong, EfeObada, VincentTaylor, DeMarcusWalker, JoshNorman, RexBurkhead, AndyLee, DeonBush, RicardoAllen, LucasPatrick, BobbyMcCain, ChristianKirk, UchennaNwosu, MichaelPalardy, MikeGlennon, ConnorWilliams, ErikHarris, ConorMcDermott, RichardSherman, DennisKelly, KemokoTuray, VinnyCurry, NevinLawson, MJStewart, NickMartin, MauriceCanady, OdellBeckhamJr, AaronStinnie, TylerLancaster, TaeDavis, GeraldMcCoy, JessieBatesIII, ClarkHarris, JonWeeks, AJMcCarron, GiovaniBernard, GenoSmith, JasonMcCourty, SteveMcLendon, DuronHarmon, MarquiseGoodwin, ColtMcCoy, ChristianJones, NateEbner, JJJansen, MalcolmSmith, MorganCox, KevinMinter, JohnJenkins, JustinEllis, ChrisBanjo, DonteJackson, MarcellHarris, EliApple, MichaelFord, AdamHumphries, JesseJames, IsaiahOliver, MohamedSanu, KwonAlexander, DemarcusRobinson, JoshWells, JordanEvans, JulienDavenport, MackensieAlexander, CharlesWashington, DamontaeKazee, DannyShelton, JoshAndrews, JayronKearse, LJFort, ChrisReed, DamiereByrd, DedeWestbrook, NoahBrown, DwayneWashington, StevenMeans, ReggieRagland, PatrickScales, DukeRiley, BlakeBell, MilesKillebrew, ElijahWilkinson, AdamGotsis, DarrellDaniels, MackHollins, MaxGarcia, CoreyPeters, JaquiskiTartt, JohnMiller, FabianMoreau, IsaiahMcKenzie, QuintonSpain, KalifRaymond, TyMontgomery, BrennanScarlett, DeAndreHoustonCarson, MarcusJohnson, AlexArmah, JamesWashington, DamienWilliams, TavonWilson, NickDzubnar, DJChark, TremonSmith, TevinColeman, FrankieLuvu, ElijhaaPenny, HardyNickersonJr, NickFolk, MattGay, ZaneGonzalez, YounghoeKoo, DanielCarlson, NickFolk, DustinHopkins, RandyBullock, JoeySlye, JasonCabinda, MichaelBurton];

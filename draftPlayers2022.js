@@ -54,7 +54,7 @@ rank: 6
 };
 var DeMarvinLeal = {
 name: 'DeMarvin Leal',
-pos: 'DL',
+pos: 'IDL',
 school: 'Texas A&M',
 exp: 'JR',
 height: '6-4',
@@ -117,7 +117,7 @@ rank: 13
 };
 var TylerLindeRBaum = {
 name: 'Tyler Linderbaum',
-pos: 'C',
+pos: 'IOL',
 school: 'Iowa',
 exp: 'RJR',
 height: '6-2',
@@ -216,7 +216,7 @@ rank: 24
 };
 var NakobeDean = {
 name: 'Nakobe Dean',
-pos: 'ILB',
+pos: 'LB',
 school: 'Georgia',
 exp: 'JR',
 height: '6-0',
@@ -225,7 +225,7 @@ rank: 25
 };
 var KenyonGreen = {
 name: 'Kenyon Green',
-pos: 'OG',
+pos: 'IOL',
 school: 'Texas A&M',
 exp: 'JR',
 height: '6-4',
@@ -234,7 +234,7 @@ rank: 26
 };
 var DevinLloyd = {
 name: 'Devin Lloyd',
-pos: 'ILB',
+pos: 'LB',
 school: 'Utah',
 exp: 'RSR',
 height: '6-3',
@@ -288,7 +288,7 @@ rank: 32
 };
 var JordanDavis = {
 name: 'Jordan Davis',
-pos: 'DL',
+pos: 'IDL',
 school: 'Georgia',
 exp: 'SR',
 height: '6-5',
@@ -342,7 +342,7 @@ rank: 38
 };
 var IkemEkwonu = {
 name: 'Ikem Ekwonu',
-pos: 'OG',
+pos: 'IOL',
 school: 'North Carolina State',
 exp: 'JR',
 height: '6-4',
@@ -378,7 +378,7 @@ rank: 42
 };
 var ZionJohnson = {
 name: 'Zion Johnson',
-pos: 'OG',
+pos: 'IOL',
 school: 'Boston College',
 exp: 'SR',
 height: '6-3',
@@ -414,7 +414,7 @@ rank: 46
 };
 var ChristianHarris = {
 name: 'Christian Harris',
-pos: 'ILB',
+pos: 'LB',
 school: 'Alabama',
 exp: 'JR',
 height: '6-2',
@@ -441,7 +441,7 @@ rank: 49
 };
 var PerrionWinfrey = {
 name: 'Perrion Winfrey',
-pos: 'DL',
+pos: 'IDL',
 school: 'Oklahoma',
 exp: 'SR',
 height: '6-4',
@@ -495,7 +495,7 @@ rank: 55
 };
 var HaskellGarrett = {
 name: 'Haskell Garrett',
-pos: 'DL',
+pos: 'IDL',
 school: 'Ohio State',
 exp: 'SR',
 height: '6-2',
@@ -576,7 +576,7 @@ rank: 64
 };
 var BrandonSmith = {
 name: 'Brandon Smith',
-pos: 'OLB',
+pos: 'EDGE',
 school: 'Penn State',
 exp: 'JR',
 height: '6-3',
@@ -612,7 +612,7 @@ rank: 68
 };
 var CameronThomas = {
 name: 'Cameron Thomas',
-pos: 'DL',
+pos: 'IDL',
 school: 'San Diego State',
 exp: 'JR',
 height: '6-5',
@@ -621,7 +621,7 @@ rank: 69
 };
 var AlecLindstrom = {
 name: 'Alec Lindstrom',
-pos: 'C',
+pos: 'IOL',
 school: 'Boston College',
 exp: 'RSR',
 height: '6-4',
@@ -657,7 +657,7 @@ rank: 73
 };
 var DeMarvionOvershown = {
 name: 'DeMarvion Overshown',
-pos: 'ILB',
+pos: 'LB',
 school: 'Texas',
 exp: 'SR',
 height: '6-4',
@@ -675,7 +675,7 @@ rank: 75
 };
 var JermayneLole = {
 name: 'Jermayne Lole',
-pos: 'DL',
+pos: 'IDL',
 school: 'Arizona State',
 exp: 'SR',
 height: '6-2',
@@ -684,7 +684,7 @@ rank: 76
 };
 var TravonWalker = {
 name: 'Travon Walker',
-pos: 'DL',
+pos: 'IDL',
 school: 'Georgia',
 exp: 'JR',
 height: '6-5',
@@ -702,7 +702,7 @@ rank: 78
 };
 var ThayerMunford = {
 name: 'Thayer Munford',
-pos: 'OG',
+pos: 'IOL',
 school: 'Ohio State',
 exp: 'SR',
 height: '6-6',
@@ -747,7 +747,7 @@ rank: 83
 };
 var ZakobyMcClain = {
 name: 'Zakoby McClain',
-pos: 'OLB',
+pos: 'EDGE',
 school: 'Auburn',
 exp: 'SR',
 height: '6-0',
@@ -792,7 +792,7 @@ rank: 88
 };
 var CoryDurden = {
 name: 'Cory Durden',
-pos: 'DL',
+pos: 'IDL',
 school: 'North Carolina State',
 exp: 'RSR',
 height: '6-4',
@@ -810,7 +810,7 @@ rank: 90
 };
 var MicahMcFadden = {
 name: 'Micah McFadden',
-pos: 'ILB',
+pos: 'LB',
 school: 'Indiana',
 exp: 'SR',
 height: '6-2',
@@ -846,7 +846,7 @@ rank: 94
 };
 var DevonteWyatt = {
 name: 'Devonte Wyatt',
-pos: 'DL',
+pos: 'IDL',
 school: 'Georgia',
 exp: 'SR',
 height: '6-3',
@@ -855,7 +855,7 @@ rank: 95
 };
 var HenryTooToo = {
 name: 'Henry To\'o-To\'o',
-pos: 'ILB',
+pos: 'LB',
 school: 'Alabama',
 exp: 'JR',
 height: '6-2',
@@ -864,7 +864,7 @@ rank: 96
 };
 var JustinShaffer = {
 name: 'Justin Shaffer',
-pos: 'OG',
+pos: 'IOL',
 school: 'Georgia',
 exp: 'RSR',
 height: '6-3',
@@ -873,7 +873,7 @@ rank: 97
 };
 var JarrettPatterson = {
 name: 'Jarrett Patterson',
-pos: 'C',
+pos: 'IOL',
 school: 'Notre Dame',
 exp: 'RJR',
 height: '6-5',
@@ -891,7 +891,7 @@ rank: 99
 };
 var LeChenal = {
 name: 'Leo Chenal',
-pos: 'ILB',
+pos: 'LB',
 school: 'Wisconsin',
 exp: 'JR',
 height: '6-2',
@@ -909,7 +909,7 @@ rank: 101
 };
 var NolanSmith = {
 name: 'Nolan Smith',
-pos: 'OLB',
+pos: 'EDGE',
 school: 'Georgia',
 exp: 'JR',
 height: '6-3',
@@ -918,7 +918,7 @@ rank: 102
 };
 var MyronTagovailoaAmosa = {
 name: 'Myron Tagovailoa-Amosa',
-pos: 'DL',
+pos: 'IDL',
 school: 'Notre Dame',
 exp: 'RSR',
 height: '6-2',
@@ -936,7 +936,7 @@ rank: 104
 };
 var JohnMichaelSchmitz = {
 name: 'John Michael Schmitz',
-pos: 'C',
+pos: 'IOL',
 school: 'Minnesota',
 exp: 'RSR',
 height: '6-4',
@@ -945,7 +945,7 @@ rank: 105
 };
 var OwenPappoe = {
 name: 'Owen Pappoe',
-pos: 'ILB',
+pos: 'LB',
 school: 'Auburn',
 exp: 'JR',
 height: '6-1',
@@ -963,7 +963,7 @@ rank: 107
 };
 var ChadMuma = {
 name: 'Chad Muma',
-pos: 'ILB',
+pos: 'LB',
 school: 'Wyoming',
 exp: 'SR',
 height: '6-3',
@@ -990,7 +990,7 @@ rank: 110
 };
 var JaydenPeevy = {
 name: 'Jayden Peevy',
-pos: 'DL',
+pos: 'IDL',
 school: 'Texas A&M',
 exp: 'SR',
 height: '6-5',
@@ -1062,7 +1062,7 @@ rank: 118
 };
 var PhidarianMathis = {
 name: 'Phidarian Mathis',
-pos: 'DL',
+pos: 'IDL',
 school: 'Alabama',
 exp: 'RSR',
 height: '6-4',
@@ -1071,7 +1071,7 @@ rank: 119
 };
 var MarquisHayes = {
 name: 'Marquis Hayes',
-pos: 'OG',
+pos: 'IOL',
 school: 'Oklahoma',
 exp: 'RSR',
 height: '6-5',
@@ -1080,7 +1080,7 @@ rank: 120
 };
 var EdIngram = {
 name: 'Ed Ingram',
-pos: 'OG',
+pos: 'IOL',
 school: 'LSU',
 exp: 'SR',
 height: '6-4',
@@ -1089,7 +1089,7 @@ rank: 121
 };
 var GrantMorgan = {
 name: 'Grant Morgan',
-pos: 'ILB',
+pos: 'LB',
 school: 'Arkansas',
 exp: 'RSR',
 height: '5-11',
@@ -1116,7 +1116,7 @@ rank: 124
 };
 var JalenRedmond = {
 name: 'Jalen Redmond',
-pos: 'DL',
+pos: 'IDL',
 school: 'Oklahoma',
 exp: 'RJR',
 height: '6-2',
@@ -1125,7 +1125,7 @@ rank: 125
 };
 var MatthewJones = {
 name: 'Matthew Jones',
-pos: 'OG',
+pos: 'IOL',
 school: 'Ohio State',
 exp: 'RJR',
 height: '6-3',
@@ -1179,7 +1179,7 @@ rank: 131
 };
 var TravisJones = {
 name: 'Travis Jones',
-pos: 'DL',
+pos: 'IDL',
 school: 'UConn',
 exp: 'SR',
 height: '6-4',
@@ -1188,7 +1188,7 @@ rank: 132
 };
 var JackCampbell = {
 name: 'Jack Campbell',
-pos: 'ILB',
+pos: 'LB',
 school: 'Iowa',
 exp: 'JR',
 height: '6-5',
@@ -1206,7 +1206,7 @@ rank: 134
 };
 var EdefuanUlofoshio = {
 name: 'Edefuan Ulofoshio',
-pos: 'ILB',
+pos: 'LB',
 school: 'Washington',
 exp: 'RJR',
 height: '6-1',
@@ -1224,7 +1224,7 @@ rank: 136
 };
 var MalcolmRodriguez = {
 name: 'Malcolm Rodriguez',
-pos: 'ILB',
+pos: 'LB',
 school: 'Oklahoma State',
 exp: 'RSR',
 height: '5-11',
@@ -1242,7 +1242,7 @@ rank: 138
 };
 var JojoDomann = {
 name: 'Jojo Domann',
-pos: 'OLB',
+pos: 'EDGE',
 school: 'Nebraska',
 exp: 'SR',
 height: '6-1',
@@ -1278,7 +1278,7 @@ rank: 142
 };
 var MerlinRobertson = {
 name: 'Merlin Robertson',
-pos: 'OLB',
+pos: 'EDGE',
 school: 'Arizona State',
 exp: 'JR',
 height: '6-3',
@@ -1314,7 +1314,7 @@ rank: 146
 };
 var JackSanborn = {
 name: 'Jack Sanborn',
-pos: 'ILB',
+pos: 'LB',
 school: 'Wisconsin',
 exp: 'RSR',
 height: '6-2',
@@ -1323,7 +1323,7 @@ rank: 147
 };
 var RickyStromberg = {
 name: 'Ricky Stromberg',
-pos: 'C',
+pos: 'IOL',
 school: 'Arkansas',
 exp: 'JR',
 height: '6-3',
@@ -1332,7 +1332,7 @@ rank: 148
 };
 var TylerDavis = {
 name: 'Tyler Davis',
-pos: 'DL',
+pos: 'IDL',
 school: 'Clemson',
 exp: 'JR',
 height: '6-2',
@@ -1341,7 +1341,7 @@ rank: 149
 };
 var DJDale = {
 name: 'D.J. Dale',
-pos: 'DL',
+pos: 'IDL',
 school: 'Alabama',
 exp: 'JR',
 height: '6-2',
@@ -1404,7 +1404,7 @@ rank: 156
 };
 var DohnovanWest = {
 name: 'Dohnovan West',
-pos: 'C',
+pos: 'IOL',
 school: 'Arizona State',
 exp: 'JR',
 height: '6-3',
@@ -1413,7 +1413,7 @@ rank: 157
 };
 var NeilFarrellJr = {
 name: 'Neil Farrell Jr.',
-pos: 'DL',
+pos: 'IDL',
 school: 'LSU',
 exp: 'SR',
 height: '6-4',
@@ -1431,7 +1431,7 @@ rank: 159
 };
 var JoshSills = {
 name: 'Josh Sills',
-pos: 'OG',
+pos: 'IOL',
 school: 'Oklahoma State',
 exp: 'RSR',
 height: '6-5',
@@ -1449,7 +1449,7 @@ rank: 161
 };
 var JamesEmpey = {
 name: 'James Empey',
-pos: 'C',
+pos: 'IOL',
 school: 'BYU',
 exp: 'RSR',
 height: '6-4',
@@ -1467,7 +1467,7 @@ rank: 163
 };
 var ZacchPickens = {
 name: 'Zacch Pickens',
-pos: 'DL',
+pos: 'IDL',
 school: 'South Carolina',
 exp: 'JR',
 height: '6-3',
@@ -1485,7 +1485,7 @@ rank: 165
 };
 var DeslinAlexandre = {
 name: 'Deslin Alexandre',
-pos: 'DL',
+pos: 'IDL',
 school: 'Pittsburgh',
 exp: 'RSR',
 height: '6-3',
@@ -1494,7 +1494,7 @@ rank: 166
 };
 var BenBrown = {
 name: 'Ben Brown',
-pos: 'OG',
+pos: 'IOL',
 school: 'Ole Miss',
 exp: 'RSR',
 height: '6-5',
@@ -1530,7 +1530,7 @@ rank: 170
 };
 var KobieWhiteside = {
 name: 'Kobie Whiteside',
-pos: 'DL',
+pos: 'IDL',
 school: 'Missouri',
 exp: 'RSR',
 height: '6-1',
@@ -1548,7 +1548,7 @@ rank: 172
 };
 var PaytonWilson = {
 name: 'Payton Wilson',
-pos: 'OLB',
+pos: 'EDGE',
 school: 'North Carolina State',
 exp: 'RSO',
 height: '6-4',
@@ -1593,7 +1593,7 @@ rank: 177
 };
 var VentrellMiller = {
 name: 'Ventrell Miller',
-pos: 'ILB',
+pos: 'LB',
 school: 'Florida',
 exp: 'RSR',
 height: '6-1',
@@ -1602,7 +1602,7 @@ rank: 178
 };
 var LukeFortner = {
 name: 'Luke Fortner',
-pos: 'C',
+pos: 'IOL',
 school: 'Kentucky',
 exp: 'RSR',
 height: '6-6',
@@ -1620,7 +1620,7 @@ rank: 180
 };
 var PJMustipher = {
 name: 'P.J. Mustipher',
-pos: 'DL',
+pos: 'IDL',
 school: 'Penn State',
 exp: 'SR',
 height: '6-3',
@@ -1656,7 +1656,7 @@ rank: 184
 };
 var OlusegunOluwatimi = {
 name: 'Olusegun Oluwatimi',
-pos: 'C',
+pos: 'IOL',
 school: 'Virginia',
 exp: 'RSR',
 height: '6-3',
@@ -1701,7 +1701,7 @@ rank: 189
 };
 var EmilEkiyorJr = {
 name: 'Emil Ekiyor Jr.',
-pos: 'OG',
+pos: 'IOL',
 school: 'Alabama',
 exp: 'RJR',
 height: '6-2',
@@ -1728,7 +1728,7 @@ rank: 192
 };
 var AlexForsyth = {
 name: 'Alex Forsyth',
-pos: 'C',
+pos: 'IOL',
 school: 'Oregon',
 exp: 'RJR',
 height: '6-3',
@@ -1737,7 +1737,7 @@ rank: 193
 };
 var ChrisHinton = {
 name: 'Chris Hinton',
-pos: 'DL',
+pos: 'IDL',
 school: 'Michigan',
 exp: 'JR',
 height: '6-4',
@@ -1746,7 +1746,7 @@ rank: 194
 };
 var LoganHall = {
 name: 'Logan Hall',
-pos: 'DL',
+pos: 'IDL',
 school: 'Houston',
 exp: 'SR',
 height: '6-5',
@@ -1755,7 +1755,7 @@ rank: 195
 };
 var LukeMasterson = {
 name: 'Luke Masterson',
-pos: 'OLB',
+pos: 'EDGE',
 school: 'Wake Forest',
 exp: 'RSR',
 height: '6-2',
@@ -1782,7 +1782,7 @@ rank: 198
 };
 var JohnRidgeway = {
 name: 'John Ridgeway',
-pos: 'DL',
+pos: 'IDL',
 school: 'Arkansas',
 exp: 'RSR',
 height: '6-5',
@@ -1801,7 +1801,7 @@ rank: 200
 
 var JacobGall = {
 name: 'Jacob Gall',
-pos: 'C',
+pos: 'IOL',
 school: 'Baylor',
 exp: 'RSR',
 height: '6-2',
@@ -1819,7 +1819,7 @@ rank: 202
 };
 var JackWohlabaugh = {
 name: 'Jack Wohlabaugh',
-pos: 'C',
+pos: 'IOL',
 school: 'Duke',
 exp: 'RSR',
 height: '6-3',
@@ -1828,7 +1828,7 @@ rank: 203
 };
 var ColinSchooler = {
 name: 'Colin Schooler',
-pos: 'ILB',
+pos: 'LB',
 school: 'Texas Tech',
 exp: 'GR',
 height: '6-1',
@@ -1918,7 +1918,7 @@ rank: 213
 };
 var ThomasBooker = {
 name: 'Thomas Booker',
-pos: 'DL',
+pos: 'IDL',
 school: 'Stanford',
 exp: 'SR',
 height: '6-3',
@@ -2017,7 +2017,7 @@ rank: 224
 };
 var CyrusTorrence = {
 name: 'O\'Cyrus Torrence',
-pos: 'OG',
+pos: 'IOL',
 school: 'Louisiana',
 exp: 'JR',
 height: '6-5',
@@ -2026,7 +2026,7 @@ rank: 225
 };
 var BumperPool = {
 name: 'Bumper Pool',
-pos: 'OLB',
+pos: 'EDGE',
 school: 'Arkansas',
 exp: 'SR',
 height: '6-0',
@@ -2035,7 +2035,7 @@ rank: 226
 };
 var DanteStills = {
 name: 'Dante Stills',
-pos: 'DL',
+pos: 'IDL',
 school: 'West Virginia',
 exp: 'SR',
 height: '6-2',
@@ -2071,7 +2071,7 @@ rank: 230
 };
 var RobertCooper = {
 name: 'Robert Cooper',
-pos: 'DL',
+pos: 'IDL',
 school: 'Florida State',
 exp: 'SR',
 height: '6-2',
@@ -2098,7 +2098,7 @@ rank: 233
 };
 var AndrewVorhees = {
 name: 'Andrew Vorhees',
-pos: 'OG',
+pos: 'IOL',
 school: 'USC',
 exp: 'RSR',
 height: '6-5',
@@ -2125,7 +2125,7 @@ rank: 236
 };
 var TaronVincent = {
 name: 'Taron Vincent',
-pos: 'DL',
+pos: 'IDL',
 school: 'Ohio State',
 exp: 'RJR',
 height: '6-2',
@@ -2134,7 +2134,7 @@ rank: 237
 };
 var MattCarrick = {
 name: 'Matt Carrick',
-pos: 'OG',
+pos: 'IOL',
 school: 'Michigan State',
 exp: 'RSR',
 height: '6-4',
@@ -2143,7 +2143,7 @@ rank: 238
 };
 var CalijahKancey = {
 name: 'Calijah Kancey',
-pos: 'DL',
+pos: 'IDL',
 school: 'Pittsburgh',
 exp: 'RSO',
 height: '6-0',
@@ -2188,7 +2188,7 @@ rank: 243
 };
 var LecitusSmith = {
 name: 'Lecitus Smith',
-pos: 'OG',
+pos: 'IOL',
 school: 'Virginia Tech',
 exp: 'RSR',
 height: '6-3',
@@ -2242,7 +2242,7 @@ rank: 249
 };
 var QuayWalker = {
 name: 'Quay Walker',
-pos: 'ILB',
+pos: 'LB',
 school: 'Georgia',
 exp: 'SR',
 height: '6-4',
@@ -2251,7 +2251,7 @@ rank: 250
 };
 var RikoJeffers = {
 name: 'Riko Jeffers',
-pos: 'OLB',
+pos: 'EDGE',
 school: 'Texas Tech',
 exp: 'SR',
 height: '6-2',
@@ -2278,7 +2278,7 @@ rank: 253
 };
 var JerrodClark = {
 name: 'Jerrod Clark',
-pos: 'DL',
+pos: 'IDL',
 school: 'Coastal Carolina',
 exp: 'RJR',
 height: '6-3',
@@ -2296,7 +2296,7 @@ rank: 255
 };
 var GrantGibson = {
 name: 'Grant Gibson',
-pos: 'C',
+pos: 'IOL',
 school: 'NC State',
 exp: 'RSR',
 height: '6-1',
@@ -2305,7 +2305,7 @@ rank: 256
 };
 var AmariGainer = {
 name: 'Amari Gainer',
-pos: 'OLB',
+pos: 'EDGE',
 school: 'Florida State',
 exp: 'RSO',
 height: '6-3',
@@ -2350,7 +2350,7 @@ rank: 261
 };
 var DarienButler = {
 name: 'Darien Butler',
-pos: 'OLB',
+pos: 'EDGE',
 school: 'Arizona State',
 exp: 'SR',
 height: '6-0',
@@ -2377,7 +2377,7 @@ rank: 264
 };
 var NephiSewell = {
 name: 'Nephi Sewell',
-pos: 'OLB',
+pos: 'EDGE',
 school: 'Utah',
 exp: 'JR',
 height: '6-0',
@@ -2395,7 +2395,7 @@ rank: 266
 };
 var EllisBrooks = {
 name: 'Ellis Brooks',
-pos: 'ILB',
+pos: 'LB',
 school: 'Penn State',
 exp: 'RJR',
 height: '6-1',
@@ -2449,7 +2449,7 @@ rank: 272
 };
 var KeeganCryder = {
 name: 'Keegan Cryder',
-pos: 'C',
+pos: 'IOL',
 school: 'Wyoming',
 exp: 'RSR',
 height: '6-3',
@@ -2476,7 +2476,7 @@ rank: 275
 };
 var DamoneClark = {
 name: 'Damone Clark',
-pos: 'ILB',
+pos: 'LB',
 school: 'LSU',
 exp: 'SR',
 height: '6-3',
@@ -2530,7 +2530,7 @@ rank: 281
 };
 var JadenCrumedy = {
 name: 'Jaden Crumedy',
-pos: 'DL',
+pos: 'IDL',
 school: 'Mississippi State',
 exp: 'RJR',
 height: '6-4',
@@ -2548,7 +2548,7 @@ rank: 283
 };
 var JoshPaschal = {
 name: 'Josh Paschal',
-pos: 'DL',
+pos: 'IDL',
 school: 'Kentucky',
 exp: 'RSR',
 height: '6-2',
@@ -2611,7 +2611,7 @@ rank: 290
 };
 var TJBass = {
 name: 'T.J. Bass',
-pos: 'OG',
+pos: 'IOL',
 school: 'Oregon',
 exp: 'RJR',
 height: '6-4',
@@ -2620,7 +2620,7 @@ rank: 291
 };
 var OtitoOgbonnia = {
 name: 'Otito Ogbonnia',
-pos: 'DL',
+pos: 'IDL',
 school: 'UCLA',
 exp: 'SR',
 height: '6-3',
@@ -2656,7 +2656,7 @@ rank: 295
 };
 var JaysonAdemilola = {
 name: 'Jayson Ademilola',
-pos: 'DL',
+pos: 'IDL',
 school: 'Notre Dame',
 exp: 'SR',
 height: '6-3',
@@ -2683,7 +2683,7 @@ rank: 298
 };
 var RobertCongel = {
 name: 'Robert Congel',
-pos: 'C',
+pos: 'IOL',
 school: 'Oklahoma',
 exp: 'RSR',
 height: '6-3',

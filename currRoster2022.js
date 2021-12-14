@@ -40,7 +40,7 @@ var JohnFranklinMyers = {
 };
 var GeorgeFant = {
   name: 'George Fant',
-  pos: 'T',
+  pos: 'OT',
   age: '29',
   height: '6-5',
   weight: '322',
@@ -63,7 +63,7 @@ var QuinnenWilliams = {
 };
 var ConnorMcGovern = {
   name: 'Connor McGovern',
-  pos: 'C',
+  pos: 'IOL',
   age: '28',
   height: '6-4',
   weight: '306',
@@ -105,7 +105,7 @@ interest: 40,
 };
 var MekhiBecton = {
   name: 'Mekhi Becton',
-  pos: 'T',
+  pos: 'OT',
   age: '21',
   height: '6-7',
   weight: '364',
@@ -118,7 +118,7 @@ var MekhiBecton = {
 };
 var AlijahVeraTucker = {
 name: 'Alijah Vera-Tucker',
-pos: 'G',
+pos: 'IOL',
 age: '22',
 img: 'https://apiv2.thedraftnetwork.com/api/files/the-draft-network/afb9c355e3fd4419bb2821815cac256d_Vera-tucker.JPG',
 school: 'USC',
@@ -131,7 +131,7 @@ capPenalty: 12996841,
 };
 var GregVanRoten = {
   name: 'Greg Van Roten',
-  pos: 'G',
+  pos: 'IOL',
   age: '31',
   height: '6-3',
   weight: '308',
@@ -194,7 +194,7 @@ var AshtynDavis = {
 };
 var ChumaEdoga = {
   name: 'Chuma Edoga',
-  pos: 'T',
+  pos: 'OT',
   age: '24',
   height: '6-3',
   weight: '308',
@@ -234,7 +234,7 @@ var LaMicalPerine = {
 };
 var CameronClark = {
   name: 'Cameron Clark',
-  pos: 'G',
+  pos: 'IOL',
   age: '25',
   height: '6-4',
   weight: '308',
@@ -374,7 +374,7 @@ salary: 867227,
 capPenalty: 126681
 };
 var IsaiahDunn = {
-  name: 'IsaiahDunn',
+  name: 'Isaiah Dunn',
   pos: 'CB',
   age: '22',
   height: '6-0',
@@ -385,7 +385,7 @@ var IsaiahDunn = {
 };
 var PatrickFerguson = {
   name: 'Patrick Ferguson',
-  pos: 'OL',
+  pos: 'IOL',
   age: '22',
   height: '6-4',
   weight: '306',
@@ -430,7 +430,7 @@ var JamisonCrowder = {
 };
 var LaurentDuvernayTardif = {
   name: 'Laurent Duvernay-Tardif ',
-  pos: 'OL',
+  pos: 'IOL',
   age: '30',
   height: '6-5',
   weight: '321',
@@ -462,7 +462,7 @@ var KeelanCole = {
 };
 var MorganMoses = {
   name: 'Morgan Moses',
-  pos: 'OL',
+  pos: 'IOL',
   age: '30',
   type: 'UFA',
   cYears: 1,
@@ -472,7 +472,7 @@ var MorganMoses = {
 };
 var DanFeeney = {
   name: 'Dan Feeney',
-  pos: 'G',
+  pos: 'IOL',
   age: '27',
   type: 'UFA',
   cYears: 1,
@@ -513,7 +513,7 @@ var TylerKroft = {
 };
 var ConorMcDermott = {
   name: 'Conor McDermott',
-  pos: 'T',
+  pos: 'OT',
   age: '29',
   height: '6-8',
   weight: '305',
@@ -597,7 +597,7 @@ var DelshaunPhillips = {
 };
 var IsaiahWilliams = {
   name: 'Isaiah Williams',
-  pos: 'G',
+  pos: 'IOL',
   age: '28',
   cYears: 1,
     salary: 0,
@@ -617,7 +617,7 @@ var JavelinGuidry = {
 };
 var TimWard = {
   name: 'Tim Ward',
-  pos: 'DE',
+  pos: 'EDGE',
   age: '24',
     salary: 0,
   img: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3914553.png&w=350&h=254',
