@@ -304,7 +304,7 @@ var BradenMann = {
 };
 var JamienSherwood = {
   name: 'Jamien Sherwood',
-  pos: 'S',
+  pos: 'LB',
   age: '21',
   height: '6-2',
   weight: '216',
@@ -346,7 +346,7 @@ var JasonPinnock = {
 };
 var HamsahNasirildeen = {
 name: 'Hamsah Nasirildeen',
-pos: 'S',
+pos: 'LB',
 img: 'https://apiv2.thedraftnetwork.com/api/files/the-draft-network/a1dd96905d537943359991809c262b07_Paulson%20Adebo.png',
 
 height: '6-3',
