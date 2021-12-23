@@ -192,7 +192,7 @@ var hou = {
   name: "Texans",
   logo: "https://static.www.nfl.com/image/private/f_auto/league/bpx88i8nw4nnabuq0oob",
   draftResults: [],
-  needs: ["QB", "TE", "IOL", "CB", "S"],
+  needs: ["QB", "EDGE", "OT", "CB", "S"],
   picks: []
 };
 
@@ -210,7 +210,7 @@ var jax = {
   name: "Jaguars",
   logo: "https://res.cloudinary.com/nflleague/image/private/f_auto/league/qycbib6ivrm9dqaexryk",
   draftResults: [],
-  needs: ["OT", "C", "LB", "IDL", "TE"],
+  needs: ["OT", "EDGE", "S", "CB"],
   picks: []
 };
 

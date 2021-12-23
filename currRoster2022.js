@@ -612,8 +612,8 @@ var JavelinGuidry = {
     salary: 0,
   weight: '190',
   img: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4243250.png&w=350&h=254',
-  cYears: 1,
-  cTotal: .69,
+  cYears: 2,
+  cTotal: 4,
 };
 var TimWard = {
   name: 'Tim Ward',
@@ -643,8 +643,8 @@ var BraxtonBerrios = {
     salary: 0,
   weight: '190',
   img: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3123075.png&w=350&h=254',
-  cYears: 1,
-  cTotal: 1.5,
+  cYears: 2,
+  cTotal: 6,
 };
 var KylePhillips = {
   name: "Kyle Phillips",
@@ -654,8 +654,8 @@ var KylePhillips = {
     salary: 0,
   weight: '277',
   img: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3886528.png&w=350&h=254',
-  cYears: 1,
-  cTotal: .58,
+  cYears: 2,
+  cTotal: 4,
 };
 var ElijahRiley = {
   name: "Elijah Riley",
@@ -674,4 +674,4 @@ var rollover = 6687683;
 // var salaryCap = 211686546;
 var salaryCap = 212393741;
 
-var currRosterArr = [CJMosley, CarlLawson, CoreyDavis, JohnFranklinMyers, GeorgeFant, QuinnenWilliams, ConnorMcGovern, ShaqLawson, ZachWilson, SheldonRankins, MekhiBecton, AlijahVeraTucker, GregVanRoten, RyanGriffin, JustinHardee, ElijahMoore, DenzelMims, AshtynDavis, ChumaEdoga, TrevonWesco, ThomasHennessy, LaMicalPerine, CameronClark, BlakeCashman, MichaelCarter, BryceHall, TyJohnson, QuincyWilliams, BradenMann, JamienSherwood, MichaelCarterII, BryceHuff, JasonPinnock, HamsahNasirildeen, BrandinEchols, JonathanMarshall, IsaiahDunn, PatrickFerguson, ZaneLewis, MarcusMaye, JamisonCrowder, LaurentDuvernayTardif, JarradDavis, KeelanCole, MorganMoses, DanFeeney, JoeFlacco, LamarcusJoyner, TylerKroft, ConorMcDermott, VinnyCurry, TevinColeman, SharrodNeasman, NathanShepherd, MikeWhite, JeffSmith, DelshaunPhillips, IsaiahWilliams, JavelinGuidry, TimWard, FolorunsoFatukasi, BraxtonBerrios, KylePhillips, ElijahRiley];
+var currRosterArr = [CJMosley, CarlLawson, CoreyDavis, JohnFranklinMyers, GeorgeFant, QuinnenWilliams, ConnorMcGovern, ShaqLawson, ZachWilson, SheldonRankins, MekhiBecton, AlijahVeraTucker, GregVanRoten, RyanGriffin, JustinHardee, ElijahMoore, DenzelMims, AshtynDavis, ChumaEdoga, TrevonWesco, ThomasHennessy, LaMicalPerine, CameronClark, BlakeCashman, MichaelCarter, BryceHall, TyJohnson, QuincyWilliams, BradenMann, JamienSherwood, MichaelCarterII, BryceHuff, JasonPinnock, HamsahNasirildeen, BrandinEchols, JonathanMarshall, IsaiahDunn, PatrickFerguson, ZaneLewis, MarcusMaye, JamisonCrowder, LaurentDuvernayTardif, KeelanCole, MorganMoses, DanFeeney, JoeFlacco, LamarcusJoyner, TylerKroft, ConorMcDermott, VinnyCurry, TevinColeman, SharrodNeasman, NathanShepherd, MikeWhite, JeffSmith, DelshaunPhillips, IsaiahWilliams, JavelinGuidry, TimWard, FolorunsoFatukasi, BraxtonBerrios, KylePhillips, ElijahRiley];
