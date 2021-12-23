@@ -2115,12 +2115,12 @@ function getPick(team) {
         possiblePicks.push(qb);
         possiblePicks.push(qb);
         possiblePicks.push(qb);
-        possiblePicks.push(qb);
-        possiblePicks.push(qb);
-        possiblePicks.push(qb);
       }
       var rand = Math.floor(Math.random() * (possiblePicks.length - 1));
       var pick = possiblePicks[rand];
+      if (pick.rank - 10 > draftSummary.length && draftSummary.length < 10 && pick.pos != 'QB') {
+        pick = draftPlayers[0];
+      }
     }
     if (possiblePicks.length === 0) {
       return draftPlayers[0];
