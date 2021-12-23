@@ -290,7 +290,7 @@ var teams = [az, atl, car, chi, dal, det, gb, lar, min, no, nyg, phi, sf, sea, t
 
 
 var draftOrder = [
-  [jax, det, hou, nyj, nyg, nyg, nyj, atl, car, phi, phi, den, mia, lv, phi, cle, was, pit, no, min, buf, lac, cin, det, kc, ne, dal, tb, bal, gb, ten, az],
+  [jax, det, hou, nyj, nyg, nyg, car, nyj, atl, phi, phi, den, mia, lv, phi, cle, was, pit, no, min, buf, lac, cin, det, kc, ne, dal, tb, bal, gb, ten, az],
   [jax, det, nyj, hou, nyg, chi, sea, nyj, mia, was, atl,  phi, sf, lv, den, cle, ind, pit, min, no, lac, cin, buf, den, ne, kc, tb, dal, bal, gb, atl, az],
   [jax, det, hou, nyj, chi, nyg, sea, nyg, atl, was, phi, jax, lv, den, sf, ind, cle, pit, hou, min, cin, buf, lac, den, kc, ne, dal, tb, bal, gb, ten, az, det, no, mia, no, lar, bal],
   [jax, cle, sea, car, bal, nyg, sea, nyj, mia, was, atl, phi, den, sf, lv, cle, ind, mia, nyj, no, buf, lac, cin, hou, ne, kc, tb, dal, bal, gb, ten, bal, pit, gb, bal, bal, lar, cin, ten],
