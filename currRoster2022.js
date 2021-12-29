@@ -366,7 +366,7 @@ var BrandinEchols = {
 };
 var JonathanMarshall = {
 name: 'Jonathan Marshall',
-pos: 'EDGE',
+pos: 'IDL',
 img: 'https://apiv2.thedraftnetwork.com/api/files/the-draft-network/e1dd8a2069e0464734e98e2087f13d80_Poljan.JPG',
 height: '6-3',
 weight: '293',

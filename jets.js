@@ -2076,6 +2076,32 @@ function getPick(team) {
   var amount = team.needs.length;
   var possiblePicks = [];
   var qb;
+  if (draftSummary.length < 1) {
+    var temp = [AidanHutchinson, KayvonThibodeaux];
+    var num = Math.floor(Math.random() * 2);
+    var ind = draftPlayers.indexOf(temp[num]);
+    console.log("if 1: " + ind);
+    return draftPlayers[ind];
+  }
+  if (draftSummary.length == 1) {
+    return draftPlayers[0];
+  }
+  if (draftSummary.length == 2) {
+    var temp = [MattCorral, KennyPickett, EvanNeal, DerekStingleyJr, KyleHamilton, IkemEkwonu];
+    var temp2 = [];
+    for (let i = 0; i < temp.length; i++) {
+      console.log(draftSummary.indexOf(temp[i]));
+      if (draftSummary.indexOf(temp[i]) >= 0) {
+        continue;
+      } else {
+        temp2.push(temp[i]);
+      }
+    }
+    var num = Math.floor(Math.random() * temp2.length);
+    var ind = draftPlayers.indexOf(temp2[num]);
+    console.log("if 3: " + ind);
+    return draftPlayers[ind];
+  }
   if (draftPlayers[0].rank <= (draftSummary.length - 2) && draftSummary.length < 23) {
     return draftPlayers[0];
   }
@@ -2121,7 +2147,7 @@ function getPick(team) {
       if (draftSummary.length < 10) {
         if (pick.rank - 10 > draftSummary.length && draftSummary.length < 10 && pick.pos != 'QB') {
           pick = draftPlayers[0];
-        }  
+        }
       }
     }
     if (possiblePicks.length === 0) {

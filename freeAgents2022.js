@@ -663,8 +663,8 @@ name: 'Jarrad Davis',
 pos: 'LB',
 age: '27.0',
 type: 'UFA',
-cYears: 2,
-cTotal: 11,
+cYears: 0,
+cTotal: 0,
 interest: 40,
 img: ''
 };
