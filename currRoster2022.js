@@ -643,8 +643,8 @@ var BraxtonBerrios = {
     salary: 0,
   weight: '190',
   img: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3123075.png&w=350&h=254',
-  cYears: 2,
-  cTotal: 6,
+  cYears: 3,
+  cTotal: 15,
 };
 var KylePhillips = {
   name: "Kyle Phillips",
