@@ -233,6 +233,17 @@ var TreyLance = {
     capPenalty: 27904316
 };
 
+var CalvinRidley = {
+    name: "Calvin Ridley",
+    pos: 'WR',
+    age: '27',
+    height: '6-1',
+    weight: '190',
+    salary: 11116000,
+    img: '',
+    capPenalty: 0
+};
+
 var noOffer = {
   team: no,
   receiveText: ["2022 Round 1"],
@@ -463,4 +474,34 @@ var detOffer = {
   givePlayer: [DenzelMims]
 }
 
-twoTradeArr = [noOffer, seaOffer1, seaOffer2, denOffer1, denOffer2, cleOffer, sfOffer, wftOffer, dalOffer, tbOffer, jaxOffer, pitOffer, pitOffer2, nygOffer, pitOffer3, indOffer, lvOffer, nygOffer2, pitOffer4, lvOffer2, jaxOffer2, azOffer, detOffer]
+var atlOffer = {
+  team: atl,
+  receiveText: ["2022 Round 1", "Calvin Ridley"],
+  giveText: ["2022 Round 1", "2022 Round 2 (CAR)", "2022 Round 3"],
+  receiveIndex: [returnPickIndex(1, false, atl)],
+  giveIndex: [returnPickIndex(1, false, nyj), returnPickIndex(2, true, nyj), returnPickIndex(3, false, nyj)],
+  receivePlayer: [CalvinRidley],
+  givePlayer: []
+}
+
+var atlOffer2 = {
+  team: atl,
+  receiveText: ["Calvin Ridley"],
+  giveText: ["2022 Round 1 (SEA)"],
+  receiveIndex: [],
+  giveIndex: [returnPickIndex(1, true, nyj)],
+  receivePlayer: [CalvinRidley],
+  givePlayer: []
+}
+
+var atlOffer3 = {
+  team: atl,
+  receiveText: ["Calvin Ridley"],
+  giveText: ["2022 Round 2", "2022 Round 2 (CAR)", "2022 Round 3"],
+  receiveIndex: [],
+  giveIndex: [returnPickIndex(2, false, nyj), returnPickIndex(2, true, nyj), returnPickIndex(3, false, nyj)],
+  receivePlayer: [CalvinRidley],
+  givePlayer: []
+}
+
+twoTradeArr = [noOffer, seaOffer1, seaOffer2, denOffer1, denOffer2, cleOffer, sfOffer, wftOffer, dalOffer, tbOffer, jaxOffer, pitOffer, pitOffer2, nygOffer, pitOffer3, indOffer, lvOffer, nygOffer2, pitOffer4, lvOffer2, jaxOffer2, azOffer, detOffer, atlOffer, atlOffer3, atlOffer2]
