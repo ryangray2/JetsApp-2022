@@ -1261,6 +1261,17 @@ function generateYourPickHistory() {
     pickCol.appendChild(pickP);
     row.appendChild(pickCol);
 
+    var posCol = document.createElement("div");
+    posCol.classList.add("col-md-1", "col-2");
+
+    var posP = document.createElement("p");
+    posP.classList.add("phPos");
+
+    posP.innerHTML = jetsDrafted[i].pos;
+    console.log(jetsDrafted[i].pos)
+    posCol.appendChild(posP);
+    row.appendChild(posCol);
+
     var nameCol = document.createElement("div");
     nameCol.classList.add("col-md-4", "col-6");
 
@@ -1312,6 +1323,15 @@ function generatePickHistory() {
     pickP.innerHTML = i + 1;
     pickCol.appendChild(pickP);
     row.appendChild(pickCol);
+
+    var posCol = document.createElement("div");
+    posCol.classList.add("col-md-1", "col-2");
+
+    var posP = document.createElement("p");
+    posP.classList.add("phPos");
+    posP.innerHTML = draftSummary[i][1].pos
+    posCol.appendChild(posP);
+    row.appendChild(posCol);
 
     var nameCol = document.createElement("div");
     nameCol.classList.add("col-md-4", "col-6");
@@ -2537,6 +2557,11 @@ function generateTeams() {
   while (root.firstChild) {
     root.removeChild(root.firstChild);
   }
+  teams.sort(function(a, b) {
+    var textA = a.name.toUpperCase();
+    var textB = b.name.toUpperCase();
+    return (textA < textB) ? -1 : (textA > textB) ? 1 : 0;
+});
   for (let i = 0; i < teams.length; i++) {
     var row = document.createElement("div");
     row.classList.add("row", "text-center", "pickTeam");
@@ -2735,4 +2760,12 @@ function evaluatePickTrade() {
   } else {
     return false;
   }
+}
+
+function restartPressed() {
+  location.reload();
+}
+
+function jetsXHomePressed() {
+  window.location.href = 'http://www.jetsxfactor.com';
 }

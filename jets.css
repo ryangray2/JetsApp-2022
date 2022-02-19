@@ -292,17 +292,21 @@ color: black;
 }
 
 #screenshot {
-  font-size: 3vh;
+  font-size: 2vh;
       font-family: "Coda Caption";
-      margin-top: 10px;
+      margin-top: -8px;
       color: #145841;
 }
 
 #screenshot2 {
-  font-size: 2vh;
+  font-size: 1.5vh;
       font-family: "Coda Caption";
-      margin-top: 10px;
+      margin-top: -14px;
       color: #145841;
+}
+
+#postButtons {
+  width: 100%;
 }
 
 #sCap {

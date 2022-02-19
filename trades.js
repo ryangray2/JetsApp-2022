@@ -244,6 +244,17 @@ var CalvinRidley = {
     capPenalty: 0
 };
 
+var AmariCooper = {
+    name: "Amari Cooper",
+    pos: 'WR',
+    age: '28',
+    height: '6-1',
+    weight: '203',
+    salary: 22000000,
+    img: '',
+    capPenalty: 6000000
+};
+
 var noOffer = {
   team: no,
   receiveText: ["2022 Round 1"],
@@ -504,4 +515,24 @@ var atlOffer3 = {
   givePlayer: []
 }
 
-twoTradeArr = [noOffer, seaOffer1, seaOffer2, denOffer1, denOffer2, cleOffer, sfOffer, wftOffer, dalOffer, tbOffer, jaxOffer, pitOffer, pitOffer2, nygOffer, pitOffer3, indOffer, lvOffer, nygOffer2, pitOffer4, lvOffer2, jaxOffer2, azOffer, detOffer, atlOffer, atlOffer3, atlOffer2]
+var dalOffer2 = {
+  team: dal,
+  receiveText: ["Amari Cooper"],
+  giveText: ["2022 Round 2", "2022 Round 4"],
+  receiveIndex: [],
+  giveIndex: [returnPickIndex(2, false, nyj), returnPickIndex(4, false, nyj)],
+  receivePlayer: [AmariCooper],
+  givePlayer: []
+}
+
+var detOffer2 = {
+  team: det,
+  receiveText: ["2022 Round 1", "2022 Round 6"],
+  giveText: ["2022 Round 1", "2022 Round 2", "2022 Round 2 (CAR)"],
+  receiveIndex: [returnPickIndex(1, false, det), returnPickIndex(6, false, det)],
+  giveIndex: [returnPickIndex(1, false, nyj), returnPickIndex(2, false, nyj), returnPickIndex(2, true, nyj)],
+  receivePlayer: [],
+  givePlayer: []
+}
+
+twoTradeArr = [noOffer, seaOffer1, seaOffer2, denOffer1, denOffer2, cleOffer, sfOffer, wftOffer, dalOffer, tbOffer, jaxOffer, pitOffer, pitOffer2, nygOffer, pitOffer3, indOffer, lvOffer, nygOffer2, pitOffer4, lvOffer2, jaxOffer2, azOffer, detOffer, atlOffer, atlOffer3, atlOffer2, dalOffer2, detOffer2]

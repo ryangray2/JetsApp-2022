@@ -5093,8 +5093,8 @@ name: 'Michael Gallup',
 pos: 'WR',
 age: '25.7',
 type: 'UFA',
-cYears: 0,
-cTotal: 0,
+cYears: 4,
+cTotal: 46.4,
 interest: 40,
 img: ''
 };
