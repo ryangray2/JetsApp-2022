@@ -24,6 +24,45 @@ var sumCap = "";
 var broad = false;
 var currKind = "all";
 
+
+function checkTradeAssets(trade) {
+  console.log(returnPickIndex(1, true, nyj))
+  console.log(trade + "\n");
+  if (trade.receiveIndex.length > 0) {
+    for (let i = 0; i < trade.receiveIndex.length; i++) {
+      var pickNum = trade.receiveIndex[i];
+      console.log(trade.team.name + " " + pickNum);
+      if (draftOrder[pickNum[0]][pickNum[1]] === nyj) {
+        return false;
+      }
+    }
+  }
+  if (trade.giveIndex.length > 0) {
+    for (let i = 0; i < trade.giveIndex.length; i++) {
+      var pickNum = trade.giveIndex[i];
+      if (draftOrder[pickNum[0]][pickNum[1]] !== nyj) {
+        return false;
+      }
+    }
+  }
+  if (trade.receivePlayer.length > 0) {
+    for (let i = 0; i < trade.receivePlayer.length; i++) {
+      if (activeRoster.includes(trade.receivePlayer[i])) {
+        return false;
+      }
+    }
+  }
+  if (trade.givePlayer.length > 0) {
+    for (let i = 0; i < trade.givePlayer.length; i++) {
+      if (!activeRoster.includes(trade.givePlayer[i])) {
+        return false;
+      }
+    }
+  }
+  return true;
+
+}
+
 function load() {
     var tempArr = [leftOff[0], leftOff[1]];
     loadPicks(tempArr);
@@ -130,6 +169,8 @@ function instPressed() {
   // skipTrade();
 }
 
+
+
 function yesWatson() {
   document.getElementById("tradePrompt").style.display = "none";
 
@@ -152,7 +193,19 @@ function yesDarnold() {
 
 function yesTwo() {
   document.getElementById("tradePrompt").style.display = "none";
+    document.getElementById("moreTradesCont").style.display = "none";
   document.getElementById("twoTradeOffers").style.display = "block";
+  document.getElementById("tradeMenu").style.display = "block";
+  var tempArr = [];
+  for (let i = 0; i < twoTradeArr.length; i++) {
+    if (checkTradeAssets(twoTradeArr[i])) {
+      tempArr.push(twoTradeArr[i]);
+    } else {
+      continue;
+    }
+  }
+  twoTradeArr = tempArr;
+  twoNav = 0;
   generateTwoOffers(twoNav);
 }
 
@@ -481,7 +534,19 @@ function finishTrade(type) {
     if (twoTradeArr[twoNav].givePlayer.includes(DenzelMims)) {
       deadCap += 755892;
     }
-    skipTrade();
+
+    document.getElementById("moreTradesCont").style.display = "block";
+    document.getElementById("watsonTrade").style.display = "none";
+        document.getElementById("wilsonTrade").style.display = "none";
+          document.getElementById("twoTrade").style.display = "none";
+            document.getElementById("tradeMenu").style.display = "none";
+
+
+    // skipTrade();
+
+
+
+
     // document.getElementById("tradePrompt").style.display = "block";
     // document.getElementById("twoTrade").style.display = "none";
     // document.getElementById("watsonTrade").style.display = "none";

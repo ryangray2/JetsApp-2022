@@ -276,6 +276,7 @@ var seaOffer1 = {
 }
 
 var seaOffer2 = {
+  id: 3,
   team: sea,
   receiveText: ["Russell Wilson"],
   giveText: ["Zach Wilson", "2022 Round 1", "2022 Round 2", "2022 Round 4", "2023 Round 1", "2024 Round 1"],
@@ -286,6 +287,7 @@ var seaOffer2 = {
 }
 
 var denOffer1 = {
+  id: 1,
   team: den,
   receiveText: ["2022 Round 1"],
   giveText: ["Zach Wilson"],
@@ -296,10 +298,11 @@ var denOffer1 = {
 }
 
 var denOffer2 = {
+  id: 2,
   team: den,
   receiveText: ["2022 Round 2", "2022 Round 2 (LAR)"],
   giveText: ["Zach Wilson"],
-  receiveIndex: [returnPickIndex(2, false, den), returnPickIndex(1, true, den)],
+  receiveIndex: [returnPickIndex(2, false, den), returnPickIndex(2, true, den)],
   giveIndex: [],
   receivePlayer: [],
   givePlayer: [ZachWilson]
@@ -399,7 +402,7 @@ var pitOffer3 = {
   team: pit,
   receiveText: ["2022 Round 3", "2022 Round 5"],
   giveText: ["George Fant"],
-  receiveIndex: [returnPickIndex(3, false, pit), returnPickIndex(5, false, pit)],
+  receiveIndex: [returnPickIndex(3, false, pit), returnPickIndex(4, false, pit)],
   giveIndex: [],
   receivePlayer: [],
   givePlayer: [GeorgeFant]

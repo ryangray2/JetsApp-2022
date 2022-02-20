@@ -52,6 +52,10 @@ h5 {
   background-image: url("revisBG.png");
 }
 
+#moreTradesCont {
+  display: none;
+}
+
 #trans3 {
   background-image: url("markBG.jpg");
   z-index: 300;
