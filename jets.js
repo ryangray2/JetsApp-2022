@@ -140,6 +140,9 @@ function loadPicks(start) {
   // if (start[1] > 0) {
   //   jay -= 1;
   // }
+  if (start[1] > 0) {
+      start[1] = start[1] - 1;
+  }
   var startstart = start[0];
   for (let i = start[0]; i < draftOrder.length; i++) {
     if (i > startstart) {
@@ -2090,6 +2093,8 @@ function showDraft() {
           document.getElementById("showDraft").style.display = "none";
        } else {
          // console.log(draftSummary);
+         console.log(draftSummary[i][0]);
+         console.log(draftSummary[i][1]);
          document.getElementById("showLogo").setAttribute("src", draftSummary[i][0].logo);
          document.getElementById("showPick").innerHTML = draftSummary[i][1].pos + " - " + draftSummary[i][1].name;
        }
@@ -2763,14 +2768,19 @@ function pickOffer() {
     console.log(currPickTrade);
     for (var i = 0; i < picksSend.length; i++) {
       draftOrder[picksSend[i][0]][picksSend[i][1]] = currTeam;
-      tradedAway.push("2021 Round " + (picksSend[i][0] + 1) + " (#" + (picksSend[i][1] + 1) + ")");
+      tradedAway.push("2022 Round " + (picksSend[i][0] + 1) + " (#" + (picksSend[i][1] + 1) + ")");
       // if (leftOff[0] === picksSend[i][0] && (leftOff[1] - 1) === picksSend[i][1]) {
       //   currPickTrade = true;
       // }
+      if (leftOff[0] === picksSend[0][0] && leftOff[1] === picksSend[0][1] + 1) {
+        console.log("hmm .... interesting");
+
+      }
+      console.log(draftOrder);
     }
     for (var i = 0; i < picksGet.length; i++) {
       draftOrder[picksGet[i][0]][picksGet[i][1]] = nyj;
-      tradedFor.push("2021 Round " + (picksGet[i][0] + 1) + " (#" + (picksGet[i][1] + 1) + ")");
+      tradedFor.push("2022 Round " + (picksGet[i][0] + 1) + " (#" + (picksGet[i][1] + 1) + ")");
     }
     finishPickTrade("yes");
   } else {
@@ -2797,12 +2807,29 @@ function finishPickTrade(hmm) {
   p.classList.add("pickResult");
   if (hmm === "yes") {
     p.innerHTML = "ACCEPTED";
+    console.log(leftOff);
+    if (leftOff[0] === picksSend[0][0] && leftOff[1] === picksSend[0][1] + 1) {
+      p.innerHTML = "ACCEPTED"
+      leftOff = [leftOff[0], leftOff[1] - 1];
+      document.getElementById("draftCont").style.display = "none";
+      document.getElementById("currPickResult").style.display = "block";
+      // startDraft(leftOff);
+      // pickTradeScreen();
+
+    }
   } else {
     p.innerHTML = "REJECTED";
   }
   col.appendChild(p);
   row.appendChild(col);
   root.appendChild(row);
+}
+
+function tradePickContinue() {
+  document.getElementById("draftCont").style.display = "block";
+  document.getElementById("currPickResult").style.display = "none";
+  startDraft(leftOff);
+  pickTradeScreen();
 }
 
 function evaluatePickTrade() {
