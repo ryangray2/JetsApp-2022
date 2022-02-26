@@ -644,7 +644,7 @@ var BraxtonBerrios = {
   weight: '190',
   img: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3123075.png&w=350&h=254',
   cYears: 3,
-  cTotal: 15,
+  cTotal: 18,
 };
 var KylePhillips = {
   name: "Kyle Phillips",
@@ -654,8 +654,8 @@ var KylePhillips = {
     salary: 0,
   weight: '277',
   img: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3886528.png&w=350&h=254',
-  cYears: 2,
-  cTotal: 4,
+  cYears: 1,
+  cTotal: 1,
 };
 var ElijahRiley = {
   name: "Elijah Riley",
@@ -665,8 +665,8 @@ var ElijahRiley = {
     salary: 0,
   weight: '205',
   img: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4036924.png&w=350&h=254',
-  cYears: 2,
-  cTotal: 4
+  cYears: 1,
+  cTotal: 1
 };
 
 var deadCap = 1471730;
