@@ -1713,7 +1713,7 @@ function sMoves() {
 function sRoster() {
   document.getElementById("sMoves").style.display = "none";
   document.getElementById("sRoster").style.display = "block";
-
+  generateSRoster();
 }
 
 function generateSRoster() {
@@ -1721,6 +1721,7 @@ function generateSRoster() {
   // while (root.firstChild) {
   //   root.removeChild(root.firstChild);
   // }
+  console.log(activeRoster);
   activeRoster.sort(function(a,b) {
     var aNum;
     switch(a.pos) {
@@ -2093,8 +2094,8 @@ function showDraft() {
           document.getElementById("showDraft").style.display = "none";
        } else {
          // console.log(draftSummary);
-         console.log(draftSummary[i][0]);
-         console.log(draftSummary[i][1]);
+         // console.log(draftSummary[i][0]);
+         // console.log(draftSummary[i][1]);
          document.getElementById("showLogo").setAttribute("src", draftSummary[i][0].logo);
          document.getElementById("showPick").innerHTML = draftSummary[i][1].pos + " - " + draftSummary[i][1].name;
        }
@@ -2244,7 +2245,7 @@ function getPick(team) {
       return draftPlayers[0];
     }
     // console.log(possiblePicks.length + " " + team.name);
-    console.log(pick);
+    // console.log(pick);
     const index = team.needs.indexOf(pick.pos);
     if (index > -1) {
       team.needs.splice(index, 1);
