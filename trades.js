@@ -538,4 +538,4 @@ var detOffer2 = {
   givePlayer: []
 }
 
-twoTradeArr = [noOffer, seaOffer1, seaOffer2, denOffer1, denOffer2, cleOffer, sfOffer, wftOffer, dalOffer, tbOffer, jaxOffer, pitOffer, pitOffer2, nygOffer, pitOffer3, indOffer, lvOffer, nygOffer2, pitOffer4, lvOffer2, jaxOffer2, azOffer, detOffer, atlOffer, atlOffer3, atlOffer2, dalOffer2, detOffer2]
+twoTradeArr = [dalOffer, tbOffer, jaxOffer, pitOffer, pitOffer2, nygOffer, pitOffer3, indOffer, lvOffer, nygOffer2, pitOffer4, lvOffer2, jaxOffer2, azOffer, detOffer, atlOffer, atlOffer3, atlOffer2, dalOffer2, detOffer2, noOffer, seaOffer1, seaOffer2, denOffer1, denOffer2, cleOffer, sfOffer, wftOffer]
