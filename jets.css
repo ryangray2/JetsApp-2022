@@ -1,6 +1,10 @@
+
+@font-face { font-family: Batman; src: url('Fiorello CG Condensed Regular.otf'); }
+@font-face { font-family: Navine; src: url('NavineDemo-SemiCondensed.ttf'); }
+
 body {
-  background: #125740;
-  color: #cfecfe;
+    background: #00734d;
+  color: white;
   -webkit-touch-callout: none; /* iOS Safari */
    -webkit-user-select: none; /* Safari */
     -khtml-user-select: none; /* Konqueror HTML */
@@ -14,10 +18,34 @@ body {
 /* // #046a38 */
 
 .butt {
-  font-family: "Coda Caption" !important;
+  font-family: "Batman" !important;
   outline: none;
 box-shadow: none;
 margin-bottom: 5px;
+font-size: 5vh;
+box-shadow: 4px 4px 4px #0f4734, -4px -4px 4px #0e845c;
+  border-radius: 20px;
+    transition: 0.5s;
+    color: white !important;
+}
+
+.tradeButts {
+  font-size: 4vh;
+}
+
+.tradecont {
+  background-color: #eaeaea;
+      border-radius: 20px;
+      box-shadow: 4px 4px 4px #0f4734, -4px -4px 4px #10986a;
+      transition: 0.5s
+}
+
+.butt:hover {
+    box-shadow: none;
+}
+
+.tradeP {
+  color: #02734d;
 }
 
 button {
@@ -25,11 +53,12 @@ button {
 }
 
 p {
-  font-family: "Abel";
+  font-family: "Navine";
 }
 
 h5 {
-  font-family: "Abel";
+  font-family: "Navine";
+  color: white;
 }
 
 .transition {
@@ -58,8 +87,11 @@ h5 {
 
 #currPickResult {
   display: none;
-  background-color:  #27251f;
+  background-color: #27251f;
   height: 100%;
+  background-color: #e4e4e4;
+  color: #16366a;
+  font-family: Batman;
 }
 
 #trans3 {
@@ -68,7 +100,7 @@ h5 {
 }
 
 #green {
-  background-color: #125740;
+  background-color: #00734d;
   z-index: 301;
   height: 100%;
   width: 100%;
@@ -108,10 +140,16 @@ h5 {
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   font-size: 4vh;
+  box-shadow: inset 6px 6px 6px #000000, inset -6px -6px 6px #3d3a30;
 }
 
 #capBar {
 
+}
+
+.signButton {
+  background: #02734d;
+  box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
 }
 
 #resultImage {
@@ -121,18 +159,24 @@ h5 {
 
 #enterButt {
   margin: 10px;
+
 }
 
 #fixHead {
-  color: #cfecfe;
-  font-family: "Big Shoulders Inline Display";
+  color: white;
+  font-family: "Batman";
   font-size: 12vw;
+  margin-top: 10px;
 }
 
 #summaryHead {
-  color: #cfecfe;
-  font-family: "Big Shoulders Inline Display";
+  color: white;
+  font-family: "Batman";
   font-size: 8vh;
+}
+
+#advanceButton {
+  font-size: 3vh;
 }
 
 #dealHead {
@@ -142,9 +186,9 @@ h5 {
 }
 
 #faHead {
-  color: #cfecfe;
-  font-family: "Big Shoulders Inline Display";
-  font-size: 8vh;
+  color: white;
+  font-family: "Batman";
+  font-size: 7vh;
 }
 
 .watsonAssetRow {
@@ -183,7 +227,7 @@ h5 {
   position: absolute;
   height: 100%;
   width: 100%;
-  background-color: #125740;
+    background: #00734d;
 }
 
 #faCont {
@@ -192,7 +236,7 @@ h5 {
   position: absolute;
   height: 100%;
   width: 100%;
-    background-color: #125740;
+    background-color: #00734d;
     background-position: right;
     background-size: cover;
 }
@@ -201,9 +245,11 @@ h5 {
   height: 100%;
   width: 100%;
   display: none;
-  background-color: #11411e;
+  color: #00734d;
+  background-color: #e8e8e8;
   border-radius: 25px;
   padding: 10px;
+  box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
 }
 
 #signPop {
@@ -223,11 +269,11 @@ h5 {
 }
 
 #dropdownMenuButton {
-    font-family: "Coda Caption" !important;
+    font-family: "Navine" !important;
 }
 
 .dropdown-item {
-  font-family: "Anton" !important;
+  font-family: "Navine" !important;
 }
 
 #faNavCont {
@@ -235,10 +281,18 @@ h5 {
   height: 70vh;
   overflow: scroll;
   width: 100%;
-  background-color: #cfecfe;
-border-radius: 20px;
-padding-top: 10px;
-color: black;
+  background-color: #e8e8e8;
+  border-radius: 20px;
+  padding-top: 10px;
+  color: black;
+  box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+}
+
+.playerDiv {
+  box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+  border-radius: 25px;
+  padding: 5px;
+  margin-bottom: 30px;
 }
 
 #broadSort {
@@ -251,7 +305,7 @@ color: black;
   position: absolute;
   height: 100%;
   width: 100%;
-    background-color: #125740;
+    background-color: #00734d;
     /* background-image: url("jetXlogofade.png"); */
     background-size: contain;
     background-repeat: no-repeat;
@@ -263,7 +317,7 @@ color: black;
 
 .sumAddDrop {
   font-size: 4vh;
-      font-family: 'Anton';
+      font-family: 'Batman';
       font-style: italic;
       margin-bottom: 0px;
 }
@@ -283,14 +337,18 @@ color: black;
 }
 
 #share {
-  background-color: #cfebfd;
-      border-radius: 49px;
-      border: 3px solid #29b68c;
-      padding: 20px;
-      margin-top: 15px;
-      max-width: 100%;
-      margin-left: auto;
-      margin-right: auto;
+  background-color: #fdfdfd;
+  border-radius: 49px;
+  /* border: 3px solid #29b68c; */
+  padding: 20px;
+  margin-top: 15px;
+  width: 90%;
+  max-width: 500px;
+  max-width: 500px;
+  margin-left: auto;
+  box-shadow: 4px 4px 4px #0f4734, -4px -4px 4px #0e845c;
+  margin-right: auto;
+  margin-bottom: 15px;
 }
 
 #ryangray {
@@ -302,17 +360,21 @@ color: black;
 }
 
 #screenshot {
-  font-size: 2vh;
-      font-family: "Coda Caption";
+  font-size: 3vh;
+      font-family: 'Navine';
       margin-top: -8px;
-      color: #145841;
+      color: #007649;
 }
 
 #screenshot2 {
   font-size: 1.5vh;
-      font-family: "Coda Caption";
+      font-family: 'Navine';
       margin-top: -14px;
       color: #145841;
+}
+
+.movesrost {
+      font-size: 3vh;
 }
 
 #postButtons {
@@ -327,37 +389,58 @@ color: black;
   display: none;
 }
 
+.sumSec {
+  font-family: Navine;
+}
+
 
 .faImg {
+  margin-top: 10px;
   width: 35vh;
   border-radius: 200px;
+  background: #ececec;
+  box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+}
+
+#draftScreenButton {
+    box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+    color: #16366a !important;
+    transition: 0.5s;
+}
+
+#draftScreenButton:hover {
+      box-shadow: none;
 }
 
 .faName {
-  font-family: "Anton";
+  font-family: 'Batman';
   font-size: 50px;
   color: #125740 !important;
-  font-style:italic;
+  font-style: italic;
   margin-bottom: 1px;
 }
 
 .faPos {
-  font-family: "Lexend Mega";
+  font-family: "Navine";
   margin-bottom: 1px;
+  font-size: 2.5vh;
 }
 
 .rosterCut {
   color: #ca5656;
+  padding-top: 0px;
 }
 
 .faPrice {
-  font-family: "Lexend Mega";
+  font-family: "Navine";
+  font-size: 2.5vh;
 }
 
 #draftCont {
   display: none;
-  background-color:  #27251f;
+  background-color: #e4e4e4;
   height: 100%;
+  color: #16366a;
 }
 
 #draftStartScreen {
@@ -366,7 +449,7 @@ color: black;
   position: absolute;
   height: 100%;
   width: 100%;
-  background-color:  #27251f;
+  background-color: #e4e4e4;
 }
 
 #showDraft {
@@ -375,7 +458,7 @@ color: black;
   position: absolute;
   height: 200%;
   width: 100%;
-  background-color: #27251f;
+  background-color: #e4e4e4;
 }
 
 .draftName {
@@ -398,22 +481,29 @@ color: black;
 
 #draftPoolCont {
   height: 70vh;
-  overflow: scroll;
-  background-color: #3c3935;
+      overflow: scroll;
+      background-color: #ffffff;
+}
+
+.draftButt {
+  background: #0080ca;
+box-shadow: 4px 4px 4px #cbced1, -4px -4px 4px white;
+font-size: 1.8vh;
+font-family: Navine !important;
 }
 
 #pickHistoryCont {
   display: none;
   height: 70vh;
   overflow: scroll;
-  background-color: #3c3935;
+  background-color: white;
 }
 
 #yourpickHistoryCont {
   display: none;
   height: 70vh;
   overflow: scroll;
-  background-color: #3c3935;
+  background-color: white;
 }
 
 .phLogo {
@@ -421,9 +511,10 @@ color: black;
 }
 
 #showPick {
-    font-family: "Anton";
-    font-size: 4vh;
-      font-style:italic;
+  font-family: 'Navine';
+      font-size: 4vh;
+      /* font-style: italic; */
+      color: #0d356f !important;
 }
 
 #tradePrompt {
@@ -432,7 +523,7 @@ color: black;
   position: absolute;
   height: 100%;
   width: 100%;
-    background-color: #125740;
+    background-color: #00734d;
 }
 #watsonTradeAssets {
   display: none;
@@ -440,7 +531,7 @@ color: black;
   position: absolute;
   height: 100%;
   width: 100%;
-    background-color: #125740;
+    background-color: #00734d;
     /* background-image: url("watsonTradeBG copy.jpg"); */
     background-position: right;
     background-size: cover;
@@ -451,7 +542,7 @@ color: black;
   position: absolute;
   height: 100%;
   width: 100%;
-    background-color: #125740;
+    background-color: #00734d;
     /* background-image: url("watsonTradeBG copy.jpg"); */
     background-position: right;
     background-size: cover;
@@ -466,13 +557,16 @@ overflow: scroll;
 .tradeLogo {
   width: 70%;
   max-width: 150px;
-  /* background-color: black; */
-  background-image: url("tradeLogoBG.png");
+  background-color: #eaeaea;
+  /* background-image: url(tradeLogoBG.png); */
   background-size: cover;
-  -webkit-box-shadow: 5px 5px 0px 3px rgba(0,0,0,0.64);
-box-shadow: 5px 5px 0px 3px rgba(0,0,0,0.64);
-margin-bottom: 10px;
-border-radius: 20px;
+  /* -webkit-box-shadow: 5px 5px 0px 3px rgb(0 0 0 / 64%); */
+  /* box-shadow: 5px 5px 0px 3px rgb(0 0 0 / 64%); */
+  border-radius: 20px;
+  box-shadow: 4px 4px 4px #d4d4d4, -4px -4px 4px #ffffff;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-radius: 20px;
 }
 
 
@@ -483,7 +577,7 @@ border-radius: 20px;
   position: absolute;
   height: 100%;
   width: 100%;
-    background-color: #125740;
+    background-color: #00734d;
     background-position: right;
     background-size: cover;
 }
@@ -493,7 +587,7 @@ border-radius: 20px;
   position: absolute;
   height: 100%;
   width: 100%;
-    background-color: #125740;
+    background-color: #00734d;
     background-position: right;
     background-size: cover;
 }
@@ -503,7 +597,7 @@ border-radius: 20px;
   position: absolute;
   height: 100%;
   width: 100%;
-    background-color: #125740;
+    background-color: #00734d;
     background-position: right;
     background-size: cover;
 }
@@ -541,38 +635,49 @@ transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 
 #tradeButton {
   margin-bottom: 0;
-  padding: 10px;
+  font-size: 3vh;
   border-radius: 20px;
-  background-color: #28b78d;
+  background-color: #0080d0;
   margin-top: 3px;
-  font-family: "Coda Caption";
-    cursor: pointer;
+  color: white;
+  margin-bottom: 10px;
+  font-family: 'Navine';
+  box-shadow: 4px 4px 4px #c2c2c2, -4px -4px 4px #ffffff;
+  cursor: pointer;
 }
 
 #tradeContinueButton {
   margin-bottom: 0;
-  padding: 10px;
-  border-radius: 20px;
-  background-color: #28b78d;
-  margin-top: 3px;
-  font-family: "Coda Caption";
-    cursor: pointer;
+      font-size: 3vh;
+      border-radius: 20px;
+      background-color: #0080d0;
+      margin-top: 3px;
+      color: white;
+      margin-bottom: 10px;
+      font-family: 'Navine';
+      box-shadow: 4px 4px 4px #c2c2c2, -4px -4px 4px #ffffff;
+      cursor: pointer;
 }
 #pickOfferButton {
   display: none;
   margin-bottom: 0;
-  padding: 10px;
+  font-size: 3vh;
   border-radius: 20px;
-  background-color: #28b78d;
+  background-color: #0080d0;
   margin-top: 3px;
-  font-family: "Coda Caption";
+  color: white;
+  margin-bottom: 10px;
+  font-family: 'Navine';
+  box-shadow: 4px 4px 4px #c2c2c2, -4px -4px 4px #ffffff;
   cursor: pointer;
+  transition: 0.5s;
 }
 
 .pickResult {
-  font-size: 4vh;
-  font-family: "Coda Caption";
+  font-size: 9vh;
+  font-family: 'Batman';
   padding: 10px;
+
 
 }
 
@@ -581,17 +686,20 @@ transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 .pickTeam {
-  background-color: #3c3935;
-  border-bottom: 1px solid rgb(40, 37, 32);
-  cursor: pointer;
+  background-color: #ffffff;
+      border-bottom: 1px solid rgb(11 53 110);
+      /* border-radius: 20px; */
+      cursor: pointer;
 }
 
 .teamPick {
-  margin-bottom: 0px;
+  margin-bottom: 5px;
   padding: 5px;
-  background-color: #3c3935;
-  border-bottom: 1px solid rgb(40, 37, 32);
-    cursor: pointer;
+  background-color: #ffffff;
+  /* border-bottom: 1px solid rgb(40, 37, 32); */
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px #d4d4d4, -2px -2px 2px #ffffff;
 }
 
 ///////////////////////////////

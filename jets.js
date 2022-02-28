@@ -239,7 +239,7 @@ function generateDarnoldOffers(num) {
 
     var rightButton = document.createElement("button");
     rightButton.setAttribute("onclick", "darnoldRight()");
-    rightButton.classList.add('bttn-slant', 'bttn-md', 'butt');
+    rightButton.classList.add('bttn-md', 'butt', 'tradeButts');
     rightButton.innerHTML = "NEXT";
     rightButton.style.paddingRight = "5px";
     rightButton.style.paddingLeft = "5px";
@@ -251,7 +251,7 @@ function generateDarnoldOffers(num) {
 
     var leftButton = document.createElement("button");
     leftButton.setAttribute("onclick", "darnoldLeft()");
-    leftButton.classList.add('bttn-slant', 'bttn-md', 'butt');
+    leftButton.classList.add('bttn-md', 'butt', 'tradeButts');
     leftButton.innerHTML = "PREVIOUS";
     leftButton.style.paddingRight = "5px";
     leftButton.style.paddingLeft = "5px";
@@ -335,7 +335,8 @@ function generateTwoOffers(num) {
 
     var rightButton = document.createElement("button");
     rightButton.setAttribute("onclick", "twoRight()");
-    rightButton.classList.add('bttn-slant', 'bttn-md', 'butt');
+    rightButton.classList.add('bttn-md', 'butt', 'tradeButts');
+    rightButton.style.marginTop = "10px";
     rightButton.innerHTML = "NEXT";
 
     rbutcol.appendChild(rightButton);
@@ -346,7 +347,8 @@ function generateTwoOffers(num) {
     var leftButton = document.createElement("button");
     leftButton.setAttribute("onclick", "twoLeft()");
     leftButton.innerHTML = "PREVIOUS";
-    leftButton.classList.add('bttn-slant', 'bttn-md', 'butt');
+    leftButton.style.marginTop = "10px";
+    leftButton.classList.add( 'bttn-md', 'butt', 'tradeButts');
 
     lbutcol.appendChild(leftButton);
 
@@ -360,12 +362,16 @@ function generateTwoOffers(num) {
 
   var row = document.createElement("div");
   row.classList.add("row", "text-center");
+  row.style.marginTop = "10px";
 
   var col1 = document.createElement("div");
-  col1.classList.add("col-6");
+  col1.classList.add("col-5", "tradecont");
+
+  var dumcol = document.createElement("div");
+  dumcol.classList.add("col-2");
 
   var col2 = document.createElement("div");
-  col2.classList.add("col-6");
+  col2.classList.add("col-5", "tradecont");
 
   var img = document.createElement("img");
   img.setAttribute("src", nyj.logo);
@@ -382,19 +388,22 @@ function generateTwoOffers(num) {
   for (let k = 0; k < twoTradeArr[num].receiveText.length; k++) {
     var p = document.createElement("p");
     p.innerHTML = twoTradeArr[num].receiveText[k];
+    p.classList.add("tradeP");
     col1.appendChild(p);
   }
   for (let j = 0; j < twoTradeArr[num].giveText.length; j++) {
     var p = document.createElement("p");
     p.innerHTML = twoTradeArr[num].giveText[j];
+    p.classList.add("tradeP");
     col2.appendChild(p);
   }
   row.appendChild(col1);
+    row.appendChild(dumcol);
   row.appendChild(col2);
 
   var row2 = document.createElement("div");
   row2.classList.add("row", "text-center");
-  row2.style.borderTop = "1px solid black";
+  row2.style.marginTop = "10px";
 
   var col12 = document.createElement("div");
   col12.classList.add("col-12");
@@ -806,6 +815,8 @@ function generateTeamFA() {
     root.removeChild(root.firstChild);
   }
   for (let i = 0; i < teamFA.length; i++) {
+    var playerDiv = document.createElement("div");
+    playerDiv.classList.add("playerDiv");
 
 //// PICTURE
     var imgrow = document.createElement("div");
@@ -820,7 +831,8 @@ function generateTeamFA() {
 
     imgcol.appendChild(img);
     imgrow.appendChild(imgcol);
-    root.appendChild(imgrow);
+    playerDiv.appendChild(imgrow);
+    // root.appendChild(imgrow);
 ////
     var row = document.createElement("div");
     row.classList.add("row", "text-center");
@@ -873,7 +885,7 @@ function generateTeamFA() {
       signCol.classList.add("col-12");
 
       var signButton = document.createElement("button");
-      signButton.classList.add("signButton", "bttn-slant", "bttn-md", "bttn-success", "butt");
+      signButton.classList.add("signButton", "bttn-md", "bttn-success", "butt");
       signButton.innerHTML = "SIGN";
       signButton.addEventListener('click', function() {
         signTeamFA(teamFA[i]);
@@ -886,8 +898,9 @@ function generateTeamFA() {
       row.style.opacity = ".5";
     }
     var hr = document.createElement("hr");
-    root.appendChild(row);
-    root.appendChild(hr);
+    playerDiv.appendChild(row);
+    root.appendChild(playerDiv);
+    // root.appendChild(hr);
   }
 }
 
@@ -1629,6 +1642,7 @@ function advanceFA() {
   window.scrollTo(0, 0);
   document.getElementById("advanceButton").setAttribute("onclick", "doneFA()");
   document.getElementById("advanceButton").innerHTML = "GO TO DRAFT";
+  document.getElementById("advanceButton").blur();
   document.getElementById("faHead").innerHTML = "FREE AGENCY";
   document.getElementById("broadSort").style.display = "block";
 }
@@ -1674,7 +1688,7 @@ function doneFA() {
     document.getElementById("trans3").style.display = "none";
   document.getElementById("trans4").style.display = "block";
     document.getElementById("draftStartScreen").style.display = "block";
-    document.body.style.backgroundColor = "#27251f";
+    document.body.style.backgroundColor = "rgb(227 227 227)";
     console.log(draftOrder);
 }
 
@@ -1683,6 +1697,7 @@ function draftPressed() {
   document.getElementById("draftStartScreen").style.display = "none";
   startDraft(leftOff); ///// move to button
   document.getElementById("draftCont").style.display = "block";
+  document.getElementById("trans4").style.background =  "#e4e4e4";
 
 }
 
@@ -1691,7 +1706,7 @@ function draftPressed() {
 // }
 
 function draftsOver() {
-  document.body.setAttribute("style", "background-color: #125740");
+  document.body.setAttribute("style", "background-color: #00734d");
   document.getElementById("draftCont").style.display = "none";
   document.getElementById("summary").style.display = "block";
   generateSummary();
@@ -2444,7 +2459,7 @@ function generateBroadFA(kind) {
 
     var nameP = document.createElement("p");
     nameP.classList.add("faName");
-    nameP.innerHTML = tempArray[i].name;
+    nameP.innerHTML = tempArray[i].name.toUpperCase();
     nameCol.appendChild(nameP);
     row.appendChild(nameCol);
 
@@ -2493,7 +2508,8 @@ function generateBroadFA(kind) {
         signButton.innerHTML = "NOT ENOUGH SPACE";
       } else {
         var signButton = document.createElement("button");
-        signButton.classList.add("signButton", "bttn-slant", "bttn-md", "bttn-success", "butt");
+        signButton.classList.add("signButton", "bttn-md", "bttn-success", "butt");
+
         signButton.innerHTML = "SIGN";
         signButton.addEventListener('click', function() {
           signBroadFA(tempArray[i]);
@@ -2615,7 +2631,7 @@ function pickTradeScreen() {
     draftPoolCont.style.display = "block";
     pickTradeTeamsCont.style.display = "none";
     tradeButton.innerHTML = "TRADE";
-    tradeButton.style.backgroundColor = "#28b78d";
+    tradeButton.style.backgroundColor = "#0080ca";
     // leftOff = [leftOff[0], (leftOff[1] - 1)];
     // if (currPickTrade) {
     //   startDraft(leftOff);
@@ -2717,14 +2733,16 @@ function addSend(pick) {
   console.log(p.style.backgroundColor);
 
   if (p.classList.contains("checked")) {
-    p.style.backgroundColor = "#3c3935";
+    p.style.backgroundColor = "white";
+    p.style.color = "#16366a !important";
     p.classList.remove("checked");
     const index =  picksSend.indexOf(pick);
     picksSend.splice(index, 1);
     console.log(picksSend);
   } else {
     console.log("not ok");
-    p.style.backgroundColor = "#28b78d";
+    p.style.backgroundColor = "#0080ca";
+    p.style.color = "white !important";
     p.classList.add("checked");
     picksSend.push(pick);
     console.log(picksSend);
@@ -2741,14 +2759,14 @@ function addGet(pick) {
   var p = document.getElementById("r" + pick[0] + "p" + pick[1]);
 
   if (p.classList.contains("checked")) {
-    p.style.backgroundColor = "#3c3935";
+    p.style.backgroundColor = "white";
     p.classList.remove("checked");
     const index =  picksGet.indexOf(pick);
     picksGet.splice(index, 1);
     console.log(picksGet);
   } else {
     console.log("not ok");
-    p.style.backgroundColor = "#28b78d";
+    p.style.backgroundColor = "#0080ca";
     p.classList.add("checked");
     picksGet.push(pick);
     console.log(picksGet);
