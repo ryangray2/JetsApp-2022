@@ -1728,7 +1728,7 @@ function sMoves() {
 function sRoster() {
   document.getElementById("sMoves").style.display = "none";
   document.getElementById("sRoster").style.display = "block";
-  generateSRoster();
+  // generateSRoster();
 }
 
 function generateSRoster() {

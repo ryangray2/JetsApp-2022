@@ -383,8 +383,8 @@ var IsaiahDunn = {
   img: '',
   capPenalty: 16667
 };
-var PatrickFerguson = {
-  name: 'Patrick Ferguson',
+var ParkerFerguson = {
+  name: 'Parker Ferguson',
   pos: 'IOL',
   age: '22',
   height: '6-4',
@@ -669,9 +669,9 @@ var ElijahRiley = {
   cTotal: 1
 };
 
-var deadCap = 1471730;
+var deadCap = 13762161;
 var rollover = 6687683;
 // var salaryCap = 211686546;
-var salaryCap = 212393741;
+var salaryCap = 208200000;
 
-var currRosterArr = [CJMosley, CarlLawson, CoreyDavis, JohnFranklinMyers, GeorgeFant, QuinnenWilliams, ConnorMcGovern, ShaqLawson, ZachWilson, SheldonRankins, MekhiBecton, AlijahVeraTucker, GregVanRoten, RyanGriffin, JustinHardee, ElijahMoore, DenzelMims, AshtynDavis, ChumaEdoga, TrevonWesco, ThomasHennessy, LaMicalPerine, CameronClark, BlakeCashman, MichaelCarter, BryceHall, TyJohnson, QuincyWilliams, BradenMann, JamienSherwood, MichaelCarterII, BryceHuff, JasonPinnock, HamsahNasirildeen, BrandinEchols, JonathanMarshall, IsaiahDunn, PatrickFerguson, ZaneLewis, MarcusMaye, JamisonCrowder, LaurentDuvernayTardif, KeelanCole, MorganMoses, DanFeeney, JoeFlacco, LamarcusJoyner, TylerKroft, ConorMcDermott, VinnyCurry, TevinColeman, SharrodNeasman, NathanShepherd, MikeWhite, JeffSmith, DelshaunPhillips, IsaiahWilliams, JavelinGuidry, TimWard, FolorunsoFatukasi, BraxtonBerrios, KylePhillips, ElijahRiley];
+var currRosterArr = [CJMosley, CarlLawson, CoreyDavis, JohnFranklinMyers, GeorgeFant, QuinnenWilliams, ConnorMcGovern, ZachWilson, SheldonRankins, MekhiBecton, AlijahVeraTucker, GregVanRoten, RyanGriffin, JustinHardee, ElijahMoore, DenzelMims, AshtynDavis, ChumaEdoga, TrevonWesco, ThomasHennessy, LaMicalPerine, BlakeCashman, MichaelCarter, BryceHall, TyJohnson, QuincyWilliams, BradenMann, JamienSherwood, MichaelCarterII, BryceHuff, JasonPinnock, HamsahNasirildeen, BrandinEchols, JonathanMarshall, IsaiahDunn, ParkerFerguson, ZaneLewis, MarcusMaye, JamisonCrowder, LaurentDuvernayTardif, KeelanCole, MorganMoses, DanFeeney, JoeFlacco, LamarcusJoyner, TylerKroft, ConorMcDermott, VinnyCurry, TevinColeman, SharrodNeasman, NathanShepherd, MikeWhite, JeffSmith, DelshaunPhillips, IsaiahWilliams, JavelinGuidry, TimWard, FolorunsoFatukasi, BraxtonBerrios, KylePhillips, ElijahRiley];
