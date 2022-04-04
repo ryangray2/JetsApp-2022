@@ -404,6 +404,83 @@ var ZaneLewis = {
   capPenalty: 0
 };
 
+var CJUzomah = {
+  name: 'C.J. Uzomah',
+  pos: 'TE',
+  age: '22',
+  height: '6-1',
+  weight: '190',
+  salary: 4666666,
+  img: '',
+  capPenalty: 15000000
+};
+
+var LakenTomlinson = {
+  name: 'Laken Tomlinson',
+  pos: 'IOL',
+  age: '22',
+  height: '6-1',
+  weight: '190',
+  salary: 5380000,
+  img: '',
+  capPenalty: 13900000
+};
+
+var SolomonThomas = {
+  name: 'Solomon Thomas',
+  pos: 'EDGE',
+  age: '22',
+  height: '6-1',
+  weight: '190',
+  salary: 2250000,
+  img: '',
+  capPenalty: 1910000
+};
+
+var GregZuerlein = {
+  name: 'Greg Zuerlein',
+  pos: 'K',
+  age: '22',
+  height: '6-1',
+  weight: '190',
+  salary: 1985294,
+  img: '',
+  capPenalty: 1000000
+};
+
+var JordanWhitehead = {
+  name: 'Jordan Whitehead',
+  pos: 'S',
+  age: '22',
+  height: '6-1',
+  weight: '190',
+  salary: 4223384,
+  img: '',
+  capPenalty: 7000000
+};
+
+var DJReed = {
+  name: 'D.J. Reed',
+  pos: 'CB',
+  age: '22',
+  height: '6-1',
+  weight: '190',
+  salary: 4601754,
+  img: '',
+  capPenalty: 10500000
+};
+
+var TylerConklin = {
+  name: 'Tyler Conklin',
+  pos: 'TE',
+  age: '22',
+  height: '6-1',
+  weight: '190',
+  salary: 3373333,
+  img: '',
+  capPenalty: 10000000
+};
+
 ////////////////////////////////////////
 
 var MarcusMaye = {
@@ -437,7 +514,7 @@ var LaurentDuvernayTardif = {
   salary: 0,
   img: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/16958.png&w=350&h=254',
   cYears: 1,
-  cTotal: 6
+  cTotal: 3
 };
 
 var JarradDavis = {
@@ -456,7 +533,7 @@ var KeelanCole = {
   age: '28',
   type: 'UFA',
   cYears: 1,
-  cTotal: 5.5,
+  cTotal: 2,
   img: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3071572.png&w=350&h=254',
   salary: 0,
 };
@@ -478,7 +555,8 @@ var DanFeeney = {
   cYears: 1,
   cTotal: 3.5,
   img: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2979482.png&w=350&h=254',
-salary: 0,
+salary: 3000000,
+capPenalty: 3000000
 };
 var JoeFlacco = {
   name: 'Joe Flacco',
@@ -486,10 +564,11 @@ var JoeFlacco = {
   age: '35',
   height: '6-6',
   weight: '245',
-  salary: 0,
+  salary: 3385294,
   img: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/11252.png',
   cYears: 1,
-  cTotal: 3.5
+  cTotal: 3.5,
+  capPenalty: 2850000
 };
 var LamarcusJoyner = {
   name: 'Lamarcus Joyner',
@@ -498,8 +577,9 @@ var LamarcusJoyner = {
   type: 'UFA',
   cYears: 1,
   cTotal: 3,
-  salary: 0,
+  salary: 2129411,
   img: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/16769.png&w=350&h=254',
+  capPenalty: 2100000
 };
 var TylerKroft = {
   name: 'Tyler Kroft',
@@ -517,10 +597,11 @@ var ConorMcDermott = {
   age: '29',
   height: '6-8',
   weight: '305',
-  salary: 0,
+  salary: 1550000,
   cYears: 1,
   cTotal: 1.4,
   img: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2971584.png&w=350&h=254',
+  capPenalty: 450000
 };
 var VinnyCurry = {
   name: 'Vinny Curry',
@@ -539,9 +620,10 @@ var TevinColeman = {
   age: '28',
   type: 'UFA',
   cYears: 1,
-    salary: 0,
+    salary: 1500000,
   cTotal: 1.1,
   img: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2979477.png&w=350&h=254',
+  capPenalty: 650000
 };
 var SharrodNeasman = {
   name: 'Sharrod Neasman',
@@ -559,21 +641,23 @@ var NathanShepherd = {
   age: '27',
   height: '6-4',
   weight: '315',
-    salary: 0,
+    salary: 945000,
   img: "https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4076951.png&w=350&h=254",
   cYears: 1,
   cTotal: .9,
+  capPenalty: 50000
 };
 var MikeWhite = {
   name: 'Mike White',
   pos: 'QB',
   age: '25',
   height: '6-5',
-    salary: 0,
+    salary: 2540000,
   weight: '218',
   img: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3051381.png&w=350&h=254',
   cYears: 1,
   cTotal: 2.2,
+  capPenalty: 0
 };
 var JeffSmith = {
   name: 'Jeff Smith',
@@ -600,29 +684,32 @@ var IsaiahWilliams = {
   pos: 'IOL',
   age: '28',
   cYears: 1,
-    salary: 0,
+    salary: 895000,
   cTotal: 3,
   img: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2574302.png&w=350&h=254',
+  capPenalty: 0
 };
 var JavelinGuidry = {
   name: 'Javelin Guidry',
   pos: 'CB',
   age: '22',
   height: '5-10',
-    salary: 0,
+    salary: 895000,
   weight: '190',
   img: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4243250.png&w=350&h=254',
   cYears: 2,
   cTotal: 4,
+  capPenalty: 0
 };
 var TimWard = {
   name: 'Tim Ward',
   pos: 'EDGE',
   age: '24',
-    salary: 0,
+    salary: 895000,
   img: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3914553.png&w=350&h=254',
   cYears: 1,
   cTotal: .69,
+  capPenalty: 0
 };
 var FolorunsoFatukasi = {
   name: 'Folorunso Fatukasi',
@@ -640,11 +727,12 @@ var BraxtonBerrios = {
   pos: 'WR',
   age: '25',
   height: '5-9',
-    salary: 0,
+    salary: 3767500,
   weight: '190',
   img: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3123075.png&w=350&h=254',
   cYears: 3,
   cTotal: 18,
+  capPenalty: 7000000
 };
 var KylePhillips = {
   name: "Kyle Phillips",
@@ -655,7 +743,7 @@ var KylePhillips = {
   weight: '277',
   img: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3886528.png&w=350&h=254',
   cYears: 1,
-  cTotal: 1,
+  cTotal: 1.5,
 };
 var ElijahRiley = {
   name: "Elijah Riley",
@@ -672,6 +760,6 @@ var ElijahRiley = {
 var deadCap = 13762161;
 var rollover = 6687683;
 // var salaryCap = 211686546;
-var salaryCap = 208200000;
+var salaryCap = 224981357;
 
-var currRosterArr = [CJMosley, CarlLawson, CoreyDavis, JohnFranklinMyers, GeorgeFant, QuinnenWilliams, ConnorMcGovern, ZachWilson, SheldonRankins, MekhiBecton, AlijahVeraTucker, GregVanRoten, RyanGriffin, JustinHardee, ElijahMoore, DenzelMims, AshtynDavis, ChumaEdoga, TrevonWesco, ThomasHennessy, LaMicalPerine, BlakeCashman, MichaelCarter, BryceHall, TyJohnson, QuincyWilliams, BradenMann, JamienSherwood, MichaelCarterII, BryceHuff, JasonPinnock, HamsahNasirildeen, BrandinEchols, JonathanMarshall, IsaiahDunn, ParkerFerguson, ZaneLewis, MarcusMaye, JamisonCrowder, LaurentDuvernayTardif, KeelanCole, MorganMoses, DanFeeney, JoeFlacco, LamarcusJoyner, TylerKroft, ConorMcDermott, VinnyCurry, TevinColeman, SharrodNeasman, NathanShepherd, MikeWhite, JeffSmith, DelshaunPhillips, IsaiahWilliams, JavelinGuidry, TimWard, FolorunsoFatukasi, BraxtonBerrios, KylePhillips, ElijahRiley];
+var currRosterArr = [CJMosley, CarlLawson, CoreyDavis, BraxtonBerrios, JohnFranklinMyers, GeorgeFant, QuinnenWilliams, ConnorMcGovern, ZachWilson, SheldonRankins, MekhiBecton, AlijahVeraTucker, GregVanRoten, RyanGriffin, JustinHardee, ElijahMoore, DenzelMims, AshtynDavis, ChumaEdoga, TrevonWesco, ThomasHennessy, LaMicalPerine, BlakeCashman, MichaelCarter, BryceHall, TyJohnson, QuincyWilliams, BradenMann, JamienSherwood, MichaelCarterII, BryceHuff, JasonPinnock, HamsahNasirildeen, BrandinEchols, JonathanMarshall, IsaiahDunn, ParkerFerguson, ZaneLewis, LaurentDuvernayTardif, KeelanCole, DanFeeney, JoeFlacco, LamarcusJoyner, TylerKroft, ConorMcDermott, TevinColeman, NathanShepherd, MikeWhite, IsaiahWilliams, JavelinGuidry, TimWard, KylePhillips, CJUzomah, LakenTomlinson, SolomonThomas, GregZuerlein, JordanWhitehead, DJReed, TylerConklin];

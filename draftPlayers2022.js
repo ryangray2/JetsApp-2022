@@ -129,7 +129,7 @@ img: ''
 };
 var JordanDavis = {
 name: "Jordan Davis",
-pos: 'DL',
+pos: 'IDL',
 rank: '17',
 school: 'Georgia',
 salary: 0,
@@ -209,7 +209,7 @@ img: ''
 };
 var DeMarvinLeal = {
 name: "DeMarvin Leal",
-pos: 'DL',
+pos: 'IDL',
 rank: '27',
 school: 'Texas A&M',
 salary: 0,
@@ -225,7 +225,7 @@ img: ''
 };
 var TravonWalker = {
 name: "Travon Walker",
-pos: 'DL',
+pos: 'IDL',
 rank: '29',
 school: 'Georgia',
 salary: 0,
@@ -273,7 +273,7 @@ img: ''
 };
 var DevonteWyatt = {
 name: "Devonte Wyatt",
-pos: 'DL',
+pos: 'IDL',
 rank: '35',
 school: 'Georgia',
 salary: 0,
@@ -289,7 +289,7 @@ img: ''
 };
 var LoganHall = {
 name: "Logan Hall",
-pos: 'DL',
+pos: 'IDL',
 rank: '37',
 school: 'Houston',
 salary: 0,
@@ -361,7 +361,7 @@ img: ''
 };
 var PhidarianMathis = {
 name: "Phidarian Mathis",
-pos: 'DL',
+pos: 'IDL',
 rank: '46',
 school: 'Alabama',
 salary: 0,
@@ -449,7 +449,7 @@ img: ''
 };
 var PerrionWinfrey = {
 name: "Perrion Winfrey",
-pos: 'DL',
+pos: 'IDL',
 rank: '57',
 school: 'Oklahoma',
 salary: 0,
@@ -657,7 +657,7 @@ img: ''
 };
 var TravisJones = {
 name: "Travis Jones",
-pos: 'DL',
+pos: 'IDL',
 rank: '83',
 school: 'UConn',
 salary: 0,
@@ -777,7 +777,7 @@ img: ''
 };
 var ZacharyCarter = {
 name: "Zachary Carter",
-pos: 'DL',
+pos: 'IDL',
 rank: '98',
 school: 'Florida',
 salary: 0,
@@ -865,7 +865,7 @@ img: ''
 };
 var HaskellGarrett = {
 name: "Haskell Garrett",
-pos: 'DL',
+pos: 'IDL',
 rank: '109',
 school: 'Ohio State',
 salary: 0,
@@ -1121,7 +1121,7 @@ img: ''
 };
 var NeilFarrellJr = {
 name: "Neil Farrell Jr.",
-pos: 'DL',
+pos: 'IDL',
 rank: '141',
 school: 'LSU',
 salary: 0,
@@ -1289,7 +1289,7 @@ img: ''
 };
 var JohnRidgeway = {
 name: "John Ridgeway",
-pos: 'DL',
+pos: 'IDL',
 rank: '162',
 school: 'Arkansas',
 salary: 0,
@@ -1321,7 +1321,7 @@ img: ''
 };
 var JaydenPeevy = {
 name: "Jayden Peevy",
-pos: 'DL',
+pos: 'IDL',
 rank: '166',
 school: 'Texas A&M',
 salary: 0,
@@ -1353,7 +1353,7 @@ img: ''
 };
 var OtitoOgbonnia = {
 name: "Otito Ogbonnia",
-pos: 'DL',
+pos: 'IDL',
 rank: '170',
 school: 'UCLA',
 salary: 0,
@@ -1473,7 +1473,7 @@ img: ''
 };
 var ChristopherHinton = {
 name: "Christopher Hinton",
-pos: 'DL',
+pos: 'IDL',
 rank: '185',
 school: 'Michigan',
 salary: 0,
@@ -1537,7 +1537,7 @@ img: ''
 };
 var MyronTagovailoaAmosa = {
 name: "Myron Tagovailoa-Amosa",
-pos: 'DL',
+pos: 'IDL',
 rank: '193',
 school: 'Notre Dame',
 salary: 0,
@@ -1905,7 +1905,7 @@ img: ''
 };
 var EyiomaUwazurike = {
 name: "Eyioma Uwazurike",
-pos: 'DL',
+pos: 'IDL',
 rank: '239',
 school: 'Iowa State',
 salary: 0,
@@ -2049,7 +2049,7 @@ img: ''
 };
 var ThomasBooker = {
 name: "Thomas Booker",
-pos: 'DL',
+pos: 'IDL',
 rank: '257',
 school: 'Stanford',
 salary: 0,
@@ -2369,7 +2369,7 @@ img: ''
 };
 var MarquanMcCall = {
 name: "Marquan McCall",
-pos: 'DL',
+pos: 'IDL',
 rank: '297',
 school: 'Kentucky',
 salary: 0,
@@ -2377,7 +2377,7 @@ img: ''
 };
 var MatthewButler = {
 name: "Matthew Butler",
-pos: 'DL',
+pos: 'IDL',
 rank: '298',
 school: 'Tennessee',
 salary: 0,
@@ -2433,7 +2433,7 @@ img: ''
 };
 var LaBryanRay = {
 name: "LaBryan Ray",
-pos: 'DL',
+pos: 'IDL',
 rank: '305',
 school: 'Alabama',
 salary: 0,
@@ -2505,7 +2505,7 @@ img: ''
 };
 var DJDavidson = {
 name: "D.J. Davidson",
-pos: 'DL',
+pos: 'IDL',
 rank: '314',
 school: 'Arizona State',
 salary: 0,
@@ -2521,7 +2521,7 @@ img: ''
 };
 var KeirThomas = {
 name: "Keir Thomas",
-pos: 'DL',
+pos: 'IDL',
 rank: '316',
 school: 'Florida State',
 salary: 0,
@@ -2593,7 +2593,7 @@ img: ''
 };
 var JordanJackson = {
 name: "Jordan Jackson",
-pos: 'DL',
+pos: 'IDL',
 rank: '325',
 school: 'Air Force',
 salary: 0,
@@ -2601,7 +2601,7 @@ img: ''
 };
 var ScottPatchan = {
 name: "Scott Patchan",
-pos: 'DL',
+pos: 'IDL',
 rank: '326',
 school: 'Colorado State',
 salary: 0,
@@ -2729,7 +2729,7 @@ img: ''
 };
 var EricJohnson = {
 name: "Eric Johnson",
-pos: 'DL',
+pos: 'IDL',
 rank: '342',
 school: 'Missouri State',
 salary: 0,
@@ -2737,7 +2737,7 @@ img: ''
 };
 var DavidAnenih = {
 name: "David Anenih",
-pos: 'DL',
+pos: 'IDL',
 rank: '343',
 school: 'Houston',
 salary: 0,
@@ -2745,7 +2745,7 @@ img: ''
 };
 var DonovanJeter = {
 name: "Donovan Jeter",
-pos: 'DL',
+pos: 'IDL',
 rank: '344',
 school: 'Michigan',
 salary: 0,
@@ -2825,7 +2825,7 @@ img: ''
 };
 var DemetriusTaylor = {
 name: "Demetrius Taylor",
-pos: 'DL',
+pos: 'IDL',
 rank: '354',
 school: 'Appalachian State',
 salary: 0,
@@ -2857,7 +2857,7 @@ img: ''
 };
 var KobieWhiteside = {
 name: "Kobie Whiteside",
-pos: 'DL',
+pos: 'IDL',
 rank: '358',
 school: 'Missouri',
 salary: 0,
@@ -2889,7 +2889,7 @@ img: ''
 };
 var SamOkuayinonu = {
 name: "Sam Okuayinonu",
-pos: 'DL',
+pos: 'IDL',
 rank: '362',
 school: 'Maryland',
 salary: 0,
@@ -2921,7 +2921,7 @@ img: ''
 };
 var JonathanFord = {
 name: "Jonathan Ford",
-pos: 'DL',
+pos: 'IDL',
 rank: '366',
 school: 'Miami (FL)',
 salary: 0,
@@ -3025,7 +3025,7 @@ img: ''
 };
 var CurtisBrooks = {
 name: "Curtis Brooks",
-pos: 'DL',
+pos: 'IDL',
 rank: '379',
 school: 'Cincinnati',
 salary: 0,
@@ -3129,7 +3129,7 @@ img: ''
 };
 var KeyshawnJames = {
 name: "Keyshawn James",
-pos: 'DL',
+pos: 'IDL',
 rank: '392',
 school: 'Fayetteville State',
 salary: 0,
@@ -3137,7 +3137,7 @@ img: ''
 };
 var NoahElliss = {
 name: "Noah Elliss",
-pos: 'DL',
+pos: 'IDL',
 rank: '393',
 school: 'Idaho',
 salary: 0,
@@ -3345,7 +3345,7 @@ img: ''
 };
 var TaronVincent = {
 name: "Taron Vincent",
-pos: 'DL',
+pos: 'IDL',
 rank: '419',
 school: 'Ohio State',
 salary: 0,
@@ -3401,7 +3401,7 @@ img: ''
 };
 var BrandonPili = {
 name: "Brandon Pili",
-pos: 'DL',
+pos: 'IDL',
 rank: '426',
 school: 'USC',
 salary: 0,
@@ -3417,7 +3417,7 @@ img: ''
 };
 var DionNovil = {
 name: "Dion Novil",
-pos: 'DL',
+pos: 'IDL',
 rank: '428',
 school: 'North Texas',
 salary: 0,
@@ -3433,7 +3433,7 @@ img: ''
 };
 var MattHenningsen = {
 name: "Matt Henningsen",
-pos: 'DL',
+pos: 'IDL',
 rank: '430',
 school: 'Wisconsin',
 salary: 0,
@@ -3601,7 +3601,7 @@ img: ''
 };
 var AubreySolomon = {
 name: "Aubrey Solomon",
-pos: 'DL',
+pos: 'IDL',
 rank: '451',
 school: 'Tennessee',
 salary: 0,
@@ -3625,7 +3625,7 @@ img: ''
 };
 var GlenLogan = {
 name: "Glen Logan",
-pos: 'DL',
+pos: 'IDL',
 rank: '454',
 school: 'LSU',
 salary: 0,
@@ -3681,7 +3681,7 @@ img: ''
 };
 var NylesPinckney = {
 name: "Nyles Pinckney",
-pos: 'DL',
+pos: 'IDL',
 rank: '461',
 school: 'Minnesota',
 salary: 0,
@@ -3793,7 +3793,7 @@ img: ''
 };
 var JordanWilliams = {
 name: "Jordan Williams",
-pos: 'DL',
+pos: 'IDL',
 rank: '475',
 school: 'Virginia Tech',
 salary: 0,
@@ -3857,7 +3857,7 @@ img: ''
 };
 var TyroneTruesdell = {
 name: "Tyrone Truesdell",
-pos: 'DL',
+pos: 'IDL',
 rank: '483',
 school: 'Auburn',
 salary: 0,
@@ -3865,7 +3865,7 @@ img: ''
 };
 var TerranceLang = {
 name: "Terrance Lang",
-pos: 'DL',
+pos: 'IDL',
 rank: '484',
 school: 'Colorado',
 salary: 0,
@@ -3921,7 +3921,7 @@ img: ''
 };
 var TariqiousTisdale = {
 name: "Tariqious Tisdale",
-pos: 'DL',
+pos: 'IDL',
 rank: '491',
 school: 'Mississippi',
 salary: 0,
@@ -4057,7 +4057,7 @@ img: ''
 };
 var KaliaDavis = {
 name: "Kalia Davis",
-pos: 'DL',
+pos: 'IDL',
 rank: '508',
 school: 'UCF',
 salary: 0,
@@ -4097,7 +4097,7 @@ img: ''
 };
 var IfeanyiMaijeh = {
 name: "Ifeanyi Maijeh",
-pos: 'DL',
+pos: 'IDL',
 rank: '513',
 school: 'Rutgers',
 salary: 0,
@@ -4185,7 +4185,7 @@ img: ''
 };
 var JuliusTurner = {
 name: "Julius Turner",
-pos: 'DL',
+pos: 'IDL',
 rank: '524',
 school: 'Rutgers',
 salary: 0,
@@ -4281,7 +4281,7 @@ img: ''
 };
 var DomPeterson = {
 name: "Dom Peterson",
-pos: 'DL',
+pos: 'IDL',
 rank: '536',
 school: 'Nevada',
 salary: 0,

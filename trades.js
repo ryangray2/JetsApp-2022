@@ -255,6 +255,42 @@ var AmariCooper = {
     capPenalty: 6000000
 };
 
+var DKMetcalf = {
+    name: "D.K. Metcalf",
+    pos: 'WR',
+    age: '24',
+    height: '6-1',
+    weight: '203',
+    salary: 4324827,
+    img: '',
+    capPenalty: 338827
+};
+
+var AJBrown = {
+    name: "A.J. Brown",
+    pos: 'WR',
+    age: '24',
+    height: '6-1',
+    weight: '203',
+    salary: 4518703,
+    img: '',
+    capPenalty: 532703
+};
+
+var DeeboSamuel = {
+    name: "Deebo Samuel",
+    pos: 'WR',
+    age: '26',
+    height: '6-1',
+    weight: '203',
+    salary: 4890519,
+    img: '',
+    capPenalty: 904519
+};
+
+
+
+
 var noOffer = {
   team: no,
   receiveText: ["2022 Round 1"],
@@ -538,4 +574,34 @@ var detOffer2 = {
   givePlayer: []
 }
 
-twoTradeArr = [dalOffer, tbOffer, jaxOffer, pitOffer, pitOffer2, nygOffer, pitOffer3, indOffer, lvOffer, nygOffer2, pitOffer4, lvOffer2, jaxOffer2, azOffer, detOffer, atlOffer, atlOffer3, atlOffer2, dalOffer2, detOffer2, noOffer, seaOffer1, seaOffer2, denOffer1, denOffer2, cleOffer, sfOffer, wftOffer]
+var deeboOffer = {
+  team: sf,
+  receiveText: ["Deebo Samuel"],
+  giveText: ["2022 Round 2", "2022 Round 2 (CAR)", "2022 Round 4 (CAR)"],
+  receiveIndex: [],
+  giveIndex: [returnPickIndex(2, false, nyj), returnPickIndex(2, true, nyj), returnPickIndex(4, false, nyj)],
+  receivePlayer: [DeeboSamuel],
+  givePlayer: []
+}
+
+var dkOffer = {
+  team: sea,
+  receiveText: ["D.K. Metcalf"],
+  giveText: ["2022 Round 2", "2022 Round 2 (CAR)", "2022 Round 4 (CAR)"],
+  receiveIndex: [],
+  giveIndex: [returnPickIndex(2, false, nyj), returnPickIndex(2, true, nyj), returnPickIndex(4, false, nyj)],
+  receivePlayer: [DKMetcalf],
+  givePlayer: []
+}
+
+var ajOffer = {
+  team: ten,
+  receiveText: ["A.J. Brown"],
+  giveText: ["2022 Round 2", "2022 Round 2 (CAR)", "2022 Round 4 (CAR)"],
+  receiveIndex: [],
+  giveIndex: [returnPickIndex(2, false, nyj), returnPickIndex(2, true, nyj), returnPickIndex(4, false, nyj)],
+  receivePlayer: [AJBrown],
+  givePlayer: []
+}
+
+twoTradeArr = [ajOffer, dkOffer, deeboOffer, dalOffer, tbOffer, jaxOffer, pitOffer, pitOffer2, nygOffer, pitOffer3, indOffer, lvOffer, nygOffer2, pitOffer4, lvOffer2, jaxOffer2, azOffer, detOffer, detOffer2]
