@@ -2470,7 +2470,7 @@ function generateBroadFA(kind) {
 
     var posP = document.createElement("p");
     posP.classList.add("faPos");
-    posP.innerHTML = tempArray[i].pos + "  /  Age: " + tempArray[i].age;
+    posP.innerHTML = tempArray[i].pos;
     posCol.appendChild(posP);
     row.appendChild(posCol);
 
